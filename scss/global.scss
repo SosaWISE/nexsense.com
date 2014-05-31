@@ -1,0 +1,20 @@
+//
+// Application Frame
+// --------------------------------------------------
+
+.global-header {
+	background: $white;
+	height: 80px;
+	padding: 20px;
+	border-bottom: 1px solid $gray-lighter;
+	overflow: hidden;
+	.logo {
+		width: 120px;
+		height: 90px;
+		background: url('../images/logo.png') no-repeat center center;
+		display: block;
+	}
+}
+.global-footer {
+	padding: 20px;
+}
