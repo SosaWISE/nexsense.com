@@ -1,20 +1,161 @@
 //
 // Application Frame
 // --------------------------------------------------
-
+.main {
+	max-width: 1280px;
+	margin: 0 auto;
+	background: $white;
+	overflow: hidden;
+	@include box-shadow(0 0 20px 0 rgba(0,0,0,0.25));
+}
 .global-header {
 	background: $white;
-	height: 80px;
-	padding: 20px;
-	border-bottom: 1px solid $gray-lighter;
+	height: 98px;
+	padding: 20px 0 15px 0;
+	border-bottom: 8px solid $brand-secondary;
 	overflow: hidden;
 	.logo {
-		width: 120px;
-		height: 90px;
-		background: url('../images/logo.png') no-repeat center center;
+		margin-top: 10px;
+		width: 265px;
+		height: 40px;
+		background: url('../images/nexsense-logo.png') no-repeat center center;
 		display: block;
 	}
+	.contact-us {
+
+	}
+	.top-navigation {
+		text-align: right;
+		ul {
+			text-transform: uppercase;
+			padding: 0;
+			margin: 20px 0 0 0;
+		}
+		li {
+			list-style: none;
+			display: inline-block;
+			font-family: $font-family-secondary;
+			font-size: 12px;
+			margin-left: 40px;
+			a {
+				color: $gray;
+			}
+		}
+	}
+}
+.hero-slider {
+	height: 620px;
+	background: url('../images/cta-purple-bg.png') no-repeat center center;
+	color: $white;
+	.copy {
+		.copy-inner {
+			margin-top: 150px;
+			h2 {
+				font-size: 64px;
+				font-family: $font-family-secondary;
+				text-transform: lowercase;
+				color: $brand-secondary;
+			}
+			p {
+				font-size: 24px;
+			}
+		}
+	}
+	.product {
+		* {
+			position: absolute;
+		}
+		.product-circle {
+			width: 510px;
+			height: 510px;
+			background: url('../images/cta-product.png') no-repeat center center;
+			top: 55px;
+			left: 0;
+		}
+		.learn-more-circle {
+			width: 160px;
+			height: 160px;
+			background: url('../images/cta-learn-more.png') no-repeat center center;
+			position: absolute;
+			bottom: -5px;
+			left: 15px;
+		}
+		.logo-icon-circle {
+			width: 85px;
+			height: 85px;
+			background: url('../images/cta-logo-icon.png') no-repeat center center;
+			position: absolute;
+			top: 45px;
+			right: 30px;
+		}
+	}
+}
+.primary-section {
+	h2 {
+		font-size: 36px;
+		font-family: $font-family-secondary;
+		text-transform: lowercase;
+		color: $brand-primary;
+	}
+	p {
+		font-size: 20px;
+	}
+	.inner {
+		padding-top: 60px;
+		padding-bottom: 100px;
+	}
+	.built-to-fit {
+		background: url('../images/floorplan-bg.png') no-repeat bottom right;
+		border-right: 1px solid $gray-lighter;
+
+	}
+	.need-help {
+		background: url('../images/tool-bubble-bg.png') no-repeat bottom right;
+		border-left: 1px solid $gray-lighter;
+
+	}
+}
+.parallax {
+	border-top: 8px solid $brand-secondary;
+	height: 203px;
+	h2 {
+		font-size: 32px;
+		color: $white;
+		text-shadow: 0 0 5px rgba(0,0,0,0.5);
+	}
+	.inner {
+		padding-top: 60px;
+	}
+	&.parallax-swing {
+		background: url('../images/swing-parallax.png') no-repeat bottom right;
+	}
+	&.parallax-house {
+		background: url('../images/house-parallax.png') no-repeat bottom right;
+	}
+}
+.secondary-section {
+	h2 {
+		font-size: 26px;
+		font-family: $font-family-secondary;
+		text-transform: lowercase;
+		color: $brand-primary;
+	}
+	.inner {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.how-we-compare {
+		border-right: 1px solid $gray-lighter;
+	}
+	.how-we-help {
+		border-left: 1px solid $gray-lighter;
+		border-right: 1px solid $gray-lighter;
+	}
+	.explore-our-system {
+		border-left: 1px solid $gray-lighter;
+	}
+
 }
 .global-footer {
-	padding: 20px;
+	padding: 60px;
 }

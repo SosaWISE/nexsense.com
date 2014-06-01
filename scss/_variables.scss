@@ -12,7 +12,7 @@
 $gray-darkest:          #121212;
 $gray-darker:           #242424;
 $gray-dark:             #484848;
-$gray:                  #868686;
+$gray:                  #636466;
 $gray-light:            #B7B7B7;
 $gray-lighter:          #DBDBDB;
 $gray-lightest:         #EDEDED;
@@ -20,15 +20,14 @@ $gray-lightest:         #EDEDED;
 // Brand colors
 // -------------------------
 
-$brand-primary:         #428bca !default;
+$brand-primary:         #5a2a82;
+$brand-secondary:       #fec524;
+
 $brand-success:         #5cb85c !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 $brand-info:            #5bc0de !default;
 
-$green:                 #007305;
-$green-light:           #4FE856;
-$pink:                  #ff5040;
 $white:                 #ffffff;
 $black:                 #000000;
 
@@ -36,7 +35,7 @@ $black:                 #000000;
 // -------------------------
 
 $body-bg:               $gray-lightest;
-$text-color:            $gray-darker;
+$text-color:            $gray;
 
 // Links
 // -------------------------
