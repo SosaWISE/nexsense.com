@@ -75,7 +75,6 @@
 		.learn-more-circle {
 			width: 160px;
 			height: 160px;
-			background: url('../images/cta-learn-more.png') no-repeat center center;
 			position: absolute;
 			bottom: -5px;
 			left: 15px;
@@ -83,17 +82,53 @@
 		.logo-icon-circle {
 			width: 85px;
 			height: 85px;
-			background: url('../images/cta-logo-icon.png') no-repeat center center;
 			position: absolute;
 			top: 45px;
 			right: 30px;
 		}
 	}
 }
+/* placeholder for mobile --- @media () {
+	.hero-slider {
+		.copy {
+			.copy-inner {
+				margin-top: 60px;
+			  	h2 {
+			  		font-size: 36px;
+			  	}
+			  	p {
+			  		font-size: 16px;
+			  	}
+			}
+		}
+		.product {
+			.product-circle {
+				width: 255px;
+				height: 255px;
+				background: url('../images/cta-product.png') no-repeat center center;
+				background-size: 255px 255px;
+				bottom: 30px;
+				left: 30px;
+			}
+			.learn-more-circle {
+				width: 120px;
+				height: 120px;
+				bottom: -25px;
+				left: -15px;
+			}
+			.logo-icon-circle {
+				width: 50px;
+				height: 50px;
+				position: absolute;
+				top: 20px;
+				right: 5px;
+			}
+		}
+	}
+}*/
 .primary-section {
 	h2 {
 		font-size: 36px;
-		font-family: $font-family-secondary;
 		text-transform: lowercase;
 		color: $brand-primary;
 	}
@@ -115,30 +150,30 @@
 
 	}
 }
-.parallax {
-	border-top: 8px solid $brand-secondary;
-	height: 203px;
-	h2 {
-		font-size: 32px;
-		color: $white;
-		text-shadow: 0 0 5px rgba(0,0,0,0.5);
-	}
-	.inner {
-		padding-top: 60px;
-	}
-	&.parallax-swing {
-		background: url('../images/swing-parallax.png') no-repeat bottom right;
-	}
-	&.parallax-house {
-		background: url('../images/house-parallax.png') no-repeat bottom right;
-	}
-}
 .secondary-section {
+	color: $brand-primary;
 	h2 {
 		font-size: 26px;
-		font-family: $font-family-secondary;
 		text-transform: lowercase;
-		color: $brand-primary;
+	}
+	span {
+		font-size: 12px;
+		text-transform: uppercase;
+		font-family: $font-family-secondary;
+		position: relative;
+		a {
+			padding-right: 30px;
+			&:after {
+				content: "";
+				width: 18px;
+				height: 20px;
+				top: -2px;
+				right: 10px;
+				position: absolute;
+				display: inline-block;
+				background: url('../images/caret-purple.png') no-repeat center right;
+			}
+		}
 	}
 	.inner {
 		padding-top: 60px;
@@ -155,6 +190,25 @@
 		border-left: 1px solid $gray-lighter;
 	}
 
+}
+.parallax {
+	border-top: 8px solid $brand-secondary;
+	height: 203px;
+	h2 {
+		font-family: $font-family-base;
+		font-size: 32px;
+		color: $white;
+		text-shadow: 0 0 5px rgba(0,0,0,0.5);
+	}
+	.inner {
+		padding-top: 60px;
+	}
+	&.parallax-swing {
+		background: url('../images/swing-parallax.png') no-repeat bottom right;
+	}
+	&.parallax-house {
+		background: url('../images/house-parallax.png') no-repeat bottom right;
+	}
 }
 .global-footer {
 	padding: 60px;

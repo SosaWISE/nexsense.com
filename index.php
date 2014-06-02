@@ -43,8 +43,8 @@
 					</div>
 					<div class="product col-md-6">
 						<div class="product-circle">
-							<div class="learn-more-circle"></div>
-							<div class="logo-icon-circle"></div>
+							<div class="logo-icon-circle"><img src="assets/images/cta-logo-icon.png" width="100%"></div>
+							<div class="learn-more-circle"><img src="assets/images/cta-learn-more.png" width="100%"></div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +58,7 @@
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Built to fit</h2>
 								<p>Body copy goes here lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<span><a href="#">See how >></a></span>
+								<span><a href="#">See how</a></span>
 							</div>
 						</div>
 					</div>
@@ -67,7 +67,7 @@
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Need help?</h2>
 								<p>Body copy goes here lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<span><a href="#">See how >></a></span>
+								<span><a href="#">See how</a></span>
 							</div>
 						</div>
 					</div>
@@ -78,7 +78,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="inner col-xs-12">
-						<h2>"Pull quote goes here..."</h2>
+						<h2>&ldquo;Pull quote goes here...&rdquo;</h2>
 					</div>
 				</div>
 			</div>
@@ -88,15 +88,15 @@
 				<div class="row">
 					<div class="how-we-compare inner col-md-4">
 						<h2>How we compare</h2>
-						<span><a href="#">Learn more >></a></span>
+						<span><a href="#">Learn more</a></span>
 					</div>
 					<div class="how-we-help inner col-md-4">
 						<h2>How we help you save</h2>
-						<span><a href="#">See how >></a></span>
+						<span><a href="#">See how</a></span>
 					</div>
 					<div class="explore-our-system inner col-md-4">
 						<h2>Explore our system</h2>
-						<span><a href="#">Explore now >></a></span>
+						<span><a href="#">Explore now</a></span>
 					</div>
 				</div>
 			</div>
@@ -105,7 +105,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="inner col-xs-12">
-						<h2>"Pull quote goes here..."</h2>
+						<h2>&ldquo;Pull quote goes here...&rdquo;</h2>
 					</div>
 				</div>
 			</div>
