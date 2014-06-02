@@ -88,7 +88,7 @@
 		}
 	}
 }
-/* placeholder for mobile --- @media () {
+@media (max-width: 400px) {
 	.hero-slider {
 		.copy {
 			.copy-inner {
@@ -125,7 +125,7 @@
 			}
 		}
 	}
-}*/
+}
 .primary-section {
 	h2 {
 		font-size: 36px;
