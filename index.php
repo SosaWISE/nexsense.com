@@ -8,6 +8,7 @@
 
 	<title>nexsense</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat:400' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body class="homepage">
@@ -15,14 +16,14 @@
 		<header class="global-header">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-sm-10">
-						<span class="logo"></span>
-					</div>
-					<nav class="top-navigation col-md-8 col-sm-2">
+					<a href="#" class="logo"></a>
+					<a href="#" class="hamburger-menu btn btn-default text-center visible-xs visible-sm"><i class="fa fa-bars"></i></a>
+					<nav class="top-navigation col-md-12">
 						<span class="contact-us">contact us today 1.800.GO.NEXSENSE</span>
 						<ul>
 							<li><a href="#">Nexsense System</a></li>
 							<li><a href="#">Build Your System</a></li>
+							<li><a href="#">Customer Service</a></li>
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Contact Us</a></li>
 						</ul>
@@ -31,11 +32,11 @@
 			</div>
 		</header>
 		<div class="hero-slider">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="copy col-md-6">
 						<div class="row">
-							<div class="copy-inner col-md-10 col-md-offset-1">
+							<div class="copy-inner col-xs-10 col-xs-offset-1">
 								<h2>Built to fit</h2>
 								<p>Body copy goes here lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod libero odio, sit amet fermentum risus tristique nec. Donec in venenatis neque, eu egestas felis.</p>
 							</div>
@@ -55,19 +56,18 @@
 				<div class="row">
 					<div class="built-to-fit col-md-6">
 						<div class="row">
-							<div class="inner col-xs-10 col-xs-offset-1">
-								<h2>Built to fit</h2>
-								<p>Body copy goes here lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<span>See how</span>
+							<div class="inner col-md-7 col-xs-10 col-xs-offset-1">
+								<h2>Safety that fits like a glove</h2>
+								<p>Build a security system that fits your home and your lifestyle.</p>
+								<span>Get started</span>
 							</div>
 						</div>
 						<a href="#"></a>
 					</div>
 					<div class="need-help col-md-6">
 						<div class="row">
-							<div class="inner col-xs-10 col-xs-offset-1">
-								<h2>Need help?</h2>
-								<p>Body copy goes here lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<div class="inner col-md-7 col-xs-10 col-xs-offset-1">
+								<h2>Find out how Nexsense can help you save.</h2>
 								<span>See how</span>
 							</div>
 						</div>
@@ -80,7 +80,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="inner col-xs-12">
-						<h2>&ldquo;Pull quote goes here...&rdquo;</h2>
+						<h4>Peace of mind. When and where it matters most.</h4>
 					</div>
 				</div>
 			</div>
@@ -89,13 +89,13 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="how-we-compare inner col-md-4">
-						<h2>How we compare</h2>
-						<span>Learn more</span>
+						<h2>See how we stack up</h2>
+						<span>Get the details</span>
 						<a href="#"></a>
 					</div>
 					<div class="how-we-help inner col-md-4">
-						<h2>How we help you save</h2>
-						<span>See how</span>
+						<h2>need help?</h2>
+						<span>Get answers</span>
 						<a href="#"></a>
 					</div>
 					<div class="explore-our-system inner col-md-4">
@@ -110,7 +110,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="inner col-xs-12">
-						<h2>&ldquo;Pull quote goes here...&rdquo;</h2>
+						<h4>Don’t let distance come between you and your home.</h4>
 					</div>
 				</div>
 			</div>

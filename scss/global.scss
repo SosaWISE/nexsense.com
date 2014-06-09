@@ -1,6 +1,9 @@
 //
-// Application Frame
+// Nexsense styles
 // --------------------------------------------------
+* {
+	@include transition(all 0.25s linear);
+}
 .main {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -10,17 +13,21 @@
 }
 .global-header {
 	background: $white;
-	width: 100%;
 	height: 98px;
 	padding: 20px 0 15px 0;
 	border-bottom: 8px solid $brand-secondary;
 	overflow: hidden;
-	position: fixed;
-	z-index: 10;
+	.hamburger-menu {
+		font-size: 24px;
+		width: 50px;
+		position: absolute;
+	}
 	.logo {
-		margin-top: 10px;
 		width: 265px;
 		height: 40px;
+		position: absolute;
+		margin-top: 10px;
+		padding-left: 64px;
 		background: url('../images/nexsense-logo.png') no-repeat center center;
 		display: block;
 	}
@@ -28,27 +35,44 @@
 
 	}
 	.top-navigation {
-		text-align: right;
-		ul {
-			text-transform: uppercase;
-			padding: 0;
-			margin: 20px 0 0 0;
+		display: none;
+	}
+}
+@media (min-width: $screen-md-min) {
+	.global-header {
+		.logo {
+			width: 265px;
+			height: 40px;
+			position: absolute;
+			margin-top: 10px;
+			padding-left: 14px;
+			background: url('../images/nexsense-logo.png') no-repeat center center;
+			display: block;
 		}
-		li {
-			list-style: none;
-			display: inline-block;
-			font-family: $font-family-secondary;
-			font-size: 12px;
-			margin-left: 40px;
-			a {
-				color: $gray;
+		.top-navigation {
+			text-align: right;
+			display: block;
+			ul {
+				text-transform: uppercase;
+				padding: 0;
+				margin: 20px 0 0 0;
+			}
+			li {
+				list-style: none;
+				display: inline-block;
+				font-family: $font-family-secondary;
+				font-size: 12px;
+				margin-left: 20px;
+				a {
+					color: $gray;
+				}
 			}
 		}
+
 	}
 }
 .hero-slider {
 	height: 620px;
-	margin-top: 98px;
 	background: url('../images/cta-purple-bg.png') no-repeat center center;
 	color: $white;
 	.copy {
@@ -69,6 +93,7 @@
 		* {
 			position: absolute;
 		}
+		display: none;
 		.product-circle {
 			width: 255px;
 			height: 255px;
@@ -93,12 +118,7 @@
 		}
 	}
 }
-<<<<<<< HEAD
-
 @media (min-width: $screen-md-min) {
-=======
-@media (max-width: 400px) {
->>>>>>> FETCH_HEAD
 	.hero-slider {
 		.copy {
 			.copy-inner {
@@ -173,6 +193,7 @@
 		}
 	}
 	.inner {
+		height: 320px;
 		padding-top: 60px;
 		padding-bottom: 100px;
 	}
@@ -200,15 +221,16 @@
 	}
 }
 .secondary-section {
-	color: $brand-primary;
 	h2 {
 		font-size: 24px;
 		text-transform: lowercase;
+		color: $brand-primary;
 	}
 	span {
 		font-size: 12px;
 		text-transform: uppercase;
 		font-family: $font-family-secondary;
+		color: $brand-primary;
 		position: relative;
 		padding-right: 30px;
 		&:after {
@@ -261,20 +283,25 @@
 .parallax {
 	border-top: 8px solid $brand-secondary;
 	height: 203px;
-	h2 {
+	h4 {
 		font-family: $font-family-base;
 		font-size: 32px;
 		color: $white;
 		text-shadow: 0 0 5px rgba(0,0,0,0.5);
 	}
 	.inner {
-		padding-top: 60px;
+		padding-top: 70px;
 	}
 	&.parallax-swing {
 		background: url('../images/swing-parallax.png') no-repeat bottom right;
 	}
 	&.parallax-house {
 		background: url('../images/house-parallax.png') no-repeat bottom right;
+	}
+}
+@media (min-width: $screen-md-min) {
+	.parallax {
+
 	}
 }
 .global-footer {
