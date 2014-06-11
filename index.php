@@ -14,21 +14,19 @@
 <body class="homepage">
 	<div class="main">
 		<header class="global-header">
-			<div class="container">
-				<div class="row">
-					<a href="#" class="logo"></a>
-					<a href="#" class="hamburger-menu btn btn-default text-center visible-xs visible-sm"><i class="fa fa-bars"></i></a>
-					<nav class="top-navigation col-md-12">
-						<span class="contact-us">contact us today 1.800.GO.NEXSENSE</span>
-						<ul>
-							<li><a href="#">Nexsense System</a></li>
-							<li><a href="#">Build Your System</a></li>
-							<li><a href="#">Customer Service</a></li>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
-					</nav>
-				</div>
+			<div class="container-fluid">
+				<a href="#" class="hamburger-menu btn btn-default text-center visible-xs visible-sm"><i class="fa fa-bars"></i></a>
+				<a href="#" class="logo"></a>
+				<nav class="top-navigation">
+					<span class="contact-us">contact us today 1.800.GO.NEXSENSE</span>
+					<ul>
+						<li><a href="#">Nexsense System</a></li>
+						<li><a href="#">Build Your System</a></li>
+						<li><a href="#">Customer Service</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
 			</div>
 		</header>
 		<div class="hero-slider">
@@ -42,10 +40,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="product col-md-6">
-						<div class="product-circle">
-							<div class="logo-icon-circle"><img src="assets/images/cta-logo-icon.png" width="100%"></div>
-							<div class="learn-more-circle"><img src="assets/images/cta-learn-more.png" width="100%"></div>
+					<div class="product-inner col-md-6">
+						<div class="row">
+							<div class="product-image col-xs-10 col-xs-offset-1">
+								<img src="assets/images/product-shot.png" width="100%">
+							</div>
 						</div>
 					</div>
 				</div>

@@ -13,26 +13,28 @@
 }
 .global-header {
 	background: $white;
-	height: 98px;
-	padding: 20px 0 15px 0;
-	border-bottom: 8px solid $brand-secondary;
+	height: 60px;
+	border-bottom: 4px solid $brand-secondary;
+	position: relative;
 	overflow: hidden;
 	.hamburger-menu {
-		font-size: 24px;
+		color: $gray;
+		font-size: 22px;
 		width: 50px;
 		position: absolute;
+		padding: 0;
+		top: 12px;
+		left: 10px;
 	}
 	.logo {
-		width: 265px;
-		height: 40px;
+		width: 200px;
+		height: 30px;
 		position: absolute;
-		margin-top: 10px;
-		padding-left: 64px;
+		top: 16px;
+		left: 74px;
 		background: url('../images/nexsense-logo.png') no-repeat center center;
+		background-size: 200px 30px;
 		display: block;
-	}
-	.contact-us {
-
 	}
 	.top-navigation {
 		display: none;
@@ -40,16 +42,20 @@
 }
 @media (min-width: $screen-md-min) {
 	.global-header {
+		height: 98px;
+		padding: 20px 0 15px 0;
+		border-bottom: 8px solid $brand-secondary;
 		.logo {
 			width: 265px;
 			height: 40px;
 			position: absolute;
-			margin-top: 10px;
-			padding-left: 14px;
-			background: url('../images/nexsense-logo.png') no-repeat center center;
-			display: block;
+			top: 30px;
+			left: 24px;
+			background-size: 265px 40px;
 		}
 		.top-navigation {
+			position: absolute;
+			right: 24px;
 			text-align: right;
 			display: block;
 			ul {
@@ -72,12 +78,12 @@
 	}
 }
 .hero-slider {
-	height: 620px;
 	background: url('../images/cta-purple-bg.png') no-repeat center center;
 	color: $white;
 	.copy {
 		.copy-inner {
-			margin-top: 60px;
+			margin-top: 20px;
+			margin-bottom: 20px;
 			h2 {
 				font-size: 48px;
 				font-family: $font-family-secondary;
@@ -87,34 +93,6 @@
 			p {
 				font-size: 18px;
 			}
-		}
-	}
-	.product {
-		* {
-			position: absolute;
-		}
-		display: none;
-		.product-circle {
-			width: 255px;
-			height: 255px;
-			background: url('../images/cta-product.png') no-repeat center center;
-			background-size: 255px 255px;
-			bottom: 30px;
-			left: 30px;
-		}
-		.learn-more-circle {
-			width: 120px;
-			height: 120px;
-			position: absolute;
-			bottom: -25px;
-			left: -15px;
-		}
-		.logo-icon-circle {
-			width: 50px;
-			height: 50px;
-			position: absolute;
-			top: 20px;
-			right: 5px;
 		}
 	}
 }
@@ -131,26 +109,9 @@
 				}
 			}
 		}
-		.product {
-			.product-circle {
-				width: 510px;
-				height: 510px;
-				background-size: 510px 510px;
-				top: 55px;
-				left: 0;
-			}
-			.learn-more-circle {
-				width: 160px;
-				height: 160px;
-				bottom: -5px;
-				left: 15px;
-			}
-			.logo-icon-circle {
-				width: 85px;
-				height: 85px;
-				top: 45px;
-				right: 30px;
-			}
+		.product-inner {
+			padding-top: 40px;
+			padding-bottom: 40px;
 		}
 	}
 }
@@ -194,8 +155,7 @@
 	}
 	.inner {
 		height: 320px;
-		padding-top: 60px;
-		padding-bottom: 100px;
+		padding-top: 50px;
 	}
 	.built-to-fit {
 		background: url('../images/floorplan-bg.png') no-repeat bottom right;
@@ -282,15 +242,15 @@
 }
 .parallax {
 	border-top: 8px solid $brand-secondary;
-	height: 203px;
+	height: 200px;
 	h4 {
 		font-family: $font-family-base;
-		font-size: 32px;
+		font-size: 30px;
 		color: $white;
 		text-shadow: 0 0 5px rgba(0,0,0,0.5);
 	}
 	.inner {
-		padding-top: 70px;
+		padding-top: 40px;
 	}
 	&.parallax-swing {
 		background: url('../images/swing-parallax.png') no-repeat bottom right;
@@ -301,7 +261,9 @@
 }
 @media (min-width: $screen-md-min) {
 	.parallax {
-
+		.inner {
+			padding-top: 70px;
+		}
 	}
 }
 .global-footer {
