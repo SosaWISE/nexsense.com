@@ -9,23 +9,12 @@
 		color: $white;
 	}
 }
-.contact-section {
-	.contact-intro {
+.about-section {
+	.about-intro {
 		margin-top: 40px;
 		margin-bottom: 20px;
 		p {
 			font-size: 26px;
 		}
-	}
-	h2 {
-		font-size: 32px;
-		text-transform: lowercase;
-		color: $brand-primary;
-	}
-	p {
-		font-size: 18px;
-	}
-	.contact-form {
-		margin-top: 40px;
 	}
 }
