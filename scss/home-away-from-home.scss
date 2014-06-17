@@ -19,9 +19,26 @@
 	}
 	p {
 		font-size: 16px;
-		font-color: $gray-light;
+		color: $gray-light;
+	}
+	.panel-copy {
+		padding-top: 90px;
 	}
 	.panel-inner {
 		padding: 40px 0 20px 0;
+	}
+}
+.home-shot {
+	height: 385px;
+	background: url('../images/house-shot.png') no-repeat center center;
+}
+.product-shot {
+	.container {
+		position: relative;
+	}
+	.camera-product-shot {
+		position: absolute;
+		top: -250px;
+		left: 110px;
 	}
 }
