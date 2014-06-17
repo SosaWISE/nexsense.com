@@ -46,7 +46,7 @@
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Home, away from home</h2>
 								<p>Body copy goes here Facepudia vidus re mi, non corro eos delleni hicius volecta sus</p>
-								<span>Learn More</span>
+								<span><a href="home-away-from-home.php">Learn More</a></span>
 							</div>
 						</div>
 					</div>
