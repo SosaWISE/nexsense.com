@@ -10,6 +10,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat:400' rel='stylesheet' type='text/css'>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
 </head>
 <body class="homepage">
 	<div class="main">

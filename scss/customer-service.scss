@@ -9,22 +9,59 @@
 		color: $white;
 	}
 }
-.faq-section {
+.section {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.customer-service {
 	h2 {
 		font-size: 48px;
 		color: $gray-light;
 	}
 	h3 {
-		font-size: 32px;
+		font-size: 30px;
 		color: $brand-primary;
 	}
+}
+.faq-section {
+	h3, h4 {
+		cursor: pointer;
+	}
+}
+.faq-question {
 	h4 {
 		font-size: 24px;
 		color: $gray-light;
-		margin-left: 12%;
+		&.active {
+			color: $gray-dark;
+		}
 	}
+	margin-left: 10%;
+	overflow: hidden;
+	display: none;
+}
+.faq-answer {
 	p, ol {
-		font-size: 16px;
-		margin-left: 24%;
+		font-size: 18px;
 	}
+	margin-left: 10%;
+	overflow: hidden;
+	display: none;
+}
+.warranty-section {
+	&.inactive {
+		background-color: $gray-lightest;
+	}
+	h2, h3 {
+		text-transform: lowercase;
+	}
+	p.intro {
+		font-size: 30px;
+	}
+	p {
+		font-size: 18px;
+	}
+}
+.warranty-bottom {
+	margin-top: 30px;
 }
