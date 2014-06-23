@@ -16,7 +16,7 @@
 						<h2>FAQs</h2>
 
 						<div>
-							<h3>I have some question about my account.</h3>
+							<h3>I have some questions about my account.</h3>
 							<div class="faq-question">
 								<h4>Where do I send my payment?</h4>
 								<div class="faq-answer">
@@ -172,7 +172,7 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<h2>Warranty</h2>
-						<p class="intro">Protecting yourhome is only as good as the assurance it brings and the ease of use it provides. Combining advanced technology with easy-to-install, user-friendly components is just the beginning to our commitment to serving you.</p>
+						<p class="intro">Protecting your home is only as good as the assurance it brings and the ease of use it provides. Combining advanced technology with easy-to-install, user-friendly components is just the beginning to our commitment to serving you.</p>
 					</div>
 				</div>
 				<div class="warranty-bottom row">

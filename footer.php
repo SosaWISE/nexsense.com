@@ -7,6 +7,15 @@
 				</div>
 			</div>
 		</footer>
+		<script>
+			$(document).ready(function() {
+				$('.dot').on('click', function(e) {
+					e.preventDefault();
+					$(this).addClass('active').siblings().removeClass('active');
+					$('.' + $(this).attr('rel') + '').show().siblings().hide();
+				});
+			});
+		</script>
 	</div>
 </body>
 </html>

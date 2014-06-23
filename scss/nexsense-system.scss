@@ -1,43 +1,10 @@
-.hero-slider {
-	background: url('../images/cta-purple-bg.png') no-repeat center center;
-	color: $white;
-	.copy {
-		.copy-inner {
-			margin-top: 20px;
-			margin-bottom: 20px;
-			p {
-				font-size: 18px;
-			}
-		}
-	}
-}
-@media (min-width: $screen-md-min) {
-	.hero-slider {
-		.copy {
-			.copy-inner {
-				margin-top: 150px;
-				h2 {
-					font-size: 64px;
-				}
-				p {
-					font-size: 24px;
-				}
-			}
-		}
-		.product-inner {
-			padding-top: 40px;
-			padding-bottom: 40px;
-		}
-	}
-}
-.first-section {
+.nexsense-system {
 	h2 {
-		font-size: 36px;
-		text-transform: lowercase;
+		font-size: 30px;
 		color: $brand-primary;
 	}
 	p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	span {
 		font-size: 12px;
@@ -57,48 +24,22 @@
 			background: url('../images/caret-purple.png') no-repeat center right;
 		}
 	}
-	.inner {
-		padding-top: 50px;
+	.protects-your-family-image {
+		height: 405px;
+		background: url('../images/little-girl-at-window.png') no-repeat center center;
 	}
-	.first-section-image {
-		height: 314px;
-		background: url('../images/panel1.png') no-repeat center center;
-
+	.your-life-doesnt-image {
+		height: 405px;
+		background: url('../images/smart-phone-nexsense.png') no-repeat center center;
 	}
-}
-.second-section {
-	h2 {
-		font-size: 36px;
-		text-transform: lowercase;
-		color: $brand-primary;
+	.now-youre-ready-image {
+		height: 405px;
+		background: url('../images/little-girl-at-window.png') no-repeat center center;
 	}
-	p {
-		font-size: 20px;
-	}
-	span {
-		font-size: 12px;
-		text-transform: uppercase;
-		font-family: $font-family-secondary;
-		color: $brand-primary;
-		position: relative;
-		padding-right: 30px;
-		&:after {
-			content: "";
-			width: 18px;
-			height: 20px;
-			top: -3px;
-			right: 10px;
-			position: absolute;
-			display: inline-block;
-			background: url('../images/caret-purple.png') no-repeat center right;
-		}
+	.content {
+		background: url('../images/corner-stripes.png') no-repeat top left;
 	}
 	.inner {
-		padding-top: 50px;
-	}
-	.second-section-image {
-		height: 314px;
-		background: url('../images/panel2.png') no-repeat center center;
-
+		padding-top: 80px;
 	}
 }

@@ -2,46 +2,64 @@
 		<div class="hero-slider">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="copy col-md-6">
-						<div class="row">
-							<div class="copy-inner col-xs-10 col-xs-offset-1">
-								<h2>Built to fit</h2>
-								<p>Body copy goes here lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod libero odio, sit amet fermentum risus tristique nec. Donec in venenatis neque, eu egestas felis.</p>
+					<div class="one">
+						<div class="copy col-sm-6">
+							<div class="row">
+								<div class="copy-inner col-xs-10 col-xs-offset-1">
+									<h2>Safe doesn’t happen by accident</h2>
+									<p>Your home security system just got a lot smarter.</p>
+								</div>
+							</div>
+						</div>
+						<div class="product-inner col-sm-6 col-xs-hide">
+							<div class="row">
+								<div class="product-image col-xs-10 col-xs-offset-1">
+									<img src="assets/images/cta-product-panel.png" width="100%">
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="product-inner col-md-6">
-						<div class="row">
-							<div class="product-image col-xs-10 col-xs-offset-1">
-								<img src="assets/images/product-shot.png" width="100%">
+					<div class="two" style="display: none;">
+						<div class="copy col-sm-6">
+							<div class="row">
+								<div class="copy-inner col-xs-10 col-xs-offset-1">
+									<h2>Don’t let distance come between you and your home</h2>
+									<p>Arm your home from your phone with Nexsense home automation.</p>
+								</div>
+							</div>
+						</div>
+						<div class="product-inner col-sm-6 col-xs-hide">
+							<div class="row">
+								<div class="product-image col-xs-10 col-xs-offset-1">
+									<img src="assets/images/cta-product-panel.png" width="100%">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="three" style="display: none;">
+						<div class="copy col-sm-6">
+							<div class="row">
+								<div class="copy-inner col-xs-10 col-xs-offset-1">
+									<h2>like having eyes in the back of your head</h2>
+									<p>Get live, HD video instantly with Nexsense motion detecting cameras.</p>
+								</div>
+							</div>
+						</div>
+						<div class="product-inner col-sm-6 col-xs-hide">
+							<div class="row">
+								<div class="product-image col-xs-10 col-xs-offset-1">
+									<img src="assets/images/cta-product-camera.png" width="100%">
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="primary-section">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="built-to-fit col-md-6">
-						<div class="row">
-							<div class="inner col-md-7 col-xs-10 col-xs-offset-1">
-								<h2>Safety that fits like a glove</h2>
-								<p>Build a security system that fits your home and your lifestyle.</p>
-								<span>Get started</span>
-							</div>
-						</div>
-						<a href="#"></a>
-					</div>
-					<div class="need-help col-md-6">
-						<div class="row">
-							<div class="inner col-md-7 col-xs-10 col-xs-offset-1">
-								<h2>Find out how Nexsense can help you save.</h2>
-								<span>See how</span>
-							</div>
-						</div>
-						<a href="#"></a>
-					</div>
+			<div class="hero-controls">
+				<div class="dots">
+					<div class="dot active" rel="one"></div>
+					<div class="dot" rel="two"></div>
+					<div class="dot" rel="three"></div>
 				</div>
 			</div>
 		</div>

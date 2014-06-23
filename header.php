@@ -13,7 +13,18 @@
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 </head>
-<body class="homepage">
+<body>
+	<script>
+		$(document).ready(function() {
+			$('.hamburger-menu').on('click', function() {
+				$('.side-navigation').toggle();
+				$('.main').toggleClass('active-menu');
+			});
+		});
+	</script>
+	<nav class="side-navigation" style="display: none;">
+		<?php include('navigation.php');?>
+	</nav>
 	<div class="main">
 		<header class="global-header">
 			<div class="container-fluid">
