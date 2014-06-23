@@ -63,19 +63,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="parallax parallax-swing text-center">
+		<div class="parallax parallax-swing text-center clearfix">
 			<div class="container-fluid">
-				<div class="row">
+				<div class="row-fluid">
 					<div class="inner col-xs-12">
 						<h4>Peace of mind. When and where it matters most.</h4>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="secondary-section text-center">
+		<div class="secondary-section text-center clearfix">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="how-we-compare inner col-md-4">
+				<div class="row-fluid">
+					<div class="how-we-compare corner-stripes-small inner col-md-4">
 						<h2>See how we stack up</h2>
 						<span>Get the details</span>
 						<a href="#"></a>
@@ -85,7 +85,7 @@
 						<span>Get answers</span>
 						<a href="#"></a>
 					</div>
-					<div class="explore-our-system inner col-md-4">
+					<div class="explore-our-system corner-stripes-small inner col-md-4">
 						<h2>Explore our system</h2>
 						<span>Explore now</span>
 						<a href="#"></a>
@@ -93,9 +93,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="parallax parallax-house text-center">
+		<div class="parallax parallax-house text-center clearfix">
 			<div class="container-fluid">
-				<div class="row">
+				<div class="row-fluid">
 					<div class="inner col-xs-12">
 						<h4>Don’t let distance come between you and your home.</h4>
 					</div>

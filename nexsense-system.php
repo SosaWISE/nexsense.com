@@ -68,7 +68,7 @@
 			<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="protects-your-family-image col-md-6"></div>
-					<div class="content col-md-6">
+					<div class="corner-stripes col-md-6">
 						<div class="row">
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Protects your family the same way you would.</h2>
@@ -83,7 +83,7 @@
 		<div class="your-life-doesnt clearfix">
 			<div class="container-fluid">
 				<div class="row-fluid">
-					<div class="content col-md-6">
+					<div class="corner-stripes col-md-6">
 						<div class="row">
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Your life doesn’t stand still. So why should your home.</h2>
@@ -100,7 +100,7 @@
 			<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="now-youre-ready-image col-md-6"></div>
-					<div class="content col-md-6">
+					<div class="corner-stripes col-md-6">
 						<div class="row">
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Now you’re ready for next.</h2>
