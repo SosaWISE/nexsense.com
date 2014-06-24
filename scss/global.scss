@@ -81,6 +81,7 @@
 	}
 }
 .hero-slider {
+	height: 620px;
 	background: url('../images/cta-purple-bg.png') no-repeat center center;
 	color: $white;
 	position: relative;
@@ -162,7 +163,9 @@
 }
 .corner-stripes {
 	background: url('../images/corner-stripes.png') no-repeat top left;
-}.corner-stripes-small {
+	background-size: 100px 100px;
+}
+.corner-stripes-small {
 	background: url('../images/corner-stripes.png') no-repeat top left;
 	background-size: 80px 80px;
 }

@@ -24,6 +24,18 @@
 			background: url('../images/caret-purple.png') no-repeat center right;
 		}
 	}
+	.more-than-an-alarm {
+		border-bottom: 1px solid $gray-light;
+		h1 {
+			font-size: 48px;
+			color: $gray;
+			margin-bottom: 0;
+		}
+		.inner {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
 	.protects-your-family-image {
 		height: 405px;
 		background: url('../images/little-girl-at-window.png') no-repeat center center;
@@ -38,5 +50,6 @@
 	}
 	.inner {
 		padding-top: 80px;
+		padding-bottom: 80px;
 	}
 }

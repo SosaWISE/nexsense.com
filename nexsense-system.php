@@ -2,7 +2,7 @@
 	<div class="nexsense-system">
 		<div class="hero-slider">
 			<div class="container-fluid">
-				<div class="row">
+				<div class="row-fluid">
 					<div class="one">
 						<div class="copy col-sm-6">
 							<div class="row">
@@ -64,6 +64,17 @@
 				</div>
 			</div>
 		</div>
+		<div class="more-than-an-alarm clearfix">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="inner col-xs-10 col-xs-offset-1 text-center">
+						<h1>More than an alarm.</h1>
+						<p>Security, yes.</p>
+						<p>But the Nexsense system is so much more. Control it from your phone. Monitor your house while you’re away. Arm it with the touch of a button from anywhere. We designed the Nexsense system to make things simple while keeping you safe. Here’s how.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="protects-your-family clearfix">
 			<div class="container-fluid">
 				<div class="row-fluid">
@@ -83,7 +94,8 @@
 		<div class="your-life-doesnt clearfix">
 			<div class="container-fluid">
 				<div class="row-fluid">
-					<div class="corner-stripes col-md-6">
+					<div class="your-life-doesnt-image col-md-6 col-md-push-6"></div>
+					<div class="corner-stripes col-md-6 col-md-pull-6">
 						<div class="row">
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Your life doesn’t stand still. So why should your home.</h2>
@@ -92,7 +104,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="your-life-doesnt-image col-md-6"></div>
 				</div>
 			</div>
 		</div>
