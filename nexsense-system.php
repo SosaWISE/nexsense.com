@@ -84,7 +84,7 @@
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Protects your family the same way you would.</h2>
 								<p>Home security should do more than just work. It should see what you can’t and hear what you don’t.</p>
-								<span>Learn More</span>
+								<a class="btn btn-default" href="home-away-from-home.php">Learn More <img src="assets/images/caret-purple.png" /></a>
 							</div>
 						</div>
 					</div>
@@ -100,7 +100,7 @@
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Your life doesn’t stand still. So why should your home.</h2>
 								<p>Control your home from anywhere with your Nexsense system. No programming, no hassle—just safety and simplicity right from your phone. </p>
-								<span><a href="home-away-from-home.php">Learn More</a></span>
+								<a class="btn btn-default" href="home-away-from-home.php">Learn More <img src="assets/images/caret-purple.png" /></a>
 							</div>
 						</div>
 					</div>
@@ -116,7 +116,7 @@
 							<div class="inner col-md-10 col-md-offset-1">
 								<h2>Now you’re ready for next.</h2>
 								<p>Great technology is at its best when it gives you more control and peace of mind for whatever life throws your way.</p>
-								<span>Learn More</span>
+								<a class="btn btn-default" href="home-away-from-home.php">Learn More <img src="assets/images/caret-purple.png" /></a>
 							</div>
 						</div>
 					</div>
