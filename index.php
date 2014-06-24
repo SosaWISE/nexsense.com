@@ -63,6 +63,31 @@
 				</div>
 			</div>
 		</div>
+		<div class="primary-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="built-to-fit col-md-6">
+						<div class="row">
+							<div class="inner col-md-7 col-xs-10 col-xs-offset-1">
+								<h2>Safety that fits like a glove</h2>
+								<p>Build a security system that fits your home and your lifestyle.</p>
+								<span>Get started</span>
+							</div>
+						</div>
+						<a href="#"></a>
+					</div>
+					<div class="need-help col-md-6">
+						<div class="row">
+							<div class="inner col-md-7 col-xs-10 col-xs-offset-1">
+								<h2>Find out how Nexsense can help you save.</h2>
+								<span>See how</span>
+							</div>
+						</div>
+						<a href="#"></a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="parallax parallax-swing text-center clearfix">
 			<div class="container-fluid">
 				<div class="row-fluid">
