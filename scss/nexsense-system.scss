@@ -26,27 +26,32 @@
 	}
 	.more-than-an-alarm {
 		border-bottom: 1px solid $gray-light;
+		background: $brand-secondary;
 		h1 {
 			font-size: 48px;
-			color: $gray;
+			color: $white;
+			text-transform: lowercase;
 			margin-bottom: 0;
 		}
+		p {
+			color: $brand-primary;
+		}
 		.inner {
-			padding-top: 40px;
+			padding-top: 30px;
 			padding-bottom: 40px;
 		}
 	}
+	.no-strings-attached-image {
+		height: 405px;
+		background: url('../images/no-strings-attached.png') no-repeat center center;
+	}
 	.protects-your-family-image {
 		height: 405px;
-		background: url('../images/little-girl-at-window.png') no-repeat center center;
-	}
-	.your-life-doesnt-image {
-		height: 405px;
-		background: url('../images/smart-phone-nexsense.png') no-repeat center center;
+		background: url('../images/protects-your-family.png') no-repeat center center;
 	}
 	.now-youre-ready-image {
 		height: 405px;
-		background: url('../images/little-girl-at-window.png') no-repeat center center;
+		background: url('../images/now-youre-ready.png') no-repeat center center;
 	}
 	.inner {
 		padding-top: 80px;
