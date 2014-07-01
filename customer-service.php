@@ -1,6 +1,6 @@
 <?php include('header.php');?>
 	<div class="customer-service">
-		<div class="hero-mini">
+		<div class="hero-mini title-only">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
