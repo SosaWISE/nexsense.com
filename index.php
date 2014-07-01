@@ -31,7 +31,7 @@
 						<div class="product-inner col-sm-6 col-xs-hide">
 							<div class="row">
 								<div class="product-image col-xs-10 col-xs-offset-1">
-									<img src="assets/images/cta-product-panel.png" width="100%">
+									<img src="assets/images/cta-user-mobile.png" width="100%">
 								</div>
 							</div>
 						</div>
@@ -102,17 +102,18 @@
 			<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="how-we-compare corner-stripes-small inner col-md-4">
-						<h2>See how we stack up</h2>
+						<h2>See how we<br>stack up</h2>
 						<span>Get the details</span>
 						<a href="#"></a>
 					</div>
 					<div class="how-we-help inner col-md-4">
-						<h2>how we help you save</h2>
-						<span>See how</span>
+						<h2>Need help?</h2>
+						<p>Questions? We've got answers.</p>
+						<span>Get answers</span>
 						<a href="#"></a>
 					</div>
 					<div class="explore-our-system corner-stripes-small inner col-md-4">
-						<h2>Explore our system</h2>
+						<h2>Explore<br>our system</h2>
 						<span>Explore now</span>
 						<a href="#"></a>
 					</div>
