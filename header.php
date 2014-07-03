@@ -31,7 +31,7 @@
 				<a href="#" class="hamburger-menu btn btn-default text-center visible-xs visible-sm"><i class="fa fa-bars"></i></a>
 				<a href="index.php" class="logo"></a>
 				<nav class="top-navigation">
-					<span class="contact-us">contact us today 1.800.GO.NEXSENSE</span>
+					<span class="contact-us">contact us today 1.800.466.3973</span> | <a class="btn btn-default" href="#">Get A Quote <img width="12px" src="assets/images/caret-purple.png" /></a>
 					<?php include('navigation.php');?>
 				</nav>
 			</div>
