@@ -1,0 +1,40 @@
+.product-sub {
+	.intro {
+		text-align: right;
+		h2 {
+			font-size: 48px;
+			line-height: 1.0em;
+			color: $brand-secondary;
+			text-transform: lowercase;
+		}
+		p {
+			width: 80%;
+			float: right;
+			font-size: 18px;
+			color: $gray-light;
+		}
+		.intro-copy {
+			padding-top: 120px;
+		}
+		.intro-photo {
+			padding: 40px 0 20px 0;
+		}
+	}
+	.home-shot {
+		height: 385px;
+		background: url('../images/house-shot.png') no-repeat center center;
+	}
+	.product-shot {
+		.container {
+			position: relative;
+		}
+		.product-photo {
+			position: absolute;
+			top: -250px;
+			left: 100px;
+		}
+		.cta {
+			margin: 40px 0;
+		}
+	}
+}
