@@ -1,4 +1,5 @@
 <?php include('header.php');?>
+	<div class="choose-your-system">
 		<div class="hero-mini extended">
 			<div class="container">
 				<div class="row">
@@ -106,14 +107,19 @@
 					</div>
 					<div class="col-xs-12 col-md-4">
 						<ul>
-							<li>* Require Cellular Technology</li>
-							<li>† Can be exchange or added to your home protection system.</li>
+							<li style="border-bottom: none;">* Require Cellular Technology</li>
+							<li style="border-bottom: none;">† Can be exchange or added to your home protection system.</li>
 						</ul>
 					</div>
-					<div class="col-xs-12">
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="get-started col-xs-12">
 						<a class="btn btn-default" href="#">Get Started <img src="assets/images/caret-purple.png" /></a>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 <?php include('footer.php');?>
