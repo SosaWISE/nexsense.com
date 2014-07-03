@@ -3,14 +3,18 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-center">
-						<h1>explore your options</h1>
-						<p>There’s a right solution for every home.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="options-section">
 			<div class="container">
+				<div class="row">
+					<div class="choose-your-system-intro text-center col-xs-12">
+						<h1>explore your options</h1>
+						<p>There’s a right solution for every home.</p>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-xs-12 col-md-4">
 						<div class="options-intro">
@@ -75,12 +79,16 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-xs-12">
+			</div>
+			<div class="container-fluid add-ons">
+				<div class="row-fluid">
+					<div class="col-xs-10 col-xs-offset-1">
 						<h2>Add-ons</h2>
 						<p>Want to add more or swap out one item for another on your home protection system, no problem.<br>We can help you customize your home protection system as needed.</p>
 					</div>
 				</div>
+			</div>
+			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-4">
 						<ul>

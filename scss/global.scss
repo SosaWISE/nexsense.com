@@ -146,35 +146,8 @@
 	}
 }*/
 .hero-mini {
-	height: 240px;
-	background: url('../images/sub-header-bg.png') no-repeat center right;
-	font-size: 18px;
-	color: $white;
-	h1 {
-		font-size: 42px;
-		font-family: $font-family-secondary;
-		text-transform: lowercase;
-		color: $white;
-	}
-	&.title-only {
-		h1 {
-			margin-top: 160px;
-		}
-	}
-	&.extended {
-		h1 {
-			margin-top: 40px;
-			margin-bottom: 0;
-		}
-		span {
-			margin-top: 0;
-			margin-bottom: 0;
-			text-transform: lowercase;
-		}
-		p {
-			margin-top: 30px;
-		}
-	}
+	height: 200px;
+	background: url('../images/hero-mini-house.png') no-repeat center right;
 }
 .global-footer {
 	padding-top: 60px;
