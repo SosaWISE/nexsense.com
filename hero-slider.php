@@ -13,7 +13,7 @@
 				<div class="product-inner col-sm-6 col-xs-hide">
 					<div class="row">
 						<div class="product-image col-xs-10 col-xs-offset-1">
-							<img src="assets/images/cta-product-panel.png" width="100%">
+						<a href="safety-doesnt-just-happen.php"><img src="assets/images/cta-product-panel.png" width="100%"></a>
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 				<div class="product-inner col-sm-6 col-xs-hide">
 					<div class="row">
 						<div class="product-image col-xs-10 col-xs-offset-1">
-							<img src="assets/images/cta-user-mobile.png" width="100%">
+							<a href="life-doesnt-stand-still.php"><img src="assets/images/cta-user-mobile.png" width="100%"></a>
 						</div>
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 				<div class="copy col-sm-6">
 					<div class="row">
 						<div class="copy-inner col-xs-10 col-xs-offset-1">
-							<h2>like having eyes in the back of your head</h2>
+							<h2>Like having eyes in the back of your head</h2>
 							<p>Get live, HD video instantly with Nexsense motion detecting cameras.</p>
 						</div>
 					</div>
@@ -47,7 +47,7 @@
 				<div class="product-inner col-sm-6 col-xs-hide">
 					<div class="row">
 						<div class="product-image col-xs-10 col-xs-offset-1">
-							<img src="assets/images/cta-product-camera-black.png" width="100%">
+							<a href="cutting-edge.php"><img src="assets/images/cta-product-camera-black.png" width="100%"></a>
 						</div>
 					</div>
 				</div>

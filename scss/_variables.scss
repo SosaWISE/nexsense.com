@@ -13,7 +13,7 @@ $gray-darkest:          #121212;
 $gray-darker:           #242424;
 $gray-dark:             #484848;
 $gray:                  #636466;
-$gray-light:            #B7B7B7;
+$gray-light:            #afb3b2;
 $gray-lighter:          #DBDBDB;
 $gray-lightest:         #F6F6F6;
 
@@ -48,6 +48,7 @@ $link-hover-color:      darken($link-color, 15%) !default;
 
 $font-family-base:          'Open Sans', Helvetica, Arial, sans-serif;
 $font-family-secondary:     'Montserrat', Helvetica, Arial, sans-serif;
+$font-family-cursive:		'Adobe Caslon Pro', Times, serif;
 $font-family-monospace:     Monaco, Menlo, Consolas, "Courier New", monospace !default;
 
 $font-size-base:            18px;
