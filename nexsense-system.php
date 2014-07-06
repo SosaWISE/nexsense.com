@@ -64,6 +64,9 @@
 	<script>
 		$(document).ready(function() {
 			$('[rel="nexsense-system"]').addClass('current');
+			$('html, body').animate({
+				scrollTop: $('.more-than-an-alarm').offset().top
+			}, 1000);
 		});
 	</script>
 <?php include('footer.php');?>
