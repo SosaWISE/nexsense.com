@@ -8,7 +8,7 @@
 						<h2>FAQs</h2>
 
 						<div>
-							<h3>I have some questions about my account.</h3>
+							<h3><j></j> I have some questions about my account.</h3>
 							<div class="faq-question">
 								<h4>Where do I send my payment?</h4>
 								<div class="faq-answer">
@@ -49,7 +49,7 @@
 							</div>
 						</div>
 						<div>
-							<h3>I have some questions about the function of my panel.</h3>
+							<h3><j></j> I have some questions about the function of my panel.</h3>
 							<div class="faq-question">
 								<h4>How often does my system need to be tested?</h4>
 								<div class="faq-answer">
@@ -101,7 +101,7 @@
 							</div>
 						</div>
 						<div>
-							<h3>I have some questions regarding billing.</h3>
+							<h3><j></j> I have some questions regarding billing.</h3>
 							<div class="faq-question">
 								<h4>I need to change my billing date. What are my options?</h4>
 								<div class="faq-answer">
@@ -131,7 +131,7 @@
 							</div>
 						</div>
 						<div>
-							<h3>I have some questions about signing up with Nexsense.</h3>
+							<h3><j></j> I have some questions about signing up with Nexsense.</h3>
 							<div class="faq-question">
 								<h4>You guys are new. How can I be sure you know how to protect me?</h4>
 								<div class="faq-answer">
@@ -187,6 +187,7 @@
 			$(document).ready(function() {
 				$('h3, h4').on('click', function(e) {
 					$(this).toggleClass('active').siblings('div').slideToggle();
+					$(this).children('j').toggleClass('active');
 				});
 			});
 		</script>

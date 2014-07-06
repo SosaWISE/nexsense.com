@@ -10,19 +10,24 @@
 				</div>
 				<div class="row">
 					<div class="address-info col-xs-12 col-sm-6">
-						<h2>Address</h2>
-						<h4>Nexsense | Head Office</h4>
-						<p>722 East Technology Ave, Building E, ste. 1100<br>Orem, UT 84097</p>
-						<p>1.800.466.6397</p>
-
-						<h2>Billing</h2>
-						<p><a href="mailto:billing@nexsense.com">billing@nexsense.com</a><br>385.375.8150</p>
-
-						<h2>Sales</h2>
-						<p><a href="mailto:sales@nexsense.com">sales@nexsense.com</a><br>385.375.8120</p>
-
-						<h2>Customer Service<br>&amp; Technical Support</h2>
-						<p><a href="mailto:support@nexsense.com">support@nexsense.com</a><br>385.375.8150</p>
+						<div>
+							<h2>Address</h2>
+							<h4>Nexsense | Head Office</h4>
+							<p>722 East Technology Ave, Building E, ste. 1100<br>Orem, UT 84097</p>
+							<p>1.800.466.6397</p>
+						</div>
+						<div>
+							<h2>Billing</h2>
+							<p><a href="mailto:billing@nexsense.com">billing@nexsense.com</a><br>385.375.8150</p>
+						</div>
+						<div>
+							<h2>Sales</h2>
+							<p><a href="mailto:sales@nexsense.com">sales@nexsense.com</a><br>385.375.8120</p>
+						</div>
+						<div>
+							<h2>Customer Service<br>&amp; Technical Support</h2>
+							<p><a href="mailto:support@nexsense.com">support@nexsense.com</a><br>385.375.8150</p>
+						</div>
 					</div>
 					<div class="get-in-touch col-xs-12 col-sm-6">
 						<h2>Get in touch</h2>
@@ -48,7 +53,7 @@
 								<textarea class="form-control" rows="3"></textarea>
 							</div>
 							<div class="form-group">
-								<button type="submit" class="btn btn-primary">Submit</button>
+								<a class="btn btn-default">Submit <i></i></a>
 							</div>
 						</form>
 					</div>

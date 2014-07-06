@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="nexsense-system.php">Nexsense System</a></li>
+	<li class="current"><a href="nexsense-system.php">Nexsense System</a></li>
 	<li><a href="choose-your-system.php">Choose Your System</a></li>
 	<li><a href="customer-service.php">Customer Service</a></li>
 	<li><a href="about.php">About Us</a></li>

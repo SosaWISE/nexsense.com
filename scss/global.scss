@@ -71,7 +71,14 @@
 				display: inline-block;
 				font-family: $font-family-secondary;
 				font-size: 12px;
+				line-height: 2;
 				margin-left: 20px;
+				&.current {
+					border-top: 2px solid $brand-secondary;
+					a {
+						color: $brand-primary;
+					}
+				}
 				a {
 					color: $gray;
 				}
