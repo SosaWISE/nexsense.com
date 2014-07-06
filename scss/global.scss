@@ -46,7 +46,7 @@
 @media (min-width: $screen-md-min) {
 	.global-header {
 		height: 98px;
-		padding: 20px 0 15px 0;
+		padding: 15px 0;
 		border-bottom: 8px solid $brand-secondary;
 		.logo {
 			width: 265px;
@@ -64,7 +64,7 @@
 			ul {
 				text-transform: uppercase;
 				padding: 0;
-				margin: 12px 0 0 0;
+				margin: 16px 0 0 0;
 			}
 			li {
 				list-style: none;
