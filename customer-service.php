@@ -185,6 +185,7 @@
 		</div>
 		<script>
 			$(document).ready(function() {
+				$('[rel="customer-service"]').addClass('current');
 				$('h3, h4').on('click', function(e) {
 					$(this).toggleClass('active').siblings('div').slideToggle();
 					$(this).children('j').toggleClass('active');

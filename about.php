@@ -10,4 +10,9 @@
 				</div>
 			</div>
 		</div>
+	<script>
+		$(document).ready(function() {
+			$('[rel="about-us"]').addClass('current');
+		});
+	</script>
 <?php include('footer.php');?>

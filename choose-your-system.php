@@ -127,6 +127,7 @@
 	</div>
 	<script>
 		$(document).ready(function() {
+			$('[rel="choose-your-system"]').addClass('current');
 			$('.what-you-get-toggle').on('click', function(e) {
 				$('j').toggleClass('active');
 				$('.slide').slideToggle();

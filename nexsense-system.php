@@ -61,4 +61,9 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		$(document).ready(function() {
+			$('[rel="nexsense-system"]').addClass('current');
+		});
+	</script>
 <?php include('footer.php');?>

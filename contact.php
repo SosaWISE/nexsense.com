@@ -60,4 +60,9 @@
 				</div>
 			</div>
 		</div>
+	<script>
+		$(document).ready(function() {
+			$('[rel="contact-us"]').addClass('current');
+		});
+	</script>
 <?php include('footer.php');?>
