@@ -6,6 +6,7 @@
 			line-height: 1.0em;
 			color: $brand-secondary;
 			text-transform: lowercase;
+			margin-bottom: 24px;
 		}
 		p {
 			width: 80%;
@@ -14,7 +15,7 @@
 			color: $gray-light;
 		}
 		.intro-copy {
-			padding-top: 120px;
+			padding-top: 80px;
 		}
 		.intro-photo {
 			padding: 40px 0 20px 0;
@@ -31,10 +32,41 @@
 		.product-photo {
 			position: absolute;
 			top: -250px;
-			left: 100px;
+			right: 50px;
+		}
+		blockquote {
+			font-family: $font-family-cursive;
+			font-style: italic;
+			color: $gray-light;
+			font-size: 72px;
+			line-height: 0.9;
+			margin: 0 -78px -18px -78px;
+			&:before {
+				color: $gray-lighter;
+				content: open-quote;
+				font-size: 200px;
+				line-height: 1px;
+				margin-right: 15px;
+				vertical-align: -60px;
+			}
+			&:after {
+				color: $gray-lighter;
+				content: close-quote;
+				font-size: 200px;
+				line-height: 1px;
+				margin-left: -18px;
+				vertical-align: -120px;
+			}
 		}
 		.cta {
 			margin: 40px 0;
+		}
+	}
+}
+.safety-doesnt-just-happen {
+	.product-shot {
+		blockquote {
+			font-size: 48px;
 		}
 	}
 }

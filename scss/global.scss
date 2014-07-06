@@ -179,3 +179,16 @@
 	background: url('../images/corner-stripes.png') no-repeat top left;
 	background-size: 80px 80px;
 }
+h1 {
+	color: $gray-light;
+}
+j {
+	width: 35px;
+	height: 35px;
+	background: url('../images/caret-collapse.png') no-repeat 0 -40px;
+	display: inline-block;
+	vertical-align: -8px;
+	&.active {
+		background-position: 0 0;
+	}
+}

@@ -38,6 +38,16 @@
 		height: 250px;
 	}
 }
+.what-you-get-toggle {
+	text-align: center;
+	display: block;
+	height: 50px;
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: $font-family-secondary;
+	color: $brand-primary;
+	text-transform: lowercase;
+}
 .add-ons {
 	height: 200px;
 	padding: 20px 0;

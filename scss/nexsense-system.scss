@@ -5,28 +5,11 @@
 	}
 	p {
 		font-size: 18px;
-	}
-	span {
-		font-size: 12px;
-		text-transform: uppercase;
-		font-family: $font-family-secondary;
-		color: $brand-primary;
-		position: relative;
-		padding-right: 30px;
-		&:after {
-			content: "";
-			width: 18px;
-			height: 20px;
-			top: -3px;
-			right: 10px;
-			position: absolute;
-			display: inline-block;
-			background: url('../images/caret-purple.png') no-repeat center right;
-		}
+		margin-bottom: 40px;
 	}
 	.more-than-an-alarm {
-		border-bottom: 1px solid $gray-light;
-		background: $brand-secondary;
+		background: url('../images/hero-yellow-bg.png') no-repeat center center $brand-secondary;
+		background-size: cover;
 		h1 {
 			font-size: 48px;
 			color: $white;
@@ -35,6 +18,7 @@
 		}
 		p {
 			color: $brand-primary;
+			margin-bottom: 11.5px;
 		}
 		.inner {
 			padding-top: 30px;

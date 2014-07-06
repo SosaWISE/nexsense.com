@@ -73,24 +73,24 @@
   }
 }
 .btn-primary {
-  @include button-variant($brand-primary, $btn-primary-bg, $brand-primary, $brand-secondary);
+  @include button-variant($brand-secondary, $brand-primary, $brand-primary, $brand-secondary);
+  i {
+    background-position: 0 0;
+  }
+  &:hover {
+    i {
+      background-position: 0 -20px;
+    }
+  }
+}
+.btn-secondary {
+  @include button-variant($brand-primary, $brand-secondary, $white, $brand-primary);
   i {
     background-position: 0 -40px;
   }
   &:hover {
     i {
-      background-position: 0 -40px;
-    }
-  }
-}
-.btn-secondary {
-  @include button-variant($brand-secondary, $btn-default-bg, $brand-primary, $brand-secondary);
-  i {
-    background-position: 0 -20px;
-  }
-  &:hover {
-    i {
-      background-position: 0 -20px;
+      background-position: 0 0;
     }
   }
 }

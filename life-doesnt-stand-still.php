@@ -17,13 +17,15 @@
 		<div class="product-shot">
 			<div class="container">
 				<div class="row">
-					<img class="product-photo" src="assets/images/product-keypad.png" />
-					<div class="col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-5">
-						<h2>Safety in motion</h2>
+					<div class="col-md-6">
+						<img class="product-photo" src="assets/images/product-keypad.png" />
+					</div>
+					<div class="col-md-6">
+						<blockquote>Safety in motion</blockquote>
 						<p>Kids getting home from school? Forget to lock the door? Nexsense makes sure you’re home even when you can’t be. Turn your lights off and on, unlock your doors, and so much more with Nexsense home protection. We bring your home to life.</p>
 						<div class="cta">
-							<a class="btn btn-default" href="#">Learn More <img src="assets/images/caret-purple.png" /></a>
-							<a class="btn btn-default" href="#">Get A Free Quote <img src="assets/images/caret-purple.png" /></a>
+							<a class="btn btn-default" href="#">Learn More <i></i></a>
+							<a class="btn btn-secondary" href="#">Get A Free Quote <i></i></a>
 						</div>
 					</div>
 				</div>

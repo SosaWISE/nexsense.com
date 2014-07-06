@@ -17,13 +17,15 @@
 		<div class="product-shot">
 			<div class="container">
 				<div class="row">
-					<img class="product-photo" src="assets/images/product-camera.png" />
-					<div class="col-md-6 col-md-offset-6 col-lg-6 col-lg-offset-5">
-						<h2>Like eyes in the back of your head.</h2>
+					<div class="col-md-6">
+						<img class="product-photo" src="assets/images/product-camera.png" />
+					</div>
+					<div class="col-md-6">
+						<blockquote>Like eyes in the<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;back of your head.</blockquote>
 						<p>Our motion activated, infrared cameras give you everything you need to check in on your home from anywhere. Daylight, low light, they shoot in 720 HD, so you don’t have to worry about grainy images or mistaking your teenage son for the neighbor’s cat.</p>
 						<div class="cta">
-							<a class="btn btn-default" href="#">Learn More <img src="assets/images/caret-purple.png" /></a>
-							<a class="btn btn-default" href="#">Get A Free Quote <img src="assets/images/caret-purple.png" /></a>
+							<a class="btn btn-default" href="#">Learn More <i></i></a>
+							<a class="btn btn-secondary" href="#">Get A Free Quote <i></i></a>
 						</div>
 					</div>
 				</div>
