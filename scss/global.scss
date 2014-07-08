@@ -110,7 +110,7 @@
 	color: $white;
 	position: relative;
 	.copy-inner {
-		padding-top: 120px;
+		padding-top: 140px;
 		h2 {
 			font-size: 48px;
 			font-family: $font-family-secondary;
@@ -118,7 +118,8 @@
 			color: $brand-secondary;
 		}
 		p {
-			font-size: 18px;
+			margin-top: 20px;
+			font-size: 24px;
 		}
 	}
 	.product-inner {
@@ -148,6 +149,11 @@
 			}
 		}
 	}
+	.slide-0 {
+		.copy-inner {
+			padding-top: 180px;
+		}
+	}
 }
 /*
 @media (min-width: $screen-md-min) {
@@ -174,9 +180,50 @@
 	background: url('../images/hero-mini-house.png') no-repeat center right;
 }
 .global-footer {
+	margin-top: 40px;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	text-align: center;
+	background: $gray-lightest;
+	.top-line {
+		border-bottom: 1px solid $gray-light;
+		margin-bottom: 2em;
+	}
+	.sub-section {
+		margin-bottom: 2em;
+	}
+	.heading {
+		text-transform: uppercase;
+		padding-bottom: 0.5em;
+		margin-bottom: 1em;
+		border-bottom: 1px solid $gray-light;
+		display: block;
+	}
+	.sub-heading {
+		text-transform: uppercase;
+		display: block;
+		margin-top: 1em;
+	}
+	.pages {
+
+	}
+	.contact, 
+	.about {
+		li {
+			font-size: 14px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+	.copyright {
+		font-size: 14px;
+		margin-top: 2em;
+		padding-top: 1em;
+		border-top: 1px solid $gray-light;
+	}
+	ul {
+		padding-left: 1em;
+	}
 }
 .corner-stripes {
 	background: url('../images/corner-stripes.png') no-repeat top left;

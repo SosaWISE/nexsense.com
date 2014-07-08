@@ -1,11 +1,11 @@
 <?php include('header.php');?>
 		<?php include('hero-slider.php');?>
 		<div class="primary-section clearfix">
-			<div class="container-fluid">
-				<div class="row-fluid">
+			<div class="container">
+				<div class="row">
 					<div class="built-to-fit col-md-6">
 						<div class="row">
-							<div class="inner col-md-7 col-xs-10 col-xs-offset-1">
+							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>Safety that fits like a glove</h2>
 								<p>Build a security system that fits your home and your lifestyle.</p>
 								<a class="btn btn-default">Get started <i></i></a>
@@ -14,7 +14,7 @@
 					</div>
 					<div class="need-help col-md-6">
 						<div class="row">
-							<div class="inner col-md-7 col-xs-10 col-xs-offset-1">
+							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>need help?</h2>
 								<p>find out how Nexsense can help you save.</p>
 								<a class="btn btn-default">Learn More <i></i></a>

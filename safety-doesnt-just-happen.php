@@ -18,10 +18,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<img class="product-photo" src="assets/images/product-iphone.png" />
+						<img class="product-photo" src="assets/images/product-panel.png" />
 					</div>
 					<div class="col-md-6">
-						<blockquote>For a home as comfortable<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as it is simple.</blockquote>
+						<blockquote>for a home as<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comfortable as<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it is simple</blockquote>
 						<p>Cooler in the daytime, warmer at night, or maybe vice versa. However you like your temperature, control it from your phone. And that’s just the beginning. With the Nexsense App, you can control virtually all the appliances in your home from anywhere—even from your bed.</p>
 						<div class="cta">
 							<a class="btn btn-default" href="#">Learn More <i></i></a>

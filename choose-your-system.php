@@ -87,8 +87,8 @@
 			<div class="container-fluid add-ons slide" style="display: none;">
 				<div class="row-fluid">
 					<div class="col-xs-10 col-xs-offset-1">
-						<h2>Add-ons</h2>
-						<p>Want to add more or swap out one item for another on your home protection system, no problem.<br>We can help you customize your home protection system as needed.</p>
+						<h2>Endless possibilities</h2>
+						<p>With Nexsense, you can add, swap, or mix-and-match the technology you need to<br>build a home protection system that fits your home.</p>
 					</div>
 				</div>
 			</div>
@@ -119,7 +119,7 @@
 			<div class="container slide" style="display: none;">
 				<div class="row">
 					<div class="get-started col-xs-12">
-						<a class="btn btn-default" href="#">Get Started <i></i></a>
+						<a class="btn btn-default" href="#">Get A Free Quote <i></i></a>
 					</div>
 				</div>
 			</div>
@@ -131,6 +131,9 @@
 			$('.what-you-get-toggle').on('click', function(e) {
 				$('j').toggleClass('active');
 				$('.slide').slideToggle();
+				$('html, body').animate({
+					scrollTop: $(this).offset().top
+				}, 1000);
 			});
 		});
 	</script>

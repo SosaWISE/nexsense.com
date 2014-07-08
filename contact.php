@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="contact-intro col-xs-12">
 						<h1>contact us</h1>
-						<p>We only sell our products online to ensure you get the best value. With our 60 day money back guarantee, 10 year warranty, and free delivery service, you can sleep on it and know with confidence if the mattress is right for you.</p>
+						<p>Technology is only as good as the people behind it. And being there for your questions, concerns, and comments is a job we take a lot of pride in.</p>
 					</div>
 				</div>
 				<div class="row">
