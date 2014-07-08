@@ -24,7 +24,7 @@
 						<blockquote>for a home as<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comfortable as<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it is simple</blockquote>
 						<p>Cooler in the daytime, warmer at night, or maybe vice versa. However you like your temperature, control it from your phone. And that’s just the beginning. With the Nexsense App, you can control virtually all the appliances in your home from anywhere—even from your bed.</p>
 						<div class="cta">
-							<a class="btn btn-default" href="#">Learn More <i></i></a>
+							<a href="choose-your-system.php" class="btn btn-default">Learn More <i></i></a>
 							<a class="btn btn-secondary" href="#">Get A Free Quote <i></i></a>
 						</div>
 					</div>

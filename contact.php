@@ -31,7 +31,7 @@
 					</div>
 					<div class="get-in-touch col-xs-12 col-sm-6">
 						<h2>Get in touch</h2>
-						<p>If you’d rather send us your thoughts here, then please fill out the form below and we’ll get back to you in the next 24hrs or less with an answer.</p>
+						<p>We'd love to hear from you. Fill out the form below, and we'll respond in 24 hours or less.</p>
 						<form class="contact-form" role="form">
 							<div class="form-group">
 								<label class="hide" for="email">Your name</label>

@@ -8,7 +8,7 @@
 							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>Safety that fits like a glove</h2>
 								<p>Build a security system that fits your home and your lifestyle.</p>
-								<a class="btn btn-default">Get started <i></i></a>
+								<a href="choose-your-system.php" class="btn btn-default">Get started <i></i></a>
 							</div>
 						</div>
 					</div>
@@ -17,7 +17,7 @@
 							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>need help?</h2>
 								<p>find out how Nexsense can help you save.</p>
-								<a class="btn btn-default">Learn More <i></i></a>
+								<a href="customer-service.php" class="btn btn-default">Learn More <i></i></a>
 							</div>
 						</div>
 						<a href="#"></a>
@@ -39,16 +39,16 @@
 				<div class="row-fluid">
 					<div class="how-we-compare corner-stripes-small inner col-md-4">
 						<h2>See how we<br>stack up</h2>
-						<a class="btn btn-default">Get the details <i></i></a>
+						<a href="choose-your-system.php" class="btn btn-default">Get the details <i></i></a>
 					</div>
 					<div class="how-we-help inner col-md-4">
 						<h2>Need help?</h2>
 						<p>Questions? We've got answers.</p>
-						<a class="btn btn-default">Get answers <i></i></a>
+						<a href="customer-service.php" class="btn btn-default">Get answers <i></i></a>
 					</div>
 					<div class="explore-our-system corner-stripes-small inner col-md-4">
 						<h2>Explore<br>our system</h2>
-						<a class="btn btn-default">Explore now <i></i></a>
+						<a href="nexsense-system.php" class="btn btn-default">Explore now <i></i></a>
 					</div>
 				</div>
 			</div>

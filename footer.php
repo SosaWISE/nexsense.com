@@ -6,22 +6,22 @@
 						<div class="sub-section">
 							<span class="heading">Nexsense System</span>
 							<ul>
-								<li>Overview</li>
+								<li><a href="nexsense-system.php">Overview</a></li>
 							</ul>
 						</div>
 						<div class="sub-section">
 							<span class="heading">Choose Your System</span>
 							<ul>
-								<li>Total Control</li>
-								<li>Safe Home</li>
-								<li>Hard-Wired+</li>
+								<li><a href="choose-your-system.php">Total Control</a></li>
+								<li><a href="choose-your-system.php">Safe Home</a></li>
+								<li><a href="choose-your-system.php">Hard-Wired+</a></li>
 							</ul>
 						</div>
 						<div class="sub-section">
 							<span class="heading">Customer Service</span>
 							<ul>
-								<li>Frequently Asked Questions</li>
-								<li>Warranty</li>
+								<li><a href="customer-service.php">Frequently Asked Questions</a></li>
+								<li><a href="customer-service.php">Warranty</a></li>
 							</ul>
 						</div>
 					</div>

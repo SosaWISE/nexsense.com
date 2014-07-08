@@ -24,8 +24,8 @@
 						<blockquote>Safety in motion</blockquote>
 						<p>Kids getting home from school? Forget to lock the door? Nexsense makes sure you’re home even when you can’t be. Turn your lights off and on, unlock your doors, and so much more with Nexsense home protection. We bring your home to life.</p>
 						<div class="cta">
-							<a class="btn btn-default" href="#">Learn More <i></i></a>
-							<a class="btn btn-secondary" href="#">Get A Free Quote <i></i></a>
+							<a href="choose-your-system.php" class="btn btn-default">Learn More <i></i></a>
+							<a class="btn btn-secondary">Get A Free Quote <i></i></a>
 						</div>
 					</div>
 				</div>
