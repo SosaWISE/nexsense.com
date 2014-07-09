@@ -16,7 +16,7 @@
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>need help?</h2>
-								<p>find out how Nexsense can help you save.</p>
+								<p>Find out how Nexsense<br>can help you save.</p>
 								<a href="customer-service.php" class="btn btn-default">Learn More <i></i></a>
 							</div>
 						</div>

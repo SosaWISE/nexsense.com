@@ -6,20 +6,19 @@
 	}
 	p {
 		font-size: 20px;
+		margin-bottom: 30px;
 	}
 	.inner {
-		height: 320px;
+		height: 340px;
 		padding-top: 50px;
 	}
 	.built-to-fit {
 		background: url('../images/floorplan-bg.png') no-repeat bottom right;
 		border-bottom: 1px solid $gray-lighter;
-
 	}
 	.need-help {
 		background: url('../images/tool-bubble-bg.png') no-repeat bottom right;
 		border-top: 1px solid $gray-lighter;
-
 	}
 }
 @media (min-width: $screen-md-min) {
@@ -46,7 +45,7 @@
 		margin-bottom: 0;
 	}
 	.btn {
-		margin-top: 15px;
+		margin-top: 25px;
 	}
 	.inner {
 		padding-top: 50px;
