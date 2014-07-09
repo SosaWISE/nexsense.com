@@ -18,7 +18,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="slide slide-1" style="display: none;">
+			<div class="slide slide-1" style="opacity: 0;">
 				<div class="copy col-sm-6">
 					<div class="row">
 						<div class="copy-inner col-xs-10 col-xs-offset-2">
@@ -35,7 +35,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="slide slide-2" style="display: none;">
+			<div class="slide slide-2" style="opacity: 0;">
 				<div class="copy col-sm-6">
 					<div class="row">
 						<div class="copy-inner col-xs-10 col-xs-offset-2">

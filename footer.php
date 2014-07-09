@@ -29,7 +29,8 @@
 						<div class="sub-section">
 							<span class="heading">Contact Us</span>
 							<ul>
-								<li>722 East Technology Ave, Building E, ste. 1100<br>Orem, UT 84097</li>
+								<li>722 East Technology Ave, Building E, ste. 1100</li>
+								<li>Orem, UT 84097</li>
 								<li>1.800.466.6397</li>
 							</ul>
 							<div>
@@ -59,15 +60,6 @@
 						<div class="sub-section">
 							<span class="heading">Who We Are</span>
 							<p>We’re a home protection and home automation provider who believes that a smarter, safer home should be simple to use and provide our customers with freedom as well as peace of mind. Driven by powerful technology and superior customer service, our goal is to create safer homes and families with affordable solutions and a proactive approach to security.</p>
-						</div>
-						<div class="sub-section">
-							<span class="heading">Find Us On</span>
-							<ul>
-								<li>FB</li>
-								<li>TW</li>
-								<li>IG</li>
-								<li>G+</li>
-							</ul>
 						</div>
 					</div>
 					<div class="copyright col-xs-12">
@@ -106,7 +98,7 @@
 					currentPosition = $(this).attr('rel');
 
 					$(this).addClass('active').siblings().removeClass('active');
-					$('.slide-' + $(this).attr('rel') + '').show().siblings().hide();
+					$('.slide-' + $(this).attr('rel') + '').css('opacity', 1).siblings().css('opacity', 0);
 				});
 			});
 			$(document).ready(function() {

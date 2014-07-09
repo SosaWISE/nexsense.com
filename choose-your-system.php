@@ -20,7 +20,7 @@
 					<div class="col-xs-12 col-md-4">
 						<div class="options-intro">
 							<h2>Total Control</h2>
-							<span class="price-block">$49.99 a Month<br>$199 Activation</span>
+							<span class="price-block" data-toggle="modal" data-target="#get-quote">$49.99 a Month<br>$199 Activation</span>
 							<p>Lights, cameras, heating, and more— control your entire home from anywhere with the touch of a button.</p>
 						</div>
 						<span class="what-you-get-toggle"></span>
@@ -43,7 +43,7 @@
 					<div class="col-xs-12 col-md-4">
 						<div class="options-intro">
 							<h2>Safe Home</h2>
-							<span class="price-block">$49.99 a Month<br>$69 Activation</span>
+							<span class="price-block" data-toggle="modal" data-target="#get-quote">$49.99 a Month<br>$69 Activation</span>
 							<p>Everything you need to keep your home safe and sound and the ability to control it all from your phone.</p>
 						</div>
 						<span class="what-you-get-toggle"><j></j> what you get</span>
@@ -65,7 +65,7 @@
 					<div class="col-xs-12 col-md-4">
 						<div class="options-intro">
 							<h2>Hard-Wired +</h2>
-							<span class="price-block">$39.99 a Month<br>$69 Activation</span>
+							<span class="price-block" data-toggle="modal" data-target="#get-quote">$39.99 a Month<br>$69 Activation</span>
 							<p>We’ll update your existing hardwired system with a new panel and wireless components.</p>
 						</div>
 						<span class="what-you-get-toggle"></span>

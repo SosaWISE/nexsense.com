@@ -109,6 +109,12 @@
 	background: url('../images/cta-purple-bg.png') no-repeat center center;
 	color: $white;
 	position: relative;
+	overflow: hidden;
+	.slide {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 	.copy-inner {
 		padding-top: 140px;
 		h2 {
@@ -203,7 +209,13 @@
 		margin-top: 1em;
 	}
 	.pages {
-
+		a {
+			color: $text-color;
+			&:hover {
+				color: $brand-primary;
+				text-decoration: underline;
+			}
+		}
 	}
 	.contact, 
 	.about {

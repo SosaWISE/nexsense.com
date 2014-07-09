@@ -25,6 +25,15 @@
 			padding-bottom: 40px;
 		}
 	}
+	.product-sub-section {
+		p {
+			width: 90%;
+		}
+		.inner {
+			padding-top: 80px;
+			padding-bottom: 80px;
+		}
+	}
 	.no-strings-attached-image {
 		height: 405px;
 		background: url('../images/no-strings-attached.png') no-repeat center center;
@@ -36,9 +45,5 @@
 	.now-youre-ready-image {
 		height: 405px;
 		background: url('../images/now-youre-ready.png') no-repeat center center;
-	}
-	.inner {
-		padding-top: 80px;
-		padding-bottom: 80px;
 	}
 }
