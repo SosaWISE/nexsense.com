@@ -6,7 +6,7 @@
 					<div class="row">
 						<div class="copy-inner col-xs-10 col-xs-offset-2">
 							<h2>Safe doesn’t happen by accident</h2>
-							<p>Your home security system just got a lot smarter.</p>
+							<p>Your home security system just got<br>a lot smarter.</p>
 						</div>
 					</div>
 				</div>

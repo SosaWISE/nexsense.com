@@ -12,7 +12,7 @@
 					<div class="address-info col-xs-12 col-sm-6">
 						<div>
 							<h2>Address</h2>
-							<h4>Nexsense | Head Office</h4>
+							<h4>Nexsense</h4>
 							<p>722 East Technology Ave, Building E, ste. 1100<br>Orem, UT 84097</p>
 							<p>1.800.466.6397</p>
 						</div>
@@ -32,28 +32,32 @@
 					<div class="get-in-touch col-xs-12 col-sm-6">
 						<h2>Get in touch</h2>
 						<p>We'd love to hear from you. Fill out the form below, and we'll respond in 24 hours or less.</p>
-						<form class="contact-form" role="form">
+						<form id="contact-form" class="contact-form" role="form">
 							<div class="form-group">
-								<label class="hide" for="email">Your name</label>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+								<label class="hide" for="email">Your name*</label>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
 							</div>
 							<div class="form-group">
-								<label class="hide" for="email">Your email</label>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Your email">
+								<label class="hide" for="email">Your email*</label>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
 							</div>
 							<div class="form-group">
-								<select class="form-control">
+								<select class="form-control" name="department">
 									<option>Select a department</option>
-									<option>Billing</option>
-									<option>Sales</option>
-									<option>Customer Service &amp; Technical Support</option>
+									<option value="billing@nexsense.com">Billing</option>
+									<option value="sales@nexsense.com">Sales</option>
+									<option value="support@nexsense.com">Customer Service &amp; Technical Support</option>
 								</select>
 							</div>
 							<div class="form-group">
-								<textarea class="form-control" rows="3"></textarea>
+								<textarea class="form-control" name="message" rows="3" placeholder="Message"></textarea>
+							</div>
+							<div class="form-group" style="display: none;">
+								<label class="hide" for="age">Age (If you are human... do not fill out this field!)</label>
+								<input type="text" class="form-control" id="age" name="age" placeholder="Age (If you are human... do not fill out this field!)">
 							</div>
 							<div class="form-group">
-								<a class="btn btn-default">Submit <i></i></a>
+								<a id="submit" class="btn btn-secondary">Submit <i></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
 							</div>
 						</form>
 					</div>
@@ -63,6 +67,21 @@
 	<script>
 		$(document).ready(function() {
 			$('[rel="contact-us"]').addClass('current');
+			$('#submit').on('click', function(e) {
+				e.preventDefault();
+
+				$.ajax({
+					type: 'post',
+					url: 'contact-engine.php',
+					data: $('#contact-form').serialize(),
+					success: function() {
+						$('#contact-form').html("<p>Your email has been successfully sent.</p>")
+					},
+					error: function() {
+						$('#contact-form').html("<p>There was an error sending this form. Please refresh the page and try again, or send an email directly to support@nexsense.com.</p>")
+					}
+				})
+			});
 		});
 	</script>
 <?php include('footer.php');?>

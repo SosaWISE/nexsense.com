@@ -86,7 +86,7 @@
 .btn-secondary {
   @include button-variant($brand-primary, $brand-secondary, $white, $brand-primary);
   i {
-    background-position: 0 -40px;
+    background-position: 0 -20px;
   }
   &:hover {
     i {

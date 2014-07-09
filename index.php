@@ -6,8 +6,8 @@
 					<div class="built-to-fit col-md-6">
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">
-								<h2>Safety that fits like a glove</h2>
-								<p>Build a security system that fits your home and your lifestyle.</p>
+								<h2>Safety that fits<br>like a glove</h2>
+								<p>Build a security system that fits<br>your home and your lifestyle.</p>
 								<a href="choose-your-system.php" class="btn btn-default">Get started <i></i></a>
 							</div>
 						</div>

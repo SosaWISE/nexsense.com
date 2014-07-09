@@ -64,8 +64,8 @@
 					</div>
 					<div class="col-xs-12 col-md-4">
 						<div class="options-intro">
-							<h2>Hard-Wired+</h2>
-							<span class="price-block">$49.99 a Month<br>$69 Activation</span>
+							<h2>Hard-Wired +</h2>
+							<span class="price-block">$39.99 a Month<br>$69 Activation</span>
 							<p>We’ll update your existing hardwired system with a new panel and wireless components.</p>
 						</div>
 						<span class="what-you-get-toggle"></span>
@@ -96,7 +96,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-4">
 						<ul>
-							<li>MySense App *†</li>
+							<li>MySense App *</li>
 							<li>Video Camera *†</li>
 							<li>Automated Door Locks *†</li>
 						</ul>
@@ -119,7 +119,7 @@
 			<div class="container slide" style="display: none;">
 				<div class="row">
 					<div class="get-started col-xs-12">
-						<a class="btn btn-default" href="#">Get A Free Quote <i></i></a>
+						<a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
 					</div>
 				</div>
 			</div>
