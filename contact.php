@@ -1,4 +1,5 @@
 <?php include('header.php');?>
+	<div class="contact-us">
 		<div class="hero-mini"></div>
 		<div class="contact-section">
 			<div class="container">
@@ -64,6 +65,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 	<script>
 		$(document).ready(function() {
 			$('[rel="contact-us"]').addClass('current');

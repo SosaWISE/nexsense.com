@@ -1,4 +1,5 @@
 <?php include('header.php');?>
+	<div class="about-us">
 		<div class="hero-mini"></div>
 		<div class="about-section">
 			<div class="container">
@@ -10,6 +11,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 	<script>
 		$(document).ready(function() {
 			$('[rel="about-us"]').addClass('current');
