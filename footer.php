@@ -67,44 +67,46 @@
 					</div>
 			</div>
 		</footer>
-		<script>
-			$(document).ready(function() {
-				var slidePosition,
-					moveSlide,
-					heroInterval,
-					slideTimer = 5000,
-					currentPosition = 0,
-					numberOfSlides = $('.slide').length;
+	</div>
+	<script>
+		$(document).ready(function() {
+			var slidePosition,
+				moveSlide,
+				heroInterval,
+				slideTimer = 5000,
+				currentPosition = 0,
+				numberOfSlides = $('.slide').length;
 
-				slidePosition = function() {
-					if (currentPosition == numberOfSlides - 1) {
-						currentPosition = 0;
-					} else {
-						currentPosition++;
-					}
-					moveSlide();
+			slidePosition = function() {
+				if (currentPosition == numberOfSlides - 1) {
+					currentPosition = 0;
+				} else {
+					currentPosition++;
 				}
-				moveSlide = function() {
-					$('[rel="' + currentPosition + '"]').trigger('click');
-				}
-				
-				heroInterval = setInterval(slidePosition, slideTimer)
+				moveSlide();
+			}
+			moveSlide = function() {
+				$('[rel="' + currentPosition + '"]').trigger('click');
+			}
+			
+			heroInterval = setInterval(slidePosition, slideTimer)
 
-				$('.dot').on('click', function(e) {
-					e.preventDefault();
+			$('.dot').on('click', function(e) {
+				e.preventDefault();
 
-					clearInterval(heroInterval);
-					heroInterval = setInterval(slidePosition, 5000);
-					currentPosition = $(this).attr('rel');
+				clearInterval(heroInterval);
+				heroInterval = setInterval(slidePosition, 5000);
+				currentPosition = $(this).attr('rel');
 
-					$(this).addClass('active').siblings().removeClass('active');
-					$('.slide-' + $(this).attr('rel') + '').css('opacity', 1).siblings().css('opacity', 0);
-				});
+				$(this).addClass('active').siblings().removeClass('active');
+				$('.slide-' + $(this).attr('rel') + '').css('opacity', 1).siblings().css('opacity', 0);
 			});
-			$(document).ready(function() {
-				$('#get-quote-form #submit').on('click', function(e) {
-					e.preventDefault();
-
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('#get-quote-form').validate({
+				submitHandler: function(form) {
 					$.ajax({
 						type: 'post',
 						url: 'contact-engine.php',
@@ -115,11 +117,11 @@
 						error: function() {
 							$('#get-quote-form').html("<span>There was an error sending this form. Please refresh the page and try again, or send an email directly to support@nexsense.com.</span>")
 						}
-					})
-				});
+					});
+				}
 			});
-		</script>
-	</div>
+		});
+	</script>
 	<div id="get-quote" class="modal fade">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -153,7 +155,7 @@
 					<span class="modal-sub-title">or Contact Us at 1.800.466.3973</span>
 					<div class="form-group">
 						<input type="hidden" name="department" value="sales@nexsense.com">
-						<a id="submit" class="btn btn-secondary">Submit <i></i></a>
+						<button type="submit" id="submit" class="btn btn-secondary">Submit <i></i></a>
 					</div>
 				</form>
 			</div>

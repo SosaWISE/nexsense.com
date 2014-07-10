@@ -35,16 +35,16 @@
 						<p>We'd love to hear from you. Fill out the form below, and we'll respond in 24 hours or less.</p>
 						<form id="contact-form" class="contact-form" role="form">
 							<div class="form-group">
-								<label class="hide" for="email">Your name*</label>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+								<label class="hide" for="name">Name*</label>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
 							</div>
 							<div class="form-group">
-								<label class="hide" for="email">Your email*</label>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
+								<label class="hide" for="email">Email*</label>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
 							</div>
 							<div class="form-group">
-								<select class="form-control" name="department">
-									<option>Select a department</option>
+								<select class="form-control" name="department" required>
+									<option value="">Select a department</option>
 									<option value="billing@nexsense.com">Billing</option>
 									<option value="sales@nexsense.com">Sales</option>
 									<option value="support@nexsense.com">Customer Service &amp; Technical Support</option>
@@ -58,7 +58,7 @@
 								<input type="text" class="form-control" id="age" name="age" placeholder="Age (If you are human... do not fill out this field!)">
 							</div>
 							<div class="form-group">
-								<a id="submit" class="btn btn-secondary">Submit <i></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
+								<button type="submit" id="submit" class="btn btn-secondary">Submit <i></i></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
 							</div>
 						</form>
 					</div>
@@ -69,20 +69,21 @@
 	<script>
 		$(document).ready(function() {
 			$('[rel="contact-us"]').addClass('current');
-			$('#submit').on('click', function(e) {
-				e.preventDefault();
 
-				$.ajax({
-					type: 'post',
-					url: 'contact-engine.php',
-					data: $('#contact-form').serialize(),
-					success: function() {
-						$('#contact-form').html("<p>Your email has been successfully sent.</p>")
-					},
-					error: function() {
-						$('#contact-form').html("<p>There was an error sending this form. Please refresh the page and try again, or send an email directly to support@nexsense.com.</p>")
-					}
-				})
+			$('#contact-form').validate({
+				submitHandler: function(form) {
+					$.ajax({
+						type: 'post',
+						url: 'contact-engine.php',
+						data: $('#contact-form').serialize(),
+						success: function() {
+							$('#contact-form').html("<p>Your email has been successfully sent.</p>")
+						},
+						error: function() {
+							$('#contact-form').html("<p>There was an error sending this form. Please refresh the page and try again, or send an email directly to support@nexsense.com.</p>")
+						}
+					});
+				}
 			});
 		});
 	</script>

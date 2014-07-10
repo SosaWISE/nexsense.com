@@ -10,7 +10,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600|Montserrat:400' rel='stylesheet' type='text/css'>
 	<link href="assets/css/style.css" rel="stylesheet">
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="assets/js/modal.min.js"></script>
+	<script src="assets/js/nexsense.min.js"></script>
 </head>
 <body>
 	<nav class="side-navigation" style="display: none;">
