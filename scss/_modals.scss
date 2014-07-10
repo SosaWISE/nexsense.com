@@ -67,6 +67,19 @@
     padding-left: 34px;
     padding-right: 30px;
   }
+  .half {
+    width: 50%;
+    float: left;
+    margin-bottom: 0;
+  }
+  .form-control {
+    border-radius: 0;
+    border: 1px solid $brand-primary;
+  }
+  label.error {
+    color: $white;
+    text-align: left;
+  }
 }
 
 // Modal background

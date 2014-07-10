@@ -128,21 +128,21 @@
 				<span style="position: absolute; color: white; cursor: pointer; top: 10px; right: 20px; font-size: 24px; margin-top: 0; margin-bottom: 0;" data-dismiss="modal">&times;</span>
 				<form id="get-quote-form" class="contact-form" role="form">
 					<h4 class="modal-title">Get A Free Quote</h4>
-					<div class="form-group">
+					<div class="form-group half">
 						<label class="hide" for="email">First Name*</label>
 						<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name*" required>
 					</div>
-					<div class="form-group">
+					<div class="form-group half">
 						<label class="hide" for="email">Last Name*</label>
 						<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name*" required>
 					</div>
-					<div class="form-group">
-						<label class="hide" for="phone">Phone</label>
-						<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
+					<div class="form-group half">
+						<label class="hide" for="phone">Phone*</label>
+						<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone*" required>
 					</div>
-					<div class="form-group">
-						<label class="hide" for="phone">Zip</label>
-						<input type="text" class="form-control" id="zip" name="zip" placeholder="Zip">
+					<div class="form-group half">
+						<label class="hide" for="phone">Zip*</label>
+						<input type="text" class="form-control" id="zip" name="zip" placeholder="Zip*" required>
 					</div>
 					<div class="form-group">
 						<label class="hide" for="email">Email*</label>

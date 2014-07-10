@@ -173,15 +173,8 @@ textarea.form-control {
 // Errors
 
 label.error {
-  margin: 4px 0;
+  margin: 4px 1px 8px 1px;
   color: $brand-primary;
   font-size: 14px;
   display: block;
-}
-
-.modal {
-  label.error {
-    color: $white;
-    text-align: left;
-  }
 }
