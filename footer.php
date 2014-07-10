@@ -130,11 +130,11 @@
 					<h4 class="modal-title">Get A Free Quote</h4>
 					<div class="form-group">
 						<label class="hide" for="email">First Name*</label>
-						<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required>
+						<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name*" required>
 					</div>
 					<div class="form-group">
 						<label class="hide" for="email">Last Name*</label>
-						<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" required>
+						<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name*" required>
 					</div>
 					<div class="form-group">
 						<label class="hide" for="phone">Phone</label>
@@ -146,7 +146,7 @@
 					</div>
 					<div class="form-group">
 						<label class="hide" for="email">Email*</label>
-						<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email*" required>
 					</div>
 					<div class="form-group" style="display: none;">
 						<label class="hide" for="age">Age (If you are human... do not fill out this field!)</label>

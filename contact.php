@@ -36,15 +36,15 @@
 						<form id="contact-form" class="contact-form" role="form">
 							<div class="form-group">
 								<label class="hide" for="name">Name*</label>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name*" required>
 							</div>
 							<div class="form-group">
 								<label class="hide" for="email">Email*</label>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email*" required>
 							</div>
 							<div class="form-group">
 								<select class="form-control" name="department" required>
-									<option value="">Select a department</option>
+									<option value="">Select a department*</option>
 									<option value="billing@nexsense.com">Billing</option>
 									<option value="sales@nexsense.com">Sales</option>
 									<option value="support@nexsense.com">Customer Service &amp; Technical Support</option>
