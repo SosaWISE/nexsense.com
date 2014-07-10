@@ -16,8 +16,9 @@
 }
 .global-header {
 	background: $white;
-	height: 60px;
-	border-bottom: 4px solid $brand-secondary;
+	height: 98px;
+	padding: 15px 0;
+	border-bottom: 8px solid $brand-secondary;
 	position: relative;
 	overflow: hidden;
 	.hamburger-menu {
@@ -30,75 +31,57 @@
 		left: 10px;
 	}
 	.logo {
-		width: 200px;
-		height: 30px;
+		width: 265px;
+		height: 40px;
 		position: absolute;
-		top: 16px;
-		left: 74px;
+		top: 30px;
+		left: 24px;
 		background: url('../images/nexsense-logo.png') no-repeat center center;
-		background-size: 200px 30px;
+		background-size: 265px 40px;
 		display: block;
 	}
 	.top-navigation {
-		display: none;
-	}
-}
-@media (min-width: $screen-md-min) {
-	.global-header {
-		height: 98px;
-		padding: 15px 0;
-		border-bottom: 8px solid $brand-secondary;
-		.logo {
-			width: 265px;
-			height: 40px;
-			position: absolute;
-			top: 30px;
-			left: 24px;
-			background-size: 265px 40px;
+		position: absolute;
+		right: 24px;
+		text-align: right;
+		display: block;
+		ul {
+			text-transform: uppercase;
+			padding: 0;
+			margin: 16px 0 0 0;
 		}
-		.top-navigation {
-			position: absolute;
-			right: 24px;
-			text-align: right;
-			display: block;
-			ul {
-				text-transform: uppercase;
-				padding: 0;
-				margin: 16px 0 0 0;
-			}
-			li {
-				list-style: none;
-				display: inline-block;
-				font-family: $font-family-secondary;
-				font-size: 12px;
-				line-height: 2;
-				margin-left: 20px;
-				&.current {
-					border-top: 2px solid $brand-secondary;
-					a {
-						color: $brand-primary;
-					}
-				}
+		li {
+			list-style: none;
+			display: inline-block;
+			font-family: $font-family-secondary;
+			font-size: 12px;
+			line-height: 2;
+			margin-left: 20px;
+			&.current {
+				border-top: 2px solid $brand-secondary;
 				a {
-					color: $gray;
+					color: $brand-primary;
 				}
 			}
-			.contact-us {
-				font-size: 14px;
+			a {
+				color: $gray;
 			}
-			.btn {
-				font-size: 10px;
-				padding: 2px 8px 4px 8px;
+		}
+		.contact-us {
+			font-size: 14px;
+		}
+		.btn {
+			font-size: 10px;
+			padding: 2px 8px 4px 8px;
+			i {
+				top: 3px;
+				width: 12px;
+				height: 14px;
+				background-size: 12px 42px;
+			}
+			&:hover {
 				i {
-					top: 3px;
-					width: 12px;
-					height: 14px;
-					background-size: 12px 42px;
-				}
-				&:hover {
-					i {
-						background-position: 0 -14px;
-					}
+					background-position: 0 -14px;
 				}
 			}
 		}
@@ -161,26 +144,6 @@
 		}
 	}
 }
-/*
-@media (min-width: $screen-md-min) {
-	.hero-slider {
-		.copy {
-			.copy-inner {
-				margin-top: 150px;
-				h2 {
-					font-size: 64px;
-				}
-				p {
-					font-size: 24px;
-				}
-			}
-		}
-		.product-inner {
-			padding-top: 40px;
-			padding-bottom: 40px;
-		}
-	}
-}*/
 .hero-mini {
 	height: 200px;
 	background: url('../images/hero-mini-house.png') no-repeat center right;

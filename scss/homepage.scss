@@ -21,7 +21,7 @@
 		border-top: 1px solid $gray-lighter;
 	}
 }
-@media (min-width: $screen-md-min) {
+//@media (min-width: $screen-xs-min) {
 	.primary-section {
 		.built-to-fit {
 			border-right: 1px solid $gray-lighter;
@@ -32,7 +32,7 @@
 			border-left: 1px solid $gray-lighter;
 		}
 	}
-}
+//}
 .secondary-section {
 	h2 {
 		font-size: 30px;
@@ -56,7 +56,7 @@
 		border-bottom: 2px solid $gray-lighter;
 	}
 }
-@media (min-width: $screen-md-min) {
+//@media (min-width: $screen-md-min) {
 	.secondary-section {
 		.how-we-compare {
 			border-right: 1px solid $gray-lighter;
@@ -71,7 +71,7 @@
 			border-left: 1px solid $gray-lighter;
 		}
 	}
-}
+//}
 .parallax {
 	border-top: 8px solid $brand-secondary;
 	height: 200px;
@@ -92,10 +92,10 @@
 		background: url('../images/house-parallax.png') no-repeat bottom right;
 	}
 }
-@media (min-width: $screen-md-min) {
+//@media (min-width: $screen-md-min) {
 	.parallax {
 		.inner {
 			padding-top: 65px;
 		}
 	}
-}
+//}
