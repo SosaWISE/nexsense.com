@@ -2,64 +2,36 @@
 			<div class="container">
 				<div class="row">
 					<div class="top-line col-xs-12"></div>
-					<div class="pages col-sm-4">
-						<div class="sub-section">
-							<span class="heading">Nexsense System</span>
-							<ul>
-								<li><a href="nexsense-system.php">Overview</a></li>
-							</ul>
-						</div>
-						<div class="sub-section">
-							<span class="heading">Choose Your System</span>
-							<ul>
-								<li><a href="choose-your-system.php">Total Control</a></li>
-								<li><a href="choose-your-system.php">Safe Home</a></li>
-								<li><a href="choose-your-system.php">Hard-Wired+</a></li>
-							</ul>
-						</div>
-						<div class="sub-section">
-							<span class="heading">Customer Service</span>
-							<ul>
-								<li><a href="customer-service.php">Frequently Asked Questions</a></li>
-								<li><a href="customer-service.php">Warranty</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="contact col-sm-4">
+					<div class="contact col-xs-12 col-lg-4">
 						<div class="sub-section">
 							<span class="heading">Contact Us</span>
 							<ul>
-								<li>722 East Technology Ave, Building E, ste. 1100</li>
-								<li>Orem, UT 84097</li>
-								<li>1.800.466.6397</li>
+								<li><span class="icon icon-home"> 722 East Technology Ave</li>
+								<li class="indent">Building E, ste. 1100</li>
+								<li class="indent">Orem, UT 84097</li>
+								<li><span class="icon icon-phone"> 1.800.466.6397</li>
 							</ul>
 							<div>
 								<span class="sub-heading">Billing</span>
 								<ul>
-									<li>billing@nexsense.com</li>
-									<li>385.375.8150</li>
+									<li><span class="icon icon-email"></span> billing@nexsense.com</li>
+									<li><span class="icon icon-phone"></span> 385.375.8150</li>
 								</ul>
 							</div>
 							<div>
 								<span class="sub-heading">Sales</span>
 								<ul>
-									<li>sales@nexsense.com</li>
-									<li>385.375.8120</li>
+									<li><span class="icon icon-email"> sales@nexsense.com</li>
+									<li><span class="icon icon-phone"> 385.375.8120</li>
 								</ul>
 							</div>
 							<div>
 								<span class="sub-heading">Customer Service &amp; Tech Support</span>
 								<ul>
-									<li>support@nexsense.com</li>
-									<li>385.375.8150</li>
+									<li><span class="icon icon-email"> support@nexsense.com</li>
+									<li><span class="icon icon-phone"> 385.375.8150</li>
 								</ul>
 							</div>
-						</div>
-					</div>
-					<div class="about col-sm-4">
-						<div class="sub-section">
-							<span class="heading">Who We Are</span>
-							<p>We’re a home protection and home automation provider who believes that a smarter, safer home should be simple to use and provide our customers with freedom as well as peace of mind. Driven by powerful technology and superior customer service, our goal is to create safer homes and families with affordable solutions and a proactive approach to security.</p>
 						</div>
 					</div>
 					<div class="copyright col-xs-12">

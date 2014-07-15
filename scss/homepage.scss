@@ -3,45 +3,91 @@
 
 .primary-section {
 	h2 {
-		font-size: 36px;
+		font-size: 28px;
 		text-transform: lowercase;
 		color: $brand-primary;
 	}
 	p {
-		font-size: 20px;
-		margin-bottom: 30px;
-	}
-	.inner {
-		height: 340px;
-		padding-top: 50px;
+		font-size: 16px;
+		margin-bottom: 20px;
 	}
 	.built-to-fit {
-		background: url('../images/floorplan-bg.png') no-repeat bottom right;
+		background: url('../images/floorplan-bg.png') no-repeat;
+		background-size: 480px 236px;
+		background-position: -100px 14px;
 		border-bottom: 1px solid $gray-lighter;
+		.inner {
+			height: 250px;
+			padding-top: 16px;
+		}
 	}
 	.need-help {
-		background: url('../images/tool-bubble-bg.png') no-repeat bottom right;
+		background: url('../images/tool-bubble-bg.png') no-repeat;
+		background-position: -200px -45px;
 		border-top: 1px solid $gray-lighter;
+		.inner {
+			height: 220px;
+			padding-top: 16px;
+		}
 	}
 }
-//@media (min-width: $screen-xs-min) {
+@media (min-width: $screen-sm-min) {
 	.primary-section {
 		.built-to-fit {
+			background: url('../images/floorplan-bg.png') no-repeat;
+			background-size: 480px 236px;
+			background-position: 100px 14px;
+			border-bottom: 1px solid $gray-lighter;
+			.inner {
+				height: 200px;
+				padding-top: 16px;
+			}
+		}
+		.need-help {
+			background: url('../images/tool-bubble-bg.png') no-repeat;
+			background-size: 512px 252px;
+			background-position: 100px -25px;
+			border-top: 1px solid $gray-lighter;
+			.inner {
+				height: 200px;
+				padding-top: 16px;
+			}
+		}
+	}
+}
+@media (min-width: $screen-lg-min) {
+	.primary-section {
+		h2 {
+			font-size: 36px;
+		}
+		p {
+			font-size: 20px;
+			margin-bottom: 30px;
+		}
+		.built-to-fit {
+			background-size: 640px 315px;
 			border-right: 1px solid $gray-lighter;
 			border-bottom: none;
 		}
 		.need-help {
+			background-size: 640px 315px;
+			background-position: right bottom;
 			border-top: none;
 			border-left: 1px solid $gray-lighter;
 		}
+		.inner {
+			height: 340px;
+			padding-top: 50px;
+		}
 	}
-//}
+}
 .secondary-section {
 	h2 {
-		font-size: 30px;
+		font-size: 28px;
+		width: 80%;
+		margin: 0 auto;
 		text-transform: lowercase;
 		color: $brand-primary;
-		margin-bottom: 0;
 	}
 	p {
 		margin-top: 10px;
@@ -51,16 +97,54 @@
 		margin-top: 25px;
 	}
 	.inner {
-		padding-top: 50px;
-		padding-bottom: 60px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 	.how-we-help {
 		border-top: 2px solid $gray-lighter;
 		border-bottom: 2px solid $gray-lighter;
 	}
 }
-//@media (min-width: $screen-md-min) {
+@media (min-width: $screen-sm-min) {
 	.secondary-section {
+		h2 {
+			font-size: 30px;
+			width: 100%;
+			margin: 0 auto;
+		}
+		p {
+			margin-top: 10px;
+		}
+		.btn {
+			margin-top: 25px;
+		}
+		.inner {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		.how-we-help {
+			border-top: 2px solid $gray-lighter;
+			border-bottom: 2px solid $gray-lighter;
+		}
+	}
+}
+@media (min-width: $screen-lg-min) {
+	.secondary-section {
+		h2 {
+			font-size: 30px;
+			width: 100%;
+			margin: 0 auto;
+		}
+		p {
+			margin-top: 10px;
+		}
+		.btn {
+			margin-top: 25px;
+		}
+		.inner {
+			padding-top: 50px;
+			padding-bottom: 60px;
+		}
 		.how-we-compare {
 			border-right: 1px solid $gray-lighter;
 		}
@@ -74,31 +158,50 @@
 			border-left: 1px solid $gray-lighter;
 		}
 	}
-//}
+}
 .parallax {
-	border-top: 8px solid $brand-secondary;
+	border-top: 6px solid $brand-secondary;
 	height: 200px;
 	h4 {
 		font-family: $font-family-cursive;
 		font-style: italic;
-		font-size: 48px;
+		font-size: 38px;
 		color: $white;
 		text-shadow: 0 0 5px rgba(0,0,0,0.5);
 	}
 	.inner {
-		padding-top: 40px;
+		padding-top: 28px;
 	}
 	&.parallax-swing {
-		background: url('../images/swing-parallax.png') no-repeat bottom right;
+		background: url('../images/swing-parallax.png') no-repeat;
+		background-position: -835px 0;
 	}
 	&.parallax-house {
-		background: url('../images/house-parallax.png') no-repeat bottom right;
+		background: url('../images/house-parallax.png') no-repeat;
+		background-position: -900px 0;
 	}
 }
-//@media (min-width: $screen-md-min) {
+@media (min-width: $screen-sm-min) {
 	.parallax {
+		.inner {
+			padding-top: 48px;
+		}
+		&.parallax-swing {
+			background-position: -586px 0;
+		}
+		&.parallax-house {
+			background-position: -680px 0;
+		}
+	}
+}
+@media (min-width: $screen-lg-min) {
+	.parallax {
+		border-top: 8px solid $brand-secondary;
+		h4 {
+			font-size: 48px;
+		}
 		.inner {
 			padding-top: 65px;
 		}
 	}
-//}
+}
