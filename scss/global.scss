@@ -16,77 +16,100 @@
 }
 .global-header {
 	background: $white;
-	height: 98px;
-	padding: 15px 0;
-	border-bottom: 8px solid $brand-secondary;
+	height: 68px;
+	border-bottom: 4px solid $brand-secondary;
 	position: relative;
 	overflow: hidden;
-	.hamburger-menu {
-		color: $gray;
-		font-size: 22px;
-		width: 50px;
+	.icon-menu {
+		color: $gray-light;
+		background: $white;
+		border: 1px solid $gray-light;
+		font-size: 24px;
 		position: absolute;
-		padding: 0;
-		top: 12px;
+		padding: 8px;
+		top: 10px;
 		left: 10px;
+		border-radius: 6px;
 	}
 	.logo {
-		width: 265px;
-		height: 40px;
+		width: 199px;
+		height: 30px;
 		position: absolute;
-		top: 30px;
-		left: 24px;
+		top: 18px;
+		left: 68px;
 		background: url('../images/nexsense-logo.png') no-repeat center center;
-		background-size: 265px 40px;
+		background-size: 199px 30px;
 		display: block;
 	}
-	.top-navigation {
-		position: absolute;
-		right: 24px;
-		text-align: right;
-		display: block;
-		ul {
-			text-transform: uppercase;
-			padding: 0;
-			margin: 16px 0 0 0;
+}
+@media (min-width: $screen-lg-min) {
+	.global-header {
+		background: $white;
+		height: 98px;
+		padding: 15px 0;
+		border-bottom: 8px solid $brand-secondary;
+		position: relative;
+		overflow: hidden;
+		.logo {
+			width: 265px;
+			height: 40px;
+			position: absolute;
+			top: 30px;
+			left: 24px;
+			background: url('../images/nexsense-logo.png') no-repeat center center;
+			background-size: 265px 40px;
+			display: block;
 		}
-		li {
-			list-style: none;
-			display: inline-block;
-			font-family: $font-family-secondary;
-			font-size: 12px;
-			line-height: 2;
-			margin-left: 20px;
-			&.current {
-				border-top: 2px solid $brand-secondary;
+		.top-navigation {
+			position: absolute;
+			right: 24px;
+			text-align: right;
+			display: block;
+			ul {
+				text-transform: uppercase;
+				padding: 0;
+				margin: 16px 0 0 0;
+			}
+			li {
+				list-style: none;
+				display: inline-block;
+				font-family: $font-family-secondary;
+				font-size: 12px;
+				line-height: 2;
+				margin-left: 20px;
+				&.current {
+					border-top: 2px solid $brand-secondary;
+					a {
+						color: $brand-primary;
+					}
+				}
 				a {
-					color: $brand-primary;
+					color: $gray;
 				}
 			}
-			a {
-				color: $gray;
+			.contact-us {
+				font-size: 14px;
 			}
-		}
-		.contact-us {
-			font-size: 14px;
-		}
-		.btn {
-			font-size: 10px;
-			padding: 2px 8px 4px 8px;
-			i {
-				top: 3px;
-				width: 12px;
-				height: 14px;
-				background-size: 12px 42px;
-			}
-			&:hover {
+			.btn {
+				font-size: 10px;
+				padding: 2px 8px 4px 8px;
 				i {
-					background-position: 0 -14px;
+					top: 3px;
+					width: 12px;
+					height: 14px;
+					background-size: 12px 42px;
+				}
+				&:hover {
+					i {
+						background-position: 0 -14px;
+					}
 				}
 			}
 		}
 	}
 }
+
+
 .hero-slider {
 	height: 620px;
 	background: url('../images/cta-purple-bg.png') no-repeat center center;
@@ -212,14 +235,4 @@
 }
 h1 {
 	color: $gray-light;
-}
-j {
-	width: 35px;
-	height: 35px;
-	background: url('../images/caret-collapse.png') no-repeat 0 -40px;
-	display: inline-block;
-	vertical-align: -8px;
-	&.active {
-		background-position: 0 0;
-	}
 }

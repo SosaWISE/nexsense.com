@@ -17,7 +17,7 @@
 		<?php include('navigation.php');?>
 	</nav>
 	<div class="main">
-		<header class="global-header">
+		<header class="global-header hidden-xs hidden-sm hidden-md visible-lg visible-xl visible-xxl">
 			<div class="container-fluid">
 				<a href="index.php" class="logo"></a>
 				<nav class="top-navigation">
@@ -25,4 +25,8 @@
 					<?php include('navigation.php');?>
 				</nav>
 			</div>
+		</header>
+		<header class="global-header visible-xs visible-sm visible-md hidden-lg hidden-xl hidden-xxl">
+			<span class="btn btn-default icon-menu"></span>
+			<a href="index.php" class="logo"></a>
 		</header>
