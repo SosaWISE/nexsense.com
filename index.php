@@ -1,8 +1,8 @@
 <?php include('header.php');?>
 		<?php include('hero-slider.php');?>
 		<div class="primary-section clearfix">
-			<div class="container">
-				<div class="row">
+			<div class="container-fluid">
+				<div class="row-fluid">
 					<div class="built-to-fit col-xs-12 col-md-6">
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">

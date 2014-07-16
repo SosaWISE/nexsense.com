@@ -50,14 +50,3 @@
 .icon-menu:before {
   content: "\e608";
 }
-
-j {
-  width: 35px;
-  height: 35px;
-  background: url('../images/caret-collapse.png') no-repeat 0 -40px;
-  display: inline-block;
-  vertical-align: -8px;
-  &.active {
-    background-position: 0 0;
-  }
-}

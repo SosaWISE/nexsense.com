@@ -1,6 +1,6 @@
 <?php include('header.php');?>
+	<div class="hero-mini"></div>
 	<div class="customer-service">
-		<div class="hero-mini"></div>
 		<div class="faq-section section">
 			<div class="container">
 				<div class="row">
@@ -159,7 +159,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="warranty-section section inactive">
+		<div class="warranty-section section">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
