@@ -70,8 +70,8 @@
 				heroInterval = setInterval(slidePosition, 5000);
 				currentPosition = $(this).attr('rel');
 
-				$(this).addClass('active').siblings().removeClass('active');
-				$('.slide-' + $(this).attr('rel') + '').css('opacity', 1).siblings().css('opacity', 0);
+				$(this).addClass('active').siblings('.dot').removeClass('active');
+				$('.slide-' + $(this).attr('rel') + '').css('opacity', 1).siblings('.slide').css('opacity', 0);
 			});
 		});
 	</script>

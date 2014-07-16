@@ -1,29 +1,52 @@
 .contact-us {
 	margin-bottom: 60px;
-}
-.contact-section {
 	.contact-intro {
-		margin-top: 40px;
+		margin-top: 20px;
 		margin-bottom: 20px;
-		p {
-			font-size: 26px;
+		h1 {
+			font-size: 32px;
 		}
 	}
 	h2 {
-		font-size: 32px;
+		font-size: 28px;
 		text-transform: lowercase;
 		color: $brand-primary;
 	}
-	p {
-		font-size: 18px;
+	h4 {
+		font-size: 20px;
 	}
 	.address-info {
 		div {
-			margin-bottom: 20px;
+			margin-bottom: 10px;
 			overflow: hidden;
 		}
 	}
 	.contact-form {
 		margin-top: 40px;
+	}
+}
+@media (min-width: $screen-sm-min) {
+	.contact-us {
+		.contact-intro {
+			margin-top: 40px;
+			h1 {
+				font-size: 36px;
+			}
+			p {
+				font-size: 24px;
+			}
+		}
+		h2 {
+			font-size: 32px;
+		}
+		.address-info {
+			div {
+				margin-bottom: 20px;
+				overflow: hidden;
+			}
+		}
+		.contact-form {
+			margin-top: 40px;
+		}
 	}
 }
