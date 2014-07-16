@@ -122,18 +122,18 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		.copy-inner {
-			padding-top: 14px;
-			h2 {
-				font-size: 28px;
-				font-family: $font-family-secondary;
-				text-transform: lowercase;
-				color: $brand-secondary;
-			}
-			p {
-				margin-top: 14px;
-				font-size: 16px;
-			}
+	}
+	.copy-inner {
+		padding-top: 14px;
+		h2 {
+			font-size: 28px;
+			font-family: $font-family-secondary;
+			text-transform: lowercase;
+			color: $brand-secondary;
+		}
+		p {
+			margin-top: 14px;
+			font-size: 16px;
 		}
 	}
 	.product-inner {
@@ -168,11 +168,6 @@
 	.hero-slider {
 		height: 300px;
 		background-position: center bottom;
-		.slide {
-			position: absolute;
-			top: 0;
-			left: 0;
-		}
 		.copy-inner {
 			h2 {
 				font-size: 48px;
@@ -191,7 +186,6 @@
 				padding-top: 40px;
 			}
 		}
-
 		.slide-1 {
 			.copy-inner {
 				padding-top: 20px;
@@ -204,7 +198,80 @@
 		}
 	}
 }
+@media (min-width: $screen-md-min) {
+	.hero-slider {
+		height: 420px;
+		background-position: center bottom;
+		.copy-inner {
+			h2 {
+				font-size: 36px;
+			}
+			p {
+				margin-top: 20px;
+				font-size: 20px;
+			}
+		}
+		.product-inner {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		.slide-0 {
+			.copy-inner {
+				padding-top: 80px;
+			}
+		}
+		.slide-1 {
+			.copy-inner {
+				padding-top: 60px;
+			}
+		}
+		.slide-2 {
+			.copy-inner {
+				padding-top: 65px;
+			}
+		}
+	}
+}
 @media (min-width: $screen-lg-min) {
+	.hero-slider {
+		height: 530px;
+		background-position: center center;
+		.slide {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.copy-inner {
+			padding-top: 140px;
+			h2 {
+				font-size: 48px;
+			}
+			p {
+				font-size: 24px;
+			}
+		}
+		.product-inner {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		.slide-0 {
+			.copy-inner {
+				padding-top: 110px;
+			}
+		}
+		.slide-1 {
+			.copy-inner {
+				padding-top: 90px;
+			}
+		}
+		.slide-2 {
+			.copy-inner {
+				padding-top: 100px;
+			}
+		}
+	}
+}
+@media (min-width: $screen-xl-min) {
 	.hero-slider {
 		height: 620px;
 		background: url('../images/cta-purple-bg.png') no-repeat center center;

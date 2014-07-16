@@ -1,6 +1,3 @@
-@media (min-width: $screen-xxl-min) {
-}
-
 .primary-section {
 	h2 {
 		font-size: 28px;
@@ -55,7 +52,62 @@
 		}
 	}
 }
+@media (min-width: $screen-md-min) {
+	.primary-section {
+		.built-to-fit {
+			background: url('../images/floorplan-bg.png') no-repeat;
+			background-size: 480px 236px;
+			background-position: bottom right;
+			border-bottom: none;
+			border-right: 1px solid $gray-lighter;
+			.inner {
+				height: 260px;
+				padding-top: 24px;
+			}
+		}
+		.need-help {
+			background: url('../images/tool-bubble-bg.png') no-repeat;
+			background-size: 640px 315px;
+			background-position: -200px -25px;
+			border-top: none;
+			border-left: 1px solid $gray-lighter;
+			.inner {
+				height: 260px;
+				padding-top: 24px;
+			}
+		}
+	}
+}
 @media (min-width: $screen-lg-min) {
+	.primary-section {
+		.built-to-fit {
+			background: url('../images/floorplan-bg.png') no-repeat;
+			background-size: 480px 236px;
+			background-position: bottom right;
+			border-bottom: none;
+			border-right: 1px solid $gray-lighter;
+			.inner {
+				height: 240px;
+				padding-top: 32px;
+			}
+			p {
+				width: 80%;
+			}
+		}
+		.need-help {
+			background: url('../images/tool-bubble-bg.png') no-repeat;
+			background-size: 640px 315px;
+			background-position: -100px -35px;
+			border-top: none;
+			border-left: 1px solid $gray-lighter;
+			.inner {
+				height: 240px;
+				padding-top: 32px;
+			}
+		}
+	}
+}
+@media (min-width: $screen-xl-min) {
 	.primary-section {
 		h2 {
 			font-size: 36px;
@@ -66,14 +118,11 @@
 		}
 		.built-to-fit {
 			background-size: 640px 315px;
-			border-right: 1px solid $gray-lighter;
-			border-bottom: none;
+			background-position: right bottom;
 		}
 		.need-help {
 			background-size: 640px 315px;
 			background-position: right bottom;
-			border-top: none;
-			border-left: 1px solid $gray-lighter;
 		}
 		.inner {
 			height: 340px;
@@ -81,6 +130,9 @@
 		}
 	}
 }
+
+
+
 .secondary-section {
 	h2 {
 		font-size: 28px;
@@ -90,6 +142,7 @@
 		color: $brand-primary;
 	}
 	p {
+		font-size: 16px;
 		margin-top: 10px;
 		margin-bottom: 0;
 	}
@@ -108,8 +161,38 @@
 @media (min-width: $screen-sm-min) {
 	.secondary-section {
 		h2 {
-			font-size: 30px;
 			width: 100%;
+		}
+	}
+}
+@media (min-width: $screen-md-min) {
+	.secondary-section {
+		.inner {
+			padding-top: 60px;
+			padding-bottom: 50px;
+		}
+		.how-we-compare {
+			border-right: 1px solid $gray-lighter;
+		}
+		.how-we-help {
+			border-top: none;
+			border-left: 1px solid $gray-lighter;
+			border-bottom: none;
+			border-right: 1px solid $gray-lighter;
+			.btn {
+				margin-top: 24px;
+			}
+		}
+		.explore-our-system {
+			border-left: 1px solid $gray-lighter;
+		}
+	}
+}
+@media (min-width: $screen-lg-min) {
+	.secondary-section {
+		h2 {
+			font-size: 30px;
+			width: 80%;
 			margin: 0 auto;
 		}
 		p {
@@ -119,16 +202,17 @@
 			margin-top: 25px;
 		}
 		.inner {
-			padding-top: 40px;
-			padding-bottom: 40px;
+			padding-top: 50px;
+			padding-bottom: 50px;
 		}
 		.how-we-help {
-			border-top: 2px solid $gray-lighter;
-			border-bottom: 2px solid $gray-lighter;
+			.btn {
+				margin-top: 27px;
+			}
 		}
 	}
 }
-@media (min-width: $screen-lg-min) {
+@media (min-width: $screen-xl-min) {
 	.secondary-section {
 		h2 {
 			font-size: 30px;
@@ -145,20 +229,11 @@
 			padding-top: 50px;
 			padding-bottom: 60px;
 		}
-		.how-we-compare {
-			border-right: 1px solid $gray-lighter;
-		}
-		.how-we-help {
-			border-top: none;
-			border-left: 1px solid $gray-lighter;
-			border-bottom: none;
-			border-right: 1px solid $gray-lighter;
-		}
-		.explore-our-system {
-			border-left: 1px solid $gray-lighter;
-		}
 	}
 }
+
+
+
 .parallax {
 	border-top: 6px solid $brand-secondary;
 	height: 200px;
@@ -194,9 +269,35 @@
 		}
 	}
 }
+@media (min-width: $screen-sm-min) {
+	.parallax {
+		h4 {
+			font-size: 32px;
+		}
+		.inner {
+			padding-top: 72px;
+		}
+		&.parallax-swing {
+			background-position: right bottom;
+		}
+		&.parallax-house {
+			background-position: right bottom;
+		}
+	}
+}
 @media (min-width: $screen-lg-min) {
 	.parallax {
 		border-top: 8px solid $brand-secondary;
+		h4 {
+			font-size: 42px;
+		}
+		.inner {
+			padding-top: 65px;
+		}
+	}
+}
+@media (min-width: $screen-xl-min) {
+	.parallax {
 		h4 {
 			font-size: 48px;
 		}

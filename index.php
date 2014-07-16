@@ -3,7 +3,7 @@
 		<div class="primary-section clearfix">
 			<div class="container">
 				<div class="row">
-					<div class="built-to-fit col-md-6">
+					<div class="built-to-fit col-xs-12 col-md-6">
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>Safety that fits like a glove</h2>
@@ -12,7 +12,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="need-help col-md-6">
+					<div class="need-help col-xs-12 col-md-6">
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>need help?</h2>
@@ -37,16 +37,16 @@
 		<div class="secondary-section text-center clearfix">
 			<div class="container-fluid">
 				<div class="row-fluid">
-					<div class="how-we-compare corner-stripes-small inner col-xs-12 col-lg-4">
+					<div class="how-we-compare corner-stripes-small inner col-xs-12 col-md-4">
 						<h2>See how we stack up</h2>
 						<a href="choose-your-system.php" class="btn btn-default">Get the details <i></i></a>
 					</div>
-					<div class="how-we-help inner col-xs-12 col-lg-4">
+					<div class="how-we-help inner col-xs-12 col-md-4">
 						<h2>Need help?</h2>
 						<p>Questions? We've got answers.</p>
 						<a href="customer-service.php" class="btn btn-default">Get answers <i></i></a>
 					</div>
-					<div class="explore-our-system corner-stripes-small inner col-xs-12 col-lg-4">
+					<div class="explore-our-system corner-stripes-small inner col-xs-12 col-md-4">
 						<h2>Explore our system</h2>
 						<a href="nexsense-system.php" class="btn btn-default">Explore now <i></i></a>
 					</div>
