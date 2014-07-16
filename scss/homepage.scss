@@ -119,14 +119,45 @@
 		.built-to-fit {
 			background-size: 640px 315px;
 			background-position: right bottom;
+			.inner {
+				height: 340px;
+				padding-top: 50px;
+			}
 		}
 		.need-help {
 			background-size: 640px 315px;
 			background-position: right bottom;
+			.inner {
+				height: 340px;
+				padding-top: 50px;
+			}
 		}
-		.inner {
-			height: 340px;
-			padding-top: 50px;
+	}
+}
+@media (min-width: $screen-xxl-min) {
+	.primary-section {
+		h2 {
+			font-size: 36px;
+		}
+		p {
+			font-size: 20px;
+			margin-bottom: 30px;
+		}
+		.built-to-fit {
+			background-size: 640px 315px;
+			background-position: right bottom;
+			.inner {
+				height: 320px;
+				padding-top: 50px;
+			}
+		}
+		.need-help {
+			background-size: 640px 315px;
+			background-position: right bottom;
+			.inner {
+				height: 320px;
+				padding-top: 50px;
+			}
 		}
 	}
 }
@@ -215,9 +246,7 @@
 @media (min-width: $screen-xl-min) {
 	.secondary-section {
 		h2 {
-			font-size: 30px;
 			width: 100%;
-			margin: 0 auto;
 		}
 		p {
 			margin-top: 10px;
@@ -228,6 +257,30 @@
 		.inner {
 			padding-top: 50px;
 			padding-bottom: 60px;
+		}
+	}
+}
+@media (min-width: $screen-xxl-min) {
+	.secondary-section {
+		h2 {
+			font-size: 36px;
+			width: 80%;
+		}
+		p {
+			font-size: 18px;
+			margin-top: 10px;
+		}
+		.btn {
+			margin-top: 25px;
+		}
+		.inner {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+		.how-we-help {
+			.btn {
+				margin-top: 31px;
+			}
 		}
 	}
 }

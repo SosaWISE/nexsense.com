@@ -1,6 +1,6 @@
 <div class="hero-slider">
-	<div class="container-fluid">
-		<div class="row-fluid">
+	<div class="container">
+		<div class="row">
 
 			<div class="slide slide-0">
 				<div class="copy col-xs-12 col-sm-6">
@@ -13,7 +13,7 @@
 				</div>
 				<div class="product-inner col-xs-12 col-sm-6">
 					<div class="row">
-						<div class="product-image col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11">
+						<div class="product-image col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
 						<a href="safety-doesnt-just-happen.php"><img src="assets/images/cta-product-panel.png" width="100%"></a>
 						</div>
 					</div>
@@ -31,7 +31,7 @@
 				</div>
 				<div class="product-inner col-xs-12 col-sm-6">
 					<div class="row">
-						<div class="product-image col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11">
+						<div class="product-image col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
 							<a href="life-doesnt-stand-still.php"><img src="assets/images/cta-user-mobile.png" width="100%"></a>
 						</div>
 					</div>
@@ -49,7 +49,7 @@
 				</div>
 				<div class="product-inner col-xs-12 col-sm-6">
 					<div class="row">
-						<div class="product-image col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11">
+						<div class="product-image col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
 							<a href="cutting-edge.php"><img src="assets/images/cta-product-camera-black.png" width="100%"></a>
 						</div>
 					</div>
