@@ -7,19 +7,19 @@
 // -------------------------
 
 p {
+  font-size: 14px;
   margin: 0 0 ($line-height-computed / 2);
 }
-.lead {
-  margin-bottom: $line-height-computed;
-  font-size: floor($font-size-base * 1.15);
-  font-weight: 200;
-  line-height: 1.4;
-
-  @media (min-width: $screen-sm-min) {
-    font-size: ($font-size-base * 1.5);
+@media (min-width: $screen-md-min) {
+  p {
+    font-size: 16px;
   }
 }
-
+@media (min-width: $screen-xl-min) {
+  p {
+    font-size: 18px;
+  }
+}
 
 // Alignment
 .text-left           { text-align: left; }

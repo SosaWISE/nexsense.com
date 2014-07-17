@@ -1,14 +1,14 @@
 <?php include('header.php');?>
-	<div class="product-sub life-doesnt-stand-still">
+	<div class="product-sub cutting-edge">
 		<div class="intro">
 			<div class="container">
 				<div class="row">
-					<div class="intro-copy col-xs-12 col-sm-6">
+					<div class="intro-copy col-xs-12 col-md-6">
 						<h2>Cutting edge that actually gives you an edge.</h2>
 						<p>We don’t develop great technology because we like gadgets. We do it because it should make your life simpler, keep you safer, and let you do more. From infrared, motion activated cameras to smoke detectors that dial up the fire department when you’re gone, we’re constantly looking for what’s next.</p>
 					</div>
-					<div class="intro-photo col-xs-12 col-sm-6">
-						<img src="assets/images/woman-and-man.png" width="100%" />
+					<div class="intro-photo col-xs-12 col-md-6">
+						<img class="photo" src="assets/images/woman-and-man.png" />
 					</div>
 				</div>
 			</div>
@@ -21,10 +21,11 @@
 						<img class="product-photo" src="assets/images/product-camera.png" />
 					</div>
 					<div class="col-md-6">
-						<blockquote>Like eyes in the<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;back of your head.</blockquote>
+						<blockquote>Like eyes in the back of your head.</blockquote>
 						<p>Our motion activated, infrared cameras give you everything you need to check in on your home from anywhere. Daylight, low light, they shoot in 720 HD, so you don’t have to worry about grainy images or mistaking your teenage son for the neighbor’s cat.</p>
 						<div class="cta">
-							<a href="choose-your-system.php" class="btn btn-default">Learn More <i></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
+							<a href="choose-your-system.php" class="btn btn-default">Learn More <i></i></a>
+							<a class="btn btn-secondary" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
 						</div>
 					</div>
 				</div>

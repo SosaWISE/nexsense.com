@@ -133,5 +133,13 @@
 			</div>
 		</div>
 	</div>
+	<div id="mobile-navigation" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content mobile-navigation">
+				<span style="position: absolute; color: white; cursor: pointer; top: 10px; right: 20px; font-size: 24px; margin-top: 0; margin-bottom: 0;" data-dismiss="modal">&times;</span>
+				<?php include('navigation.php');?>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

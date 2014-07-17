@@ -13,9 +13,6 @@
 	<script src="assets/js/nexsense.min.js"></script>
 </head>
 <body>
-	<nav class="side-navigation" style="display: none;">
-		<?php include('navigation.php');?>
-	</nav>
 	<div class="main">
 		<header class="global-header hidden-xs hidden-sm hidden-md visible-lg visible-xl visible-xxl">
 			<div class="container-fluid">
@@ -27,6 +24,6 @@
 			</div>
 		</header>
 		<header class="global-header visible-xs visible-sm visible-md hidden-lg hidden-xl hidden-xxl">
-			<span class="btn btn-default icon-menu"></span>
+			<span class="btn btn-default icon-menu" data-toggle="modal" data-target="#mobile-navigation"></span>
 			<a href="index.php" class="logo"></a>
 		</header>
