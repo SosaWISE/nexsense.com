@@ -1,8 +1,8 @@
-.section {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
 .customer-service {
+	.section {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 	h2 {
 		font-size: 30px;
 		color: $gray-light;
@@ -11,49 +11,49 @@
 		font-size: 20px;
 		color: $brand-primary;
 		position: relative;
-		j {
-			width: 22px;
-			height: 22px;
-  			background: url('../images/caret-collapse.png') no-repeat;
-			background-size: 20px 42px;
-			background-position: 0 -22px;
-			position: absolute;
-			top: 1px;
-			left: -26px;
-			&.active {
-				background-position: 0 0;
-			}
-		}
 	}
-	.faq-section {
+	.faq {
 		h3 {
 			margin-left: 26px;
+			j {
+				width: 22px;
+				height: 22px;
+	  			background: url('../images/caret-collapse.png') no-repeat;
+				background-size: 20px 42px;
+				background-position: 0 -22px;
+				position: absolute;
+				top: 1px;
+				left: -26px;
+				&.active {
+					background-position: 0 0;
+				}
+			}
 		}
 		h3, h4 {
 			cursor: pointer;
 		}
-	}
-	.faq-question {
-		h4 {
-			font-size: 18px;
-			color: $gray-light;
-			&.active {
-				color: $gray-dark;
+		.faq-question {
+			h4 {
+				font-size: 18px;
+				color: $gray-light;
+				&.active {
+					color: $gray-dark;
+				}
 			}
+			margin-left: 36px;
+			overflow: hidden;
+			display: none;
 		}
-		margin-left: 36px;
-		overflow: hidden;
-		display: none;
-	}
-	.faq-answer {
-		p, ol {
-			font-size: 16px;
+		.faq-answer {
+			p, ol {
+				font-size: 16px;
+			}
+			margin-left: 10px;
+			overflow: hidden;
+			display: none;
 		}
-		margin-left: 10px;
-		overflow: hidden;
-		display: none;
 	}
-	.warranty-section {
+	.warranty {
 		&.inactive {
 			background-color: $gray-lightest;
 		}
@@ -66,47 +66,108 @@
 		p {
 			font-size: 18px;
 		}
-	}
-	.warranty-bottom {
-		margin-top: 30px;
+		.row {
+			margin-bottom: 30px;
+		}
 	}
 }
-@media (min-width: $screen-sm-min) {
-	.section {
-		padding-top: 60px;
-		padding-bottom: 60px;
+@media (min-width: $screen-md-min) {
+	.customer-service {
+		h2 {
+			font-size: 32px;
+		}
+		h3 {
+			font-size: 22px;
+		}
+		.faq {
+			h3 {
+				margin-left: 32px;
+				j {
+					width: 26px;
+					height: 26px;
+					background-size: 26px 56px;
+					background-position: 0 -30px;
+					top: -2px;
+					left: -32px;
+				}
+			}
+			.faq-question {
+				h4 {
+					font-size: 20px;
+				}
+				margin-left: 40px;
+			}
+			.faq-answer {
+				margin-left: 14px;
+			}
+		}
 	}
+}
+@media (min-width: $screen-lg-min) {
+	.customer-service {
+		h2 {
+			font-size: 36px;
+		}
+		h3 {
+			font-size: 26px;
+		}
+		.faq {
+			h3 {
+				margin-left: 44px;
+				j {
+					top: 0px;
+					left: -44px;
+				}
+			}
+			.faq-question {
+				h4 {
+					font-size: 22px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: $screen-xl-min) {
 	.customer-service {
 		h2 {
 			font-size: 48px;
-			color: $gray-light;
 		}
 		h3 {
 			font-size: 30px;
-			color: $brand-primary;
-			j {
-				width: 35px;
-				height: 35px;
-				background-position: 0 -40px;
+		}
+		.faq {
+			h3 {
+				margin-left: 54px;
+				j {
+					width: 35px;
+					height: 35px;
+					background-size: 35px 75px;
+					background-position: 0 -40px;
+					top: -1px;
+					left: -50px;
+				}
+			}
+			.faq-question {
+				h4 {
+					font-size: 24px;
+				}
+				margin-left: 72px;
+			}
+			.faq-answer {
+				margin-left: 24px;
 			}
 		}
 	}
-	.faq-section {
-		h3, h4 {
-			cursor: pointer;
-		}
-	}
-	.faq-question {
-		h4 {
-			font-size: 24px;
-			color: $gray-light;
-			&.active {
-				color: $gray-dark;
+
+
+	/* 
+	.faq {
+		.faq-question {
+			h4 {
+				font-size: 24px;
 			}
+			margin-left: 60px;
 		}
-		margin-left: 10%;
-		overflow: hidden;
-		display: none;
 	}
 	.faq-answer {
 		p, ol {
@@ -132,5 +193,5 @@
 	}
 	.warranty-bottom {
 		margin-top: 30px;
-	}
+	} */
 }

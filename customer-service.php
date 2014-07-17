@@ -1,8 +1,8 @@
 <?php include('header.php');?>
 	<div class="hero-mini"></div>
 	<div class="customer-service">
-		<div class="faq-section section">
-			<div class="container">
+		<div class="container">
+			<div class="faq section">
 				<div class="row">
 					<div class="col-xs-12">
 						<h2>FAQs</h2>
@@ -158,9 +158,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="warranty-section section">
-			<div class="container">
+			<div class="warranty section">
 				<div class="row">
 					<div class="col-xs-12">
 						<h2>Warranty</h2>
@@ -168,15 +166,15 @@
 					</div>
 				</div>
 				<div class="warranty-bottom row">
-					<div class="col-xs-12 col-sm-6">
+					<div class="col-xs-12 col-md-6">
 						<h3>Lifetime<br>Maintenance Warranty</h3>
 						<p>You shouldn’t have to worry about repair and maintenance services. That’s why we take care of them for you—free for the first six months and a nominal trip fee per visit thereafter.</p>
 					</div>
-					<div class="col-xs-12 col-sm-6">
+					<div class="col-xs-12 col-md-6">
 						<h3>Lifetime<br>Move Warranty</h3>
 						<p>Moving to a new home? Nexense customers who are in good standing and moving to a service area are eligible to receive a new 8-point system for their new home after 12 months of service. Just give us a call at 385.375.8150 or email us at <a href="mailto:support@nexsense.com">support@nexsense.com</a> 30 days prior to your move.</p>
 					</div>
-					<div class="col-xs-12 col-sm-6">
+					<div class="col-xs-12 col-md-6">
 						<h3>Lifetime<br>Equipment Warranty</h3>
 						<p>We offer a product you can depend on, and we back it up with a lifetime equipment warranty, repairing or replacing any defective equipment we install—free of charge.</p>
 					</div>
