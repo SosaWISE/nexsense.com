@@ -1,42 +1,55 @@
 .choose-your-system {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	ul {
 		padding: 0;
 		margin: 0;
 	}
 	li {
 		list-style: none;
-		padding: 12px 0;
+		padding: 6px 0;
 		border-bottom: 1px solid $gray-lighter;
+	}
+	p, ul {
+		font-size: 14px;
 	}
 }
 .choose-your-system-intro {
-	padding: 30px 0;
+	padding: 15px 0 0 0;
+	h1 {
+		font-size: 36px;
+	}
 }
 .options-intro {
 	text-align: center;
 	h2 {
-		font-size: 42px;
+		font-size: 24px;
 		color: $brand-primary;
 		text-transform: lowercase;
+		position: relative;
+		j {
+			width: 22px;
+			height: 22px;
+			background: url('../images/caret-collapse.png') no-repeat;
+			background-size: 20px 42px;
+			background-position: 0 -22px;
+			display: inline-block;
+			vertical-align: -3px;
+			&.active {
+				background-position: 0 0;
+			}
+		}
 	}
 	.price-block {
 		display: block;
 		background: $brand-secondary;
 		color: $white;
-		font-size: 24px;
+		font-size: 18px;
 		padding: 10px 0;
 		margin-bottom: 10px;
 		cursor: pointer;
 	}
 	p {
-		font-size: 18px;
 		height: 100px;
-	}
-}
-.what-you-get {
-	p {
-		height: 225px;
 	}
 }
 .what-you-get-toggle {
@@ -52,13 +65,14 @@
 	cursor: pointer;
 }
 .add-ons {
-	height: 200px;
-	padding: 20px 0;
-	background: url('../images/hero-yellow-bg.png') no-repeat center right;
+	overflow: hidden;
+	padding: 10px 0 20px 0;
+	background: url('../images/hero-yellow-bg.png') no-repeat;
+	background-size: cover;
 	margin: 40px 0;
 	text-align: center;
 	h2 {
-		font-size: 48px;
+		font-size: 20px;
 		color: $white;
 		text-transform: lowercase;
 	}
@@ -69,4 +83,85 @@
 .get-started {
 	margin: 40px 0;
 	text-align: center;
+}
+
+@media (min-width: $screen-xl-min) {
+	.choose-your-system {
+		margin-bottom: 60px;
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			list-style: none;
+			padding: 12px 0;
+			border-bottom: 1px solid $gray-lighter;
+		}
+	}
+	.choose-your-system-intro {
+		padding: 30px 0;
+		h1 {
+			font-size: 48px;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+	.options-intro {
+		text-align: center;
+		h2 {
+			font-size: 42px;
+			color: $brand-primary;
+			text-transform: lowercase;
+		}
+		.price-block {
+			display: block;
+			background: $brand-secondary;
+			color: $white;
+			font-size: 24px;
+			padding: 10px 0;
+			margin-bottom: 10px;
+			cursor: pointer;
+		}
+		p {
+			font-size: 18px;
+			height: 100px;
+		}
+	}
+	.what-you-get {
+		p {
+			height: 225px;
+		}
+	}
+	.what-you-get-toggle {
+		text-align: center;
+		display: block;
+		height: 50px;
+		margin-top: 20px;
+		margin-bottom: 40px;
+		font-size: 30px;
+		font-family: $font-family-secondary;
+		color: $brand-primary;
+		text-transform: lowercase;
+		cursor: pointer;
+	}
+	.add-ons {
+		height: 200px;
+		padding: 20px 0;
+		background: url('../images/hero-yellow-bg.png') no-repeat center right;
+		margin: 40px 0;
+		text-align: center;
+		h2 {
+			font-size: 48px;
+			color: $white;
+			text-transform: lowercase;
+		}
+		p {
+			color: $brand-primary;
+		}
+	}
+	.get-started {
+		margin: 40px 0;
+		text-align: center;
+	}
 }
