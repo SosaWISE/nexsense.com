@@ -1,3 +1,4 @@
+<?php $title="contact us | nexsense"; ?>
 <?php include('header.php');?>
 	<div class="hero-mini"></div>
 	<div class="contact-us">

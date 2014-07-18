@@ -1,3 +1,4 @@
+<?php $title="choose your system | nexsense"; ?>
 <?php include('header.php');?>
 	<div class="choose-your-system">
 		<div class="hero-mini extended">

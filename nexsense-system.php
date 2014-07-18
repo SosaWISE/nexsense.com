@@ -1,3 +1,4 @@
+<?php $title="more than an alarm | nexsense"; ?>
 <?php include('header.php');?>
 	<?php include('hero-slider.php');?>
 	<div class="nexsense-system">

@@ -1,3 +1,4 @@
+<?php $title="like eyes in the back of your head | nexsense"; ?>
 <?php include('header.php');?>
 	<div class="product-sub cutting-edge">
 		<div class="intro">

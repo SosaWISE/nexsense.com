@@ -1,4 +1,5 @@
-<?php include('header.php');?>
+<?php $title="safety in motion | nexsense"; ?>
+<?php include('header.php'); ?>
 	<div class="product-sub life-doesnt-stand-still">
 		<div class="intro">
 			<div class="container">

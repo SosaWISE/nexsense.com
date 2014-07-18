@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="favicon.png">
 
-	<title>nexsense</title>
+	<title><?php echo $title; ?></title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600|Montserrat:400' rel='stylesheet' type='text/css'>
 	<link href="assets/css/style.css" rel="stylesheet">
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>

@@ -1,3 +1,4 @@
+<?php $title="for a home as comfortable as it is simple | nexsense"; ?>
 <?php include('header.php');?>
 	<div class="product-sub safety-doesnt-just-happen">
 		<div class="intro">

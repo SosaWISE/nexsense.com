@@ -1,3 +1,4 @@
+<?php $title="nexsense | ready for next"; ?>
 <?php include('header.php');?>
 		<?php include('hero-slider.php');?>
 		<div class="primary-section clearfix">
