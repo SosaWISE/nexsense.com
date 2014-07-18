@@ -22,7 +22,7 @@
 							<div class="inner col-sm-10 col-sm-offset-1">
 								<h2>Live with no strings attached.</h2>
 								<p>You’re here. You’re there. You’re all over the place. With Nexsense, you get home security that fits the way you live—no matter where life takes you.</p>
-								<a href="life-doesnt-stand-still class="btn btn-default">Here's How <i></i></a>
+								<a href="life-doesnt-stand-still" class="btn btn-default">Here's How <i></i></a>
 							</div>
 						</div>
 					</div>
@@ -38,7 +38,7 @@
 							<div class="inner col-sm-10 col-sm-offset-1">
 								<h2>Protects your family the same way you would.</h2>
 								<p>Home security should do more than just work. It should see what you can’t and hear what you don’t.</p>
-								<a href="safety-doesnt-just-happen class="btn btn-default">Learn More <i></i></a>
+								<a href="safety-doesnt-just-happen" class="btn btn-default">Learn More <i></i></a>
 							</div>
 						</div>
 					</div>
@@ -54,7 +54,7 @@
 							<div class="inner col-sm-10 col-sm-offset-1">
 								<h2>Now you’re ready for next.</h2>
 								<p>Great technology is at its best when it gives you more control and peace of mind for whatever life throws your way.</p>
-								<a href="cutting-edge class="btn btn-default">Learn More <i></i></a>
+								<a href="cutting-edge" class="btn btn-default">Learn More <i></i></a>
 							</div>
 						</div>
 					</div>
