@@ -6,10 +6,10 @@
 						<div class="sub-section">
 							<span class="heading">Contact Us</span>
 							<ul>
-								<li><span class="icon icon-home"> 722 East Technology Ave</li>
+								<li><span class="icon icon-home"></span> 722 East Technology Ave</li>
 								<li class="indent">Building E, ste. 1100</li>
 								<li class="indent">Orem, UT 84097</li>
-								<li><span class="icon icon-phone"> 1.800.466.6397</li>
+								<li><span class="icon icon-phone"></span> 1.800.466.6397</li>
 							</ul>
 							<div>
 								<span class="sub-heading">Billing</span>
@@ -21,15 +21,15 @@
 							<div>
 								<span class="sub-heading">Sales</span>
 								<ul>
-									<li><span class="icon icon-email"> sales@nexsense.com</li>
-									<li><span class="icon icon-phone"> 385.375.8120</li>
+									<li><span class="icon icon-email"></span> sales@nexsense.com</li>
+									<li><span class="icon icon-phone"></span> 385.375.8120</li>
 								</ul>
 							</div>
 							<div>
 								<span class="sub-heading">Customer Service &amp; Tech Support</span>
 								<ul>
-									<li><span class="icon icon-email"> support@nexsense.com</li>
-									<li><span class="icon icon-phone"> 385.375.8150</li>
+									<li><span class="icon icon-email"></span> support@nexsense.com</li>
+									<li><span class="icon icon-phone"></span> 385.375.8150</li>
 								</ul>
 							</div>
 						</div>
