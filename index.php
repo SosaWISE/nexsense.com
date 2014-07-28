@@ -16,7 +16,7 @@
 					<div class="need-help col-xs-12 col-md-6">
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">
-								<h2>need help?</h2>
+								<h2>Need help?</h2>
 								<p>Find out how Nexsense can help you save.</p>
 								<a href="customer-service" class="btn btn-default">Learn More <i></i></a>
 							</div>

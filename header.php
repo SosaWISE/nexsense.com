@@ -18,7 +18,7 @@
 			<div class="container-fluid">
 				<a href="index" class="logo"></a>
 				<nav class="top-navigation">
-					<span class="contact-us">contact us today 1.800.466.3973</span> | <a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
+					<span class="contact-us">Contact us today 1.800.466.3973</span> | <a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
 					<?php include('navigation.php');?>
 				</nav>
 			</div>

@@ -13,7 +13,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="choose-your-system-intro text-center col-xs-12">
-						<h1>explore your options</h1>
+						<h1>Explore your options</h1>
 						<p>There’s a right solution for every home.</p>
 					</div>
 				</div>

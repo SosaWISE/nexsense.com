@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="contact-intro col-xs-12">
-					<h1>contact us</h1>
+					<h1>Contact Us</h1>
 					<p>Technology is only as good as the people behind it. And being there for your questions, concerns, and comments is a job we take a lot of pride in.</p>
 				</div>
 			</div>

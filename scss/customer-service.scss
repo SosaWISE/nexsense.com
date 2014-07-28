@@ -57,9 +57,6 @@
 		&.inactive {
 			background-color: $gray-lightest;
 		}
-		h2, h3 {
-			text-transform: lowercase;
-		}
 		p.intro {
 			font-size: 18px;
 		}
@@ -158,40 +155,4 @@
 			}
 		}
 	}
-
-
-	/* 
-	.faq {
-		.faq-question {
-			h4 {
-				font-size: 24px;
-			}
-			margin-left: 60px;
-		}
-	}
-	.faq-answer {
-		p, ol {
-			font-size: 18px;
-		}
-		margin-left: 10%;
-		overflow: hidden;
-		display: none;
-	}
-	.warranty-section {
-		&.inactive {
-			background-color: $gray-lightest;
-		}
-		h2, h3 {
-			text-transform: lowercase;
-		}
-		p.intro {
-			font-size: 30px;
-		}
-		p {
-			font-size: 18px;
-		}
-	}
-	.warranty-bottom {
-		margin-top: 30px;
-	} */
 }

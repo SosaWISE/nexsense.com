@@ -1,7 +1,6 @@
 .primary-section {
 	h2 {
 		font-size: 28px;
-		text-transform: lowercase;
 		color: $brand-primary;
 	}
 	p {
@@ -169,7 +168,6 @@
 		font-size: 28px;
 		width: 80%;
 		margin: 0 auto;
-		text-transform: lowercase;
 		color: $brand-primary;
 	}
 	p {
@@ -245,9 +243,6 @@
 }
 @media (min-width: $screen-xl-min) {
 	.secondary-section {
-		h2 {
-			width: 100%;
-		}
 		p {
 			margin-top: 10px;
 		}
@@ -264,7 +259,6 @@
 	.secondary-section {
 		h2 {
 			font-size: 36px;
-			width: 80%;
 		}
 		p {
 			font-size: 18px;
