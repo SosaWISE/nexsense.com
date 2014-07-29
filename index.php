@@ -8,7 +8,7 @@
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>Safety that fits like a glove</h2>
-								<p>Build a security system that fits your home and your lifestyle.</p>
+								<p>Safety solutions that match your home and your lifestyle.</p>
 								<a href="choose-your-system" class="btn btn-default">Get started <i></i></a>
 							</div>
 						</div>
@@ -17,7 +17,7 @@
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2>Need help?</h2>
-								<p>Find out how Nexsense can help you save.</p>
+								<p>Questions? We’ve got answers.</p>
 								<a href="customer-service" class="btn btn-default">Learn More <i></i></a>
 							</div>
 						</div>

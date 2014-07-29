@@ -6,7 +6,7 @@
 			<div class="row">
 				<div class="contact-intro col-xs-12">
 					<h1>Contact Us</h1>
-					<p>Technology is only as good as the people behind it. And being there for your questions, concerns, and comments is a job we take a lot of pride in.</p>
+					<p>Technology is only as good as the people behind it. Being there for your questions, concerns, and comments is a job we take seriously.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -31,8 +31,8 @@
 					</div>
 				</div>
 				<div class="get-in-touch col-xs-12 col-md-6">
-					<h2>Get in touch</h2>
-					<p>We'd love to hear from you. Fill out the form below, and we'll respond in 24 hours or less.</p>
+					<h2>Send us a message.</h2>
+					<p>We’d love to hear from you. Fill out the form below, and we’ll respond in 24 hours or less.</p>
 					<form id="contact-form" class="contact-form" role="form">
 						<div class="form-group">
 							<label class="hide" for="name">Name*</label>

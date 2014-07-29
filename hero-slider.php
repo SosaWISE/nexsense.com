@@ -3,8 +3,8 @@
 		<div class="copy col-xs-12 col-sm-6">
 			<div class="row">
 				<div class="copy-inner col-xs-12 col-sm-11 col-sm-offset-1 col-lg-10 col-lg-offset-2">
-					<h2>Safe doesn’t happen by accident</h2>
-					<p>Your home security system just got a lot smarter.</p>
+					<h2>Safe doesn’t happen by accident.</h2>
+					<p>Smarter security makes smarter homes.</p>
 				</div>
 			</div>
 		</div>
@@ -37,7 +37,7 @@
 		<div class="copy col-xs-12 col-sm-6">
 			<div class="row">
 				<div class="copy-inner col-xs-12 col-sm-11 col-sm-offset-1 col-lg-10 col-lg-offset-2">
-					<h2>Like having eyes in the back of your head</h2>
+					<h2>Like having eyes in the back of your head.</h2>
 					<p>Get live, HD video instantly with Nexsense motion detecting cameras.</p>
 				</div>
 			</div>

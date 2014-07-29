@@ -23,7 +23,7 @@
 					</div>
 					<div class="col-md-6">
 						<blockquote>Safety in motion</blockquote>
-						<p>Kids getting home from school? Forget to lock the door? Nexsense makes sure you’re home even when you can’t be. Turn your lights off and on, unlock your doors, and so much more with Nexsense home protection. We bring your home to life.</p>
+						<p>Kids getting home from school? Forget to shut the garage door? Nexsense makes sure you’re home even when you can’t be. Turn your lights off and on, unlock your doors, and so much more with Nexsense home automation.</p>
 						<div class="cta">
 							<a href="choose-your-system" class="btn btn-default">Learn More <i></i></a>
 							<a class="btn btn-secondary" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>

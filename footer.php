@@ -1,42 +1,24 @@
 		<footer class="global-footer">
 			<div class="container">
 				<div class="row">
-					<div class="top-line col-xs-12"></div>
-					<div class="contact col-xs-12 col-lg-4">
-						<div class="sub-section">
-							<span class="heading">Contact Us</span>
-							<ul>
-								<li><span class="icon icon-home"></span> 722 East Technology Ave</li>
-								<li class="indent">Building E, ste. 1100</li>
-								<li class="indent">Orem, UT 84097</li>
-								<li><span class="icon icon-phone"></span> 1.800.466.6397</li>
-							</ul>
-							<div>
-								<span class="sub-heading">Billing</span>
-								<ul>
-									<li><span class="icon icon-email"></span> billing@nexsense.com</li>
-									<li><span class="icon icon-phone"></span> 385.375.8150</li>
-								</ul>
-							</div>
-							<div>
-								<span class="sub-heading">Sales</span>
-								<ul>
-									<li><span class="icon icon-email"></span> sales@nexsense.com</li>
-									<li><span class="icon icon-phone"></span> 385.375.8120</li>
-								</ul>
-							</div>
-							<div>
-								<span class="sub-heading">Customer Service &amp; Tech Support</span>
-								<ul>
-									<li><span class="icon icon-email"></span> support@nexsense.com</li>
-									<li><span class="icon icon-phone"></span> 385.375.8150</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="copyright col-xs-12">
+					<div class="copyright col-xs-12 col-md-4">
 						© 2014 Nexsense &nbsp;|&nbsp; Ready For Next
 					</div>
+					<div class="contact col-xs-12 col-md-8">
+						<ul>
+							<li><a href="contact">Contact Us</a></li>
+							<li><a href="contact">Billing</a></li>
+							<li><a href="contact">Sales</a></li>
+							<li><a href="contact">Customer Service &amp; Tech Support</a></li>
+							<li>
+								<a href="#"><span class="social-icon facebook"></span></a>
+								<a href="#"><span class="social-icon twitter"></span></a>
+								<a href="#"><span class="social-icon instagram"></span></a>
+								<a href="#"><span class="social-icon gplus"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</footer>
 	</div>
