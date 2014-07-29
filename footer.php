@@ -1,22 +1,25 @@
 		<footer class="global-footer">
-			<div class="container">
-				<div class="row">
-					<div class="copyright col-xs-12 col-md-3">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="copyright col-xs-12 col-lg-4">
 						© 2014 Nexsense &nbsp;|&nbsp; Ready For Next
 					</div>
-					<div class="contact col-xs-12 col-md-9">
+					<div class="contact col-lg-8 hidden-xs hidden-sm hidden-md visible-lg visible-xl visible-xxl">
 						<ul>
 							<li><a href="contact">Contact Us</a></li>
 							<li><a href="contact">Billing</a></li>
 							<li><a href="contact">Sales</a></li>
 							<li><a href="contact">Customer Service &amp; Tech Support</a></li>
-							<li class="last">
+							<li>
 								<a href="#"><span class="social-icons facebook"></span></a>
 								<a href="#"><span class="social-icons twitter"></span></a>
 								<a href="#"><span class="social-icons instagram"></span></a>
 								<a href="#"><span class="social-icons gplus last"></span></a>
 							</li>
 						</ul>
+					</div>
+					<div class="visible-xs visible-sm visible-md hidden-lg hidden-xl hidden-xxl">
+						<span class="btn btn-default icon-menu" data-toggle="modal" data-target="#mobile-navigation"></span>
 					</div>
 				</div>
 			</div>

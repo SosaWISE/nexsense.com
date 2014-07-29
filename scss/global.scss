@@ -8,11 +8,6 @@
 	background: $white;
 	overflow: hidden;
 	@include box-shadow(0 0 20px 0 rgba(0,0,0,0.25));
-	&.active-menu {
-		position: absolute;
-		top: 0;
-		left: 200px;
-	}
 }
 
 @media (min-width: $screen-sm-min) {
@@ -47,17 +42,6 @@
 	border-bottom: 6px solid $brand-secondary;
 	position: relative;
 	overflow: hidden;
-	.icon-menu {
-		color: $gray-light;
-		background: $white;
-		border: 1px solid $gray-light;
-		font-size: 24px;
-		position: absolute;
-		padding: 8px;
-		top: 10px;
-		left: 10px;
-		border-radius: 6px;
-	}
 	.logo {
 		width: 199px;
 		height: 30px;
@@ -67,6 +51,11 @@
 		background: url('../images/nexsense-logo.png') no-repeat center center;
 		background-size: 199px 30px;
 		display: block;
+	}
+	.icon-menu {
+		position: absolute;
+		top: 10px;
+		left: 10px;
 	}
 }
 @media (min-width: $screen-lg-min) {
@@ -406,36 +395,47 @@
 	background: url('../images/hero-mini-house.png') no-repeat center center;
 }
 .global-footer {
-	font-size: 16px;
-	padding: 24px 0 48px 0;
+	font-size: 14px;
+	padding: 14px 0 18px 0;
+	overflow: hidden;
 	background: $gray-lightest;
+	border-top: 1px solid $gray;
+	position: relative;
 	a {
+		font-size: 14px;
 		color: $text-color;
 	}
 	ul {
 		padding: 0;
 	}
 	li {
-		font-size: 16px;
 		list-style: none;
 		display: inline-block;
 		vertical-align: middle;
-		padding-left: 14px;
-		padding-right: 20px;
+		padding-left: 8px;
+		padding-right: 14px;
 		border-right: 1px solid $text-color;
-		&.last {
+		&:last-child {
 			border-right: none;
+			padding-right: 0;
 		}
 	}
+	.icon-menu {
+		position: absolute;
+		top: 14px;
+		right: 14px;
+		font-size: 14px;
+		padding: 6px;
+	}
 	.copyright {
-		margin-top: 4px;
+		margin-top: 6px;
 	}
 	.contact {
 		text-align: right;
 	}
 	.social-icons {
 		height: 21px;
-		margin-right: 14px;
+		margin-right: 12px;
 		background: url('../images/social-sprite.png') no-repeat;
 		display: inline-block;
 		float: left;
@@ -460,6 +460,18 @@
 		}
 	}
 }
+@media (min-width: $screen-lg-min) {
+	.global-footer {
+		font-size: 16px;
+		padding: 24px 0 16px 0;
+		a {
+			font-size: 16px;
+		}
+		.copyright {
+			margin-top: 1px;
+		}
+	}
+}
 .corner-stripes {
 	background: url('../images/corner-stripes.png') no-repeat top left;
 	background-size: 100px 100px;
@@ -467,6 +479,14 @@
 .corner-stripes-small {
 	background: url('../images/corner-stripes.png') no-repeat top left;
 	background-size: 80px 80px;
+}
+.icon-menu {
+	color: $gray-light;
+	background: $white;
+	border: 1px solid $gray-light;
+	font-size: 24px;
+	padding: 8px;
+	border-radius: 6px;
 }
 .mobile-navigation {
 	a {
