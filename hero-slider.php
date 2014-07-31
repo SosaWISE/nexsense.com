@@ -11,7 +11,7 @@
 		<div class="product-inner col-xs-12 col-sm-6">
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
-					<a class="product-image cta-product-panel" href="safety-doesnt-just-happen"></a>
+					<a class="product-image cta-product-panel" href="safety-doesnt-just-happen"><span class="learn-more">Learn more <i></i></span></a>
 				</div>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 		<div class="product-inner col-xs-12 col-sm-6">
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
-					<a class="product-image cta-user-mobile" href="life-doesnt-stand-still"></a>
+					<a class="product-image cta-user-mobile" href="life-doesnt-stand-still"><span class="learn-more">Learn more <i></i></span></a>
 				</div>
 			</div>
 		</div>
@@ -45,7 +45,7 @@
 		<div class="product-inner col-xs-12 col-sm-6">
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
-					<a class="product-image cta-product-camera" href="cutting-edge"></a>
+					<a class="product-image cta-product-camera" href="cutting-edge"><span class="learn-more">Learn more <i></i></span></a>
 				</div>
 			</div>
 		</div>

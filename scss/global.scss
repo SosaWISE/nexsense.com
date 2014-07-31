@@ -161,6 +161,25 @@
 		height: 230px;
 		display: block;
 		overflow: hidden;
+		position: relative;
+	}
+	.learn-more {
+		font-size: 12px;
+		font-family: $font-family-secondary;
+		text-transform: uppercase;
+		position: absolute;
+		top: 186px;
+		left: 64px;
+		i {
+			position: relative;
+			top: 4px;
+			display: inline-block;
+			width: 14px;
+			height: 16px;
+			background: url('../images/caret-sprite.png') no-repeat 0 0;
+			background-size: 14px 48px;
+			line-height: 1;
+		}
 	}
 	.cta-product-panel {
 		background: url('../images/cta-product-panel-sm.png') no-repeat;
@@ -210,6 +229,11 @@
 			width: 200px;
 			height: 200px;
 		}
+		.learn-more {
+			font-size: 10px;
+			top: 160px;
+			left: 56px;
+		}
 		.slide-0 {
 			.copy-inner {
 				padding-top: 40px;
@@ -248,17 +272,17 @@
 			width: 316px;
 			height: 316px;
 		}
-		.cta-product-panel {
-			background: url('../images/cta-product-panel.png') no-repeat;
-			background-size: cover;
-		}
-		.cta-user-mobile {
-			background: url('../images/cta-user-mobile.png') no-repeat;
-			background-size: cover;
-		}
-		.cta-product-camera {
-			background: url('../images/cta-product-camera.png') no-repeat;
-			background-size: cover;
+		.learn-more {
+			font-size: 14px;
+			top: 260px;
+			left: 100px;
+			i {
+				top: 5px;
+			    width: 17px;
+			    height: 19px;
+				background: url('../images/caret-sprite.png') no-repeat 0 0;
+				background-size: 17px 60px;
+			}
 		}
 		.slide-0 {
 			.copy-inner {
@@ -293,9 +317,24 @@
 			padding-top: 40px;
 			padding-bottom: 40px;
 		}
+		.learn-more {
+			display: none;
+		}
 		.product-image {
 			width: 417px;
 			height: 417px;
+		}
+		.cta-product-panel {
+			background: url('../images/cta-product-panel.png') no-repeat;
+			background-size: cover;
+		}
+		.cta-user-mobile {
+			background: url('../images/cta-user-mobile.png') no-repeat;
+			background-size: cover;
+		}
+		.cta-product-camera {
+			background: url('../images/cta-product-camera.png') no-repeat;
+			background-size: cover;
 		}
 		.slide-0 {
 			.copy-inner {
@@ -398,8 +437,6 @@
 	font-size: 14px;
 	padding: 14px 0 18px 0;
 	overflow: hidden;
-	background: $gray-lightest;
-	border-top: 1px solid $gray;
 	position: relative;
 	a {
 		font-size: 14px;
