@@ -56,7 +56,7 @@
 				currentPosition = $(this).attr('rel');
 
 				$(this).addClass('active').siblings('.dot').removeClass('active');
-				$('.slide-' + $(this).attr('rel') + '').css('opacity', 1).siblings('.slide').css('opacity', 0);
+				$('.slide-' + $(this).attr('rel') + '').css({'visibility': 'visible', 'opacity': '1'}).siblings('.slide').css({'visibility': 'hidden', 'opacity': '0'});
 			});
 		});
 	</script>

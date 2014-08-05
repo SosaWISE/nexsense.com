@@ -2,6 +2,7 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 	.intro {
+		margin-bottom: 40px;
 		h2 {
 			font-size: 30px;
 			color: $gray-light;
@@ -15,6 +16,22 @@
 		margin-left: auto;
 		margin-right: auto;
 		color: $brand-primary;
+	}
+	.about-icons {
+		width: 100px;
+		height: 100px;
+		background: url('../images/about-sprite.png') no-repeat;
+		display: block;
+		margin: 0 auto 20px auto;
+		&.prepare {
+			background-position: 0 0;
+		}
+		&.aware {
+			background-position: 0 -120px;
+		}
+		&.know {
+			background-position: 0 -240px;
+		}
 	}
 }
 @media (min-width: $screen-md-min) {

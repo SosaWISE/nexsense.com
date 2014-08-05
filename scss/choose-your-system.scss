@@ -18,6 +18,22 @@
 }
 .options-intro {
 	text-align: center;
+	.system-icons {
+		width: 100px;
+		height: 100px;
+		background: url('../images/system-sprite.png') no-repeat;
+		display: block;
+		margin: 0 auto 20px auto;
+		&.total-control {
+			background-position: 0 0;
+		}
+		&.safe-home {
+			background-position: 0 -120px;
+		}
+		&.basic-plus {
+			background-position: 0 -240px;
+		}
+	}
 	h2 {
 		font-size: 24px;
 		color: $brand-primary;
