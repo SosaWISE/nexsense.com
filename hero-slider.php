@@ -20,7 +20,7 @@
 		<div class="copy col-xs-12 col-sm-6">
 			<div class="row">
 				<div class="copy-inner col-xs-12 col-sm-11 col-sm-offset-1 col-lg-10 col-lg-offset-2">
-					<h2>Don’t let distance come between you and your home</h2>
+					<h2>Don’t let distance come between you and your home.</h2>
 					<p>Arm your home from your phone with Nexsense home automation.</p>
 				</div>
 			</div>
