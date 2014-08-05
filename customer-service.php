@@ -170,11 +170,11 @@
 				<div class="warranty-bottom row">
 					<div class="col-xs-12 col-md-6">
 						<h3>Lifetime<br>Maintenance Warranty</h3>
-						<p>You shouldn’t have to worry about repair and maintenance services. That’s why we take care of them for you—free for the first six months and a nominal trip fee per visit thereafter.</p>
+						<p>You shouldn’t have to worry about repair and maintenance services. That’s why we take care of them for you free during your first six months. A trip fee of $30 per visit will be charged after that.</p>
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<h3>Lifetime<br>Move Warranty</h3>
-						<p>Moving to a new home? Nexense customers who are in good standing and moving to a service area are eligible to receive a new 8-point system for their new home after 12 months of service. Just give us a call at 385.375.8150 or email us at <a href="mailto:support@nexsense.com">support@nexsense.com</a> 30 days prior to your move.</p>
+						<p>On the move? Nexsense customers who are in good standing and moving to an area we service are eligible to receive a new 8-point system for their new home. Just give us a call at 385.375.8130 or email us at <a href="mailto:support@nexsense.com">support@nexsense.com</a> 30 days prior to your move.</p>
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<h3>Lifetime<br>Equipment Warranty</h3>
