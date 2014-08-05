@@ -68,7 +68,7 @@
 					</div>
 					<div class="col-xs-12 col-md-4">
 						<div class="options-intro">
-							<span class="system-icons hard-wired"></span>
+							<span class="system-icons basic-plus"></span>
 							<h2><j class="caret-toggle"></j> Basic Plus</h2>
 							<span class="price-block" data-toggle="modal" data-target="#get-quote">$39.99 a Month<br>$69 Activation</span>
 							<p>We’ll update your existing hardwired system with a new panel and wireless components.</p>

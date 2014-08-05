@@ -110,6 +110,7 @@
 						<input type="text" class="form-control" id="age" name="age" placeholder="Age (If you are human... do not fill out this field!)">
 					</div>
 					<span class="modal-sub-title">or Contact Us at 1.800.466.3973</span>
+					<span class="legal">By clicking this button, you consent for Nexsense to use automated technology including pre-recorded messages to contact you at the number provided.<br>This consent is not required to make a purchase from us.</span>
 					<div class="form-group">
 						<input type="hidden" name="department" value="sales@nexsense.com">
 						<button type="submit" id="submit" class="btn btn-secondary">Submit <i></i></a>

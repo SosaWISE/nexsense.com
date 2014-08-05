@@ -2,7 +2,7 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 	.intro {
-		margin-bottom: 40px;
+		margin-bottom: 20px;
 		h2 {
 			font-size: 30px;
 			color: $gray-light;
@@ -12,7 +12,7 @@
 		}
 	}
 	h3 {
-		width: 70%;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		color: $brand-primary;
@@ -22,7 +22,7 @@
 		height: 100px;
 		background: url('../images/about-sprite.png') no-repeat;
 		display: block;
-		margin: 0 auto 20px auto;
+		margin: 20px auto;
 		&.prepare {
 			background-position: 0 0;
 		}
@@ -40,11 +40,17 @@
 		.intro {
 			h2 {
 				font-size: 48px;
-				color: $gray-light;
 			}
 			p {
 				font-size: 26px;
 			}
+		}
+	}
+}
+@media (min-width: $screen-xl-min) {
+	.about-us {
+		h3 {
+			width: 70%;
 		}
 	}
 }

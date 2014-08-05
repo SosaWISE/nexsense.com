@@ -9,9 +9,37 @@
 						<h2>FAQs</h2>
 
 						<div>
-							<h3><j></j> I have some questions about my account.</h3>
+							<h3><j></j> I have questions about signing up with Nexsense.</h3>
 							<div class="faq-question">
-								<h4>Where do I send my payment?</h4>
+								<h4>I see you’re new to town. Why should I trust your systems?</h4>
+								<div class="faq-answer">
+									<p>Yes, we are a new player in town, but we are comprised of seasoned industry professionals passionate about personal security, which means we’re not new to the biz. Just selling the same equipment as other companies won’t cut it for us. What makes us different is our customer service. Once Nexsense is a part of your life, you are a lifelong part of our tight-knit family.</p>
+								</div>
+							</div>
+							<div class="faq-question">
+								<h4>Can I really get a discount for my homeowner’s insurance?</h4>
+								<div class="faq-answer">
+									<p>Most likely. Many insurance companies provide a discount on home security systems that can be up to 20%. Call up your insurance provider to find out how much you can save.</p>
+								</div>
+							</div>
+							<div class="faq-question">
+								<h4>How does your equipment stack up to the competition?</h4>
+								<div class="faq-answer">
+									<p>We offer 2GIG security protection and connect top-of-the-line wireless sensors through Z-Wave technology. So rest easy, you’re covered by the industry’s best.</p>
+								</div>
+							</div>
+							<div class="faq-question">
+								<h4>I have other questions about Nexsense.</h4>
+								<div class="faq-answer">
+									<p>Call us at 385.375.8150 or send those questions over to <a href="mailto:support@nexsense.com">support@nexsense.com</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<h3><j></j> I have questions about my account.</h3>
+							<div class="faq-question">
+								<h4>How do I adjust my contact list?</h4>
 								<div class="faq-answer">
 									<p>The majority of the time the best payment avenues are credit/debit cards or EFT.  However if you need to mail us, our address is:</p>
 									<p>722 E Technology Ave,<br>Suite 1100 Bldg E<br>Orem, UT 84097</p>
@@ -20,41 +48,29 @@
 							<div class="faq-question">
 								<h4>How do I adjust my contact list?</h4>
 								<div class="faq-answer">
-									<p>Give one of our professional customer service staff a call.  They’ll verify you are account holder by requesting your verbal passcode.  After we’ve verified your account we’ll be happy to assist you with any changes to your contact list you may need. Give us a call 385-375-8100</p>
+									<p>Simply contact customer service at 385-375-8100. Have your verbal passcode handy.</p>
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>How is a verbal passcode different than my master code?</h4>
+								<h4>Why do I have a verbal passcode and a master user code?</h4>
 								<div class="faq-answer">
-									<p>There are several codes involved in the system you are using.  A verbal pass code is the code you’d use to verify you are the account owner and is required for cancelling a false alarm.  This verbal pass code should only be shared with members of the household you trust to act in this capacity.</p>
-									<p>The Master User Code is used to control the system as well as setting the other 7 user codes.  The master code is also used to access several system settings and functions that the other seven user codes are restricted from using.</p>
+									<p>Good question. Your verbal passcode is used to verify ownership during an alarm and should only be shared with members of your household. The master user code is for administration of the system. Stuff like setting user codes and managing setting.</p>
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>Is if true I could get a discount from my home owners insurance?</h4>
+								<h4>I have other questions about my account.</h4>
 								<div class="faq-answer">
-									<p>When you signed up for a system you received an information folder from Nexsense.  In this folder we included a spot to keep your alarm agreement for quick retrieval.   One of the pages in this folder will have a perforated certificate.  Simply fill this out and give it to your homeowner’s insurance.  If you’re unable to find that folder we’ll be offering that certificate for download from our website.  Some insurances have been known to give up to a 20% discount.</p>
-								</div>
-							</div>
-							<div class="faq-question">
-								<h4>I love my system! What is your referral program?</h4>
-								<div class="faq-answer">
-									<p>I don't have a response to this yet</p>
-								</div>
-							</div>
-							<div class="faq-question">
-								<h4>Have a different question?</h4>
-								<div class="faq-answer">
-									<p>Please contact us via phone or email at the contact info below.</p>
+									<p>Call us at 385.375.8150 or send those questions over to <a href="mailto:support@nexsense.com">support@nexsense.com</a></p>
 								</div>
 							</div>
 						</div>
+
 						<div>
-							<h3><j></j> I have some questions about the function of my panel.</h3>
+							<h3><j></j> I have questions about my system.</h3>
 							<div class="faq-question">
-								<h4>How often does my system need to be tested?</h4>
+								<h4>How often should my system be tested?</h4>
 								<div class="faq-answer">
-									<p>To ensure maximum benefit of your home security system, it is recommended that you test your system at least once a month.</p>
+									<p>To make sure your system is doing its job, it should be tested at least once a month.</p>
 								</div>
 							</div>
 							<div class="faq-question">
@@ -86,73 +102,58 @@
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>I want to move the equipment myself. Will this cause and problems on my account?</h4>
+								<h4>Can I move my system equipment myself?</h4>
 								<div class="faq-answer">
-									<p>Our number one priority is offering you the quality of service you deserve.  The system you have in your home is specific to the address established on the original service agreement.  That being said you want to be sure to call into one of our professional moves specialists.  We will be more than happy to assist you through the process of physically moving the system and assist you in updating the paperwork. Call 385-375-8100.</p>
+									<p>Only if you want to move a sensor within your home. Just give us a call at 385.375.8100 and we’ll walk you through the simple process.  </p>
+									<p>If you’re moving to a new address, leave your system. It’s tied to your current address and could cause some serious issues if moved. Check out our moving warrant, or contact us at 385.375.8150 or <a href="mailto:support@nexsense.com">support@nexsense.com</a> so we can talk about your options.</p>
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>What happens on your end when an alarm gets triggered?</h4>
+								<h4>What happens when my security system is triggered?</h4>
 								<div class="faq-answer">
-									<p>I need to write this still</p>
+									<p>When a sensor is triggered, it sends a signal to the wall panel. The panel then signals the central monitoring station where an operator will attempt to make a contact either through your panel or your emergency contact number. If no one responds or the verbal passcode is not provided, the appropriate emergency contact will be dispatched depending on the sensor triggered.</p>
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>Have a different question? Fill out the form below.</h4>
+								<h4>I have other questions about my equipment.</h4>
+								<div class="faq-answer">
+									<p>Call us at 385.375.8150 or send those questions over to <a href="mailto:support@nexsense.com">support@nexsense.com</a></p>
+								</div>
 							</div>
 						</div>
+
 						<div>
-							<h3><j></j> I have some questions regarding billing.</h3>
+							<h3><j></j> I have questions regarding billing.</h3>
 							<div class="faq-question">
-								<h4>I need to change my billing date. What are my options?</h4>
+								<h4>Can I change my billing date?</h4>
 								<div class="faq-answer">
-									<p>We understand that situations change and sometimes you just need to change your billing date.  Simply call one of our customer care professionals and let us assist you in selecting the proper billing date. Call 385-375-8100.</p>
+									<p>Sure you can. Give us a call at 385.375.8100 and we’ll help you out.</p>
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>How much does a service fee cost?</h4>
+								<h4>How do I pay for my monitoring service?</h4>
 								<div class="faq-answer">
-									<p>If the situation requires sending a technician to your home for upgrades or repairs, our standard fee for a service is $30.  There may be additional cost for equipment if contract is out of the service warranty period.</p>
+									<p>There are a few ways. You can provide us with a credit card number, or set up auto payment with a Nexsense sales representative or technician on the date of installation. Oops! You missed a payment? No big deal, just contact us as soon as possible at 385.375.8150 or <a href="mailto:billing@nexsense.com">billing@nexsense.com</a>.  </p>
+									<p>Checks can be mailed to: <br>722 East Technology Ave<br>Building E, Ste. 1100<br>Orem, UT 84097</p>
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>I just got charged a false alarm fee. What's with that?</h4>
+								<h4>How much are service fees?</h4>
 								<div class="faq-answer">
-									<p>A false alarm is usually defined as an alarm signaling law enforcement to respond where there isn’t an emergency.  Unfortunately fees for false alarms are determined by the individual municipalities in which you live. False alarm fees are never collected through your alarm provider.</p>
+									<p>For the first six months we’ve got you covered at no cost. After that, the standard fee is $30. Additional costs may apply depending on the status of the contract and service warranty.</p>
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>I referred a friend. How do I get my referral bonus?</h4>
+								<h4>What is a false alarm fee?</h4>
 								<div class="faq-answer">
-									<p>To Be Determined</p>
+									<p>A false alarm signals for help where none is needed, and fees for this are determined by the individual municipalities where the monitoring system is located. Nexsense does not collect these fees.</p>
 								</div>
 							</div>
 							<div class="faq-question">
-								<h4>Have a different question? Fill out the form below.</h4>
-							</div>
-						</div>
-						<div>
-							<h3><j></j> I have some questions about signing up with Nexsense.</h3>
-							<div class="faq-question">
-								<h4>You guys are new. How can I be sure you know how to protect me?</h4>
+								<h4>I have other questions about billing.</h4>
 								<div class="faq-answer">
-									<p>Nexsense is made up of industry professionals passionate about personal security.  Our management team has been hand picked because of their years in the industry and shared goal in making personal security more than just protecting the walls of your home.  Our shared belief is offering security solutions for all aspects of your life giving you the peace of mind you deserve.</p>
+									<p>Call us at 385.375.8150 or send those questions over to <a href="mailto:support@nexsense.com">support@nexsense.com</a></p>
 								</div>
-							</div>
-							<div class="faq-question">
-								<h4>How does your equipment compare to everyone else out there?</h4>
-								<div class="faq-answer">
-									<p>We currently offer 2 Gig security protection.  Widely accepted as the industry's best in residential home protection.  Otherwise we're offering top of the line products which only compliment our home security offering.  Products that give you confidence your life is secure.</p>
-								</div>
-							</div>
-							<div class="faq-question">
-								<h4>How does your pricing compare to everyone else out there?</h4>
-								<div class="faq-answer">
-									<p>I need to write this still</p>
-								</div>
-							</div>
-							<div class="faq-question">
-								<h4>Have a different question? Fill out the form below.</h4>
 							</div>
 						</div>
 
