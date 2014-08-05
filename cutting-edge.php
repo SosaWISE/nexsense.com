@@ -22,7 +22,7 @@
 						<img class="product-photo" src="assets/images/product-camera.png" />
 					</div>
 					<div class="col-md-6">
-						<blockquote>Like eyes in the back of your head.</blockquote>
+						<blockquote>Like eyes in the back of your head</blockquote>
 						<p>Our motion activated, infrared cameras give you everything you need to check in on your home from anywhere. Daylight, low light, they shoot in 720 HD, so you don’t have to worry about grainy images or mistaking your teenage son for the neighbor’s cat.</p>
 						<div class="cta">
 							<a href="choose-your-system" class="btn btn-default">Learn More <i></i></a>

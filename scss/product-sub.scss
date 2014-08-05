@@ -69,15 +69,15 @@
 			width: 75%;
 		}
 		blockquote {
-			font-size: 36px;
+			font-size: 30px;
 			width: 100%;
 			&:before {
 				top: -25px;
-				left: -10px;
+				left: -12px;
 			}
 			&:after {
 				top: 6px;
-				right: -10px;
+				right: -12px;
 			}
 		}
 	}
@@ -89,15 +89,15 @@
 			width: 90%;
 		}
 		blockquote {
-			font-size: 36px;
-			width: 80%;
+			font-size: 32px;
+			width: 100%;
 			&:before {
 				top: -25px;
-				left: 10px;
+				left: -4px;
 			}
 			&:after {
-				top: 75px;
-				right: 25px;
+				top: 72px;
+				right: 15px;
 			}
 		}
 	}
@@ -109,14 +109,14 @@
 			width: 80%;
 		}
 		blockquote {
-			font-size: 36px;
+			font-size: 28px;
 			width: 100%;
 			&:before {
 				top: -25px;
 				left: -5px;
 			}
 			&:after {
-				top: 35px;
+				top: 32px;
 				right: -15px;
 			}
 		}
@@ -140,15 +140,15 @@
 				width: 35%;
 			}
 			blockquote {
-				font-size: 36px;
+				font-size: 32px;
 				width: 100%;
 				&:before {
 					top: -25px;
-					left: 110px;
+					left: 100px;
 				}
 				&:after {
 					top: 4px;
-					right: 110px;
+					right: 100px;
 				}
 			}
 		}
@@ -161,14 +161,14 @@
 			}
 			blockquote {
 				font-size: 40px;
-				width: 80%;
+				width: 100%;
 				&:before {
 					top: -25px;
-					left: 40px;
+					left: 94px;
 				}
 				&:after {
-					top: 50px;
-					right: 120px;
+					top: 98px;
+					right: 154px;
 				}
 			}
 		}
@@ -187,7 +187,7 @@
 				width: 40%;
 			}
 			blockquote {
-				font-size: 36px;
+				font-size: 28px;
 				width: 100%;
 				&:before {
 					top: -25px;
@@ -221,7 +221,7 @@
 	.life-doesnt-stand-still {
 		.intro {
 			.intro-copy {
-				margin-top: 40px;
+				margin-top: 26px;
 				p {
 					width: 90%;
 					margin-left: 10%;
@@ -235,7 +235,7 @@
 				width: 80%;
 			}
 			blockquote {
-				font-size: 40px;
+				font-size: 36px;
 				width: 100%;
 				&:before {
 					top: -16px;
@@ -243,15 +243,19 @@
 				}
 				&:after {
 					top: 20px;
-					right: 60px;
+					right: 34px;
 				}
 			}
 		}
 	}
 	.safety-doesnt-just-happen {
 		.intro {
+			h2 {
+				width: 80%;
+				margin-left: 20%;
+			}
 			.intro-copy {
-				margin-top: 20px;
+				margin-top: 10px;
 			}
 		}
 		.product-shot {
@@ -261,7 +265,7 @@
 				width: 100%;
 			}
 			blockquote {
-				font-size: 40px;
+				font-size: 36px;
 				width: 80%;
 				margin-left: 10px;
 				margin-bottom: 20px;
@@ -270,8 +274,8 @@
 					left: -15px;
 				}
 				&:after {
-					top: 105px;
-					right: 170px;
+					top: 94px;
+					right: 106px;
 				}
 			}
 		}
@@ -292,16 +296,16 @@
 				width: 100%;
 			}
 			blockquote {
-				font-size: 40px;
-				width: 80%;
+				font-size: 36px;
+				width: 100%;
 				margin-left: 0;
 				&:before {
 					top: -15px;
 					left: -20px;
 				}
 				&:after {
-					top: 60px;
-					right: 46px;
+					top: 58px;
+					right: 4px;
 				}
 			}
 		}
@@ -354,13 +358,17 @@
 				}
 				&:after {
 					top: 20px;
-					right: 168px;
+					right: 110px;
 				}
 			}
 		}
 	}
 	.safety-doesnt-just-happen {
 		.intro {
+			h2 {
+				width: 80%;
+				margin-left: 20%;
+			}
 			.intro-copy {
 				margin-top: 70px;
 			}
@@ -372,8 +380,8 @@
 				width: 100%;
 			}
 			blockquote {
-				font-size: 40px;
-				width: 90%;
+				font-size: 44px;
+				width: 80%;
 				margin-left: 10px;
 				margin-bottom: 20px;
 				&:before {
@@ -381,8 +389,8 @@
 					left: -15px;
 				}
 				&:after {
-					top: 64px;
-					right: 210px;
+					top: 118px;
+					right: 218px;
 				}
 			}
 		}
@@ -403,16 +411,16 @@
 				width: 100%;
 			}
 			blockquote {
-				font-size: 48px;
-				width: 80%;
+				font-size: 42px;
+				width: 90%;
 				margin-left: 0;
 				&:before {
 					top: -15px;
 					left: -20px;
 				}
 				&:after {
-					top: 72px;
-					right: 98px;
+					top: 68px;
+					right: 70px;
 				}
 			}
 		}
@@ -463,7 +471,7 @@
 				width: 75%;
 			}
 			blockquote {
-				font-size: 60px;
+				font-size: 52px;
 				width: 100%;
 				&:before {
 					top: -16px;
@@ -471,19 +479,19 @@
 				}
 				&:after {
 					top: 30px;
-					right: 90px;
+					right: 70px;
 				}
 			}
 		}
 	}
 	.safety-doesnt-just-happen {
 		.intro {
+			h2 {
+				width: 100%;
+				margin-left: 0;
+			}
 			.intro-copy {
 				margin-top: 60px;
-			}
-			h2 {
-				width: 80%;
-				margin-left: 20%;
 			}
 		}
 		.product-shot {
@@ -493,7 +501,7 @@
 				width: 100%;
 			}
 			blockquote {
-				font-size: 60px;
+				font-size: 54px;
 				width: 80%;
 				margin-left: 10px;
 				margin-bottom: 20px;
@@ -502,8 +510,8 @@
 					left: -24px;
 				}
 				&:after {
-					top: 160px;
-					right: 260px;
+					top: 140px;
+					right: 176px;
 				}
 			}
 		}
@@ -525,16 +533,16 @@
 				width: 100%;
 			}
 			blockquote {
-				font-size: 60px;
-				width: 90%;
+				font-size: 52px;
+				width: 100%;
 				margin-left: 0;
 				&:before {
 					top: -16px;
 					left: -24px;
 				}
 				&:after {
-					top: 90px;
-					right: 70px;
+					top: 80px;
+					right: 26px;
 				}
 			}
 		}
@@ -556,6 +564,10 @@
 	}
 	.life-doesnt-stand-still {
 		.intro {
+			h2 {
+				width: 80%;
+				margin-left: 20%;
+			}
 			.intro-copy {
 				margin-top: 60px;
 				p {
@@ -580,7 +592,7 @@
 				}
 				&:after {
 					top: 30px;
-					right: 90px;
+					right: 96px;
 				}
 			}
 		}
@@ -588,7 +600,7 @@
 	.safety-doesnt-just-happen {
 		.intro {
 			.intro-copy {
-				margin-top: 50px;
+				margin-top: 24px;
 			}
 			h2 {
 				width: 60%;
@@ -612,7 +624,7 @@
 				}
 				&:after {
 					top: 160px;
-					right: 400px;
+					right: 228px;
 				}
 			}
 		}
@@ -635,8 +647,8 @@
 				width: 100%;
 			}
 			blockquote {
-				font-size: 60px;
-				width: 80%;
+				font-size: 56px;
+				width: 90%;
 				margin-left: 0;
 				&:before {
 					top: -16px;
@@ -644,7 +656,7 @@
 				}
 				&:after {
 					top: 90px;
-					right: 272px;
+					right: 86px;
 				}
 			}
 		}
