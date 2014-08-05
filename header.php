@@ -17,7 +17,7 @@
 	<div class="main">
 		<header class="global-header hidden-xs hidden-sm hidden-md visible-lg visible-xl visible-xxl">
 			<div class="container-fluid">
-				<a href="/" class="logo"></a>
+				<a href="index" class="logo"></a>
 				<nav class="top-navigation">
 					<span class="contact-us">Contact us today 1.800.466.3973</span> | <a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
 					<?php include('navigation.php');?>
@@ -26,5 +26,5 @@
 		</header>
 		<header class="global-header visible-xs visible-sm visible-md hidden-lg hidden-xl hidden-xxl">
 			<span class="btn btn-default icon-menu" data-toggle="modal" data-target="#mobile-navigation"></span>
-			<a href="/" class="logo"></a>
+			<a href="index" class="logo"></a>
 		</header>

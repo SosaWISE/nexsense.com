@@ -127,7 +127,7 @@
 
 .hero-slider {
 	* {
-		@include transition(opacity 1000ms ease);
+		@include transition(opacity 1000ms ease, visibility 1000ms ease);
 	}
 	height: 500px;
 	background: url('../images/cta-purple-bg.png') no-repeat center center;
