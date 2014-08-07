@@ -101,7 +101,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-4">
 						<ul>
-							<li>MySense App *</li>
+							<li style="line-height:1.6em;">MySense App *<br><em style="font-size: 16px;">Available for iPhone and Android</em></li>
 							<li>Video Camera *†</li>
 							<li>Automated Door Locks *†</li>
 						</ul>

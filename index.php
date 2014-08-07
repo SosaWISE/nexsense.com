@@ -42,10 +42,9 @@
 						<h2>See how we stack up</h2>
 						<a href="choose-your-system" class="btn btn-default">Get the details <i></i></a>
 					</div>
-					<div class="how-we-help inner col-xs-12 col-md-4">
-						<h2>Need help?</h2>
-						<p>Questions? We've got answers.</p>
-						<a href="customer-service" class="btn btn-default">Get answers <i></i></a>
+					<div class="need-the-app inner col-xs-12 col-md-4">
+						<h2>Need the app?</h2>
+						<p><img src="assets/images/app-store-google.png" /> <img src="assets/images/app-store-apple.png" /></p>
 					</div>
 					<div class="explore-our-system corner-stripes-small inner col-xs-12 col-md-4">
 						<h2>Explore our system</h2>

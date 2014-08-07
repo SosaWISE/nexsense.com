@@ -182,7 +182,7 @@
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
-	.how-we-help {
+	.need-the-app {
 		border-top: 2px solid $gray-lighter;
 		border-bottom: 2px solid $gray-lighter;
 	}
@@ -203,7 +203,7 @@
 		.how-we-compare {
 			border-right: 1px solid $gray-lighter;
 		}
-		.how-we-help {
+		.need-the-app {
 			border-top: none;
 			border-left: 1px solid $gray-lighter;
 			border-bottom: none;
@@ -234,11 +234,6 @@
 			padding-top: 50px;
 			padding-bottom: 50px;
 		}
-		.how-we-help {
-			.btn {
-				margin-top: 27px;
-			}
-		}
 	}
 }
 @media (min-width: $screen-xl-min) {
@@ -252,6 +247,14 @@
 		.inner {
 			padding-top: 50px;
 			padding-bottom: 60px;
+		}
+		.need-the-app {
+			h2 {
+				margin-top: 14px;
+			}
+			p {
+				margin-top: 18px;
+			}
 		}
 	}
 }
