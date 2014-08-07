@@ -45,9 +45,9 @@
 						<div class="form-group">
 							<select class="form-control" name="department" required>
 								<option value="">Select a department*</option>
-								<option value="billing@nexsense.com">Billing</option>
-								<option value="sales@nexsense.com">Sales</option>
-								<option value="support@nexsense.com">Customer Service &amp; Technical Support</option>
+								<option value="billing@nexsense.com, bcarter@nexsense.com">Billing</option>
+								<option value="sales@nexsense.com, dfreitas@nexsense.com, bcarter@nexsense.com">Sales</option>
+								<option value="support@nexsense.com, bcarter@nexsense.com">Customer Service &amp; Technical Support</option>
 							</select>
 						</div>
 						<div class="form-group">
