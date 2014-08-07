@@ -44,7 +44,7 @@
 					</div>
 					<div class="need-the-app inner col-xs-12 col-md-4">
 						<h2>Need the app?</h2>
-						<p><img src="assets/images/app-store-google.png" /> <img src="assets/images/app-store-apple.png" /></p>
+						<p><a href="https://play.google.com/store/apps/details?id=com.icontrol.telguard&hl=en"><img src="assets/images/app-store-google.png" /></a> <a href="https://itunes.apple.com/us/app/telguard-homecontrol/id720366311?mt=8"><img src="assets/images/app-store-apple.png" /></a></p>
 					</div>
 					<div class="explore-our-system corner-stripes-small inner col-xs-12 col-md-4">
 						<h2>Explore our system</h2>
@@ -62,4 +62,9 @@
 				</div>
 			</div>
 		</div>
+		<script>
+			$(document).ready(function() {
+				$('[rel="home"]').addClass('current');
+			});
+		</script>
 <?php include('footer.php');?>

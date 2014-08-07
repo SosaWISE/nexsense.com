@@ -62,6 +62,10 @@
 		position: absolute;
 		right: 10px;
 		top: 14px;
+		span {
+			display: inline-block;
+			vertical-align: -1px;
+		}
 	}
 }
 .gold-bar {
@@ -69,6 +73,10 @@
 	background: $brand-secondary;
 	padding-top: 2px;
 	padding-bottom: 10px;
+	span {
+		display: inline-block;
+		vertical-align: -2px;
+	}
 }
 @media (min-width: $screen-sm-min) {
 	.global-header {
@@ -122,7 +130,7 @@
 					color: $gray;
 				}
 			}
-			.contact-us {
+			span {
 				font-size: 14px;
 			}
 			.btn {
