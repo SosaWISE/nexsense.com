@@ -15,7 +15,7 @@
 </head>
 <body>
 	<div class="main">
-		<header class="global-header hidden-xs hidden-sm hidden-md visible-lg visible-xl visible-xxl">
+		<header class="global-header hidden-xs hidden-sm hidden-md hidden-lg visible-xl visible-xxl">
 			<div class="container-fluid">
 				<a href="index" class="logo"></a>
 				<nav class="top-navigation">
@@ -24,7 +24,11 @@
 				</nav>
 			</div>
 		</header>
-		<header class="global-header visible-xs visible-sm visible-md hidden-lg hidden-xl hidden-xxl">
+		<header class="global-header visible-xs visible-sm visible-md visible-lg hidden-xl hidden-xxl">
 			<span class="btn btn-default icon-menu" data-toggle="modal" data-target="#mobile-navigation"></span>
 			<a href="index" class="logo"></a>
+			<a class="btn btn-default mobile-quote" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
+		</header>
+		<header class="gold-bar visible-xs hidden-sm hidden-md hidden-lg hidden-xl hidden-xxl">
+			<a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
 		</header>

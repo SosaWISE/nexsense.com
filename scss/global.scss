@@ -57,8 +57,27 @@
 		top: 10px;
 		left: 10px;
 	}
+	.mobile-quote {
+		display: none;
+		position: absolute;
+		right: 10px;
+		top: 14px;
+	}
 }
-@media (min-width: $screen-lg-min) {
+.gold-bar {
+	text-align: center;
+	background: $brand-secondary;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+@media (min-width: $screen-sm-min) {
+	.global-header {
+		.mobile-quote {
+			display: block;
+		}
+	}
+}
+@media (min-width: $screen-xl-min) {
 	.global-header {
 		background: $white;
 		height: 98px;
