@@ -13,7 +13,7 @@
 							<li>
 								<a href="https://www.facebook.com/nexsense"><span class="social-icons facebook"></span></a>
 								<a href="https://twitter.com/nexsense"><span class="social-icons twitter"></span></a>
-								<a href="https://www.youtube.com/nexsense"><span class="social-icons instagram"></span></a>
+								<a href="https://www.youtube.com/nexsense"><span class="social-icons youtube"></span></a>
 								<a href="https://plus.google.com/u/0/b/109627038700775048616/"><span class="social-icons gplus last"></span></a>
 							</li>
 						</ul>
