@@ -11,10 +11,10 @@
 							<li><a href="contact">Sales</a></li>
 							<li><a href="contact">Customer Service &amp; Tech Support</a></li>
 							<li>
-								<a href="#"><span class="social-icons facebook"></span></a>
-								<a href="#"><span class="social-icons twitter"></span></a>
-								<a href="#"><span class="social-icons instagram"></span></a>
-								<a href="#"><span class="social-icons gplus last"></span></a>
+								<a href="https://www.facebook.com/nexsense"><span class="social-icons facebook"></span></a>
+								<a href="https://twitter.com/nexsense"><span class="social-icons twitter"></span></a>
+								<a href="https://www.youtube.com/nexsense"><span class="social-icons instagram"></span></a>
+								<a href="https://plus.google.com/u/0/b/109627038700775048616/"><span class="social-icons gplus last"></span></a>
 							</li>
 						</ul>
 					</div>
@@ -109,7 +109,7 @@
 						<label class="hide" for="age">Age (If you are human... do not fill out this field!)</label>
 						<input type="text" class="form-control" id="age" name="age" placeholder="Age (If you are human... do not fill out this field!)">
 					</div>
-					<span class="modal-sub-title">or Contact Us at 1.800.466.3973</span>
+					<span class="modal-sub-title">or Contact Us at 866.205.5200</span>
 					<span class="legal">By clicking this button, you consent for Nexsense to use automated technology including pre-recorded messages to contact you at the number provided.<br>This consent is not required to make a purchase from us.</span>
 					<div class="form-group">
 						<input type="hidden" name="department" value="sales@nexsense.com, dfreitas@nexsense.com, bcarter@nexsense.com">
