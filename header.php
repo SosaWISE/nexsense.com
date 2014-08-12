@@ -19,7 +19,7 @@
 			<div class="container-fluid">
 				<a href="index" class="logo"></a>
 				<nav class="top-navigation">
-					<span class="contact-us">Contact us today 1.800.466.3973</span>
+					<span class="contact-us">Contact us today 866.205.5200</span>
 					&nbsp;|&nbsp;
 					<span><a href="https://portal.myhomecontrol.com/myhome/access/signin.jsp">Login</a></span>
 					&nbsp;|&nbsp;
