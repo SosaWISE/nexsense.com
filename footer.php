@@ -4,22 +4,25 @@
 					<div class="copyright col-xs-12 col-lg-4">
 						© 2014 Nexsense &nbsp;|&nbsp; Ready For Next
 					</div>
-					<div class="contact col-lg-8 hidden-xs hidden-sm hidden-md visible-lg visible-xl visible-xxl">
+					<div class="contact col-lg-8 hidden-xs hidden-sm hidden-md hidden-lg visible-xl visible-xxl">
 						<ul>
 							<li><a href="contact">Contact Us</a></li>
 							<li><a href="contact">Billing</a></li>
 							<li><a href="contact">Sales</a></li>
 							<li><a href="contact">Customer Service &amp; Tech Support</a></li>
 							<li>
-								<a href="https://www.facebook.com/nexsense"><span class="social-icons facebook"></span></a>
-								<a href="https://twitter.com/nexsense"><span class="social-icons twitter"></span></a>
-								<a href="https://www.youtube.com/nexsense"><span class="social-icons youtube"></span></a>
-								<a href="https://plus.google.com/u/0/b/109627038700775048616/"><span class="social-icons gplus last"></span></a>
+								<a href="https://www.facebook.com/nexsense"><span class="icomoon icomoon-facebook"></span></a>
+								<a href="https://twitter.com/nexsense"><span class="icomoon icomoon-twitter"></span></a>
+								<a href="https://www.youtube.com/nexsense"><span class="icomoon icomoon-youtube"></span></a>
+								<a href="http://www.pinterest.com/nexsense"><span class="icomoon icomoon-pinterest"></span></a>
+								<a href="https://plus.google.com/u/0/b/109627038700775048616/"><span class="icomoon icomoon-googleplus"></span></a>
+								<a href="https://vimeo.com/nexsense"><span class="icomoon icomoon-vimeo"></span></a>
+								<a href="http://us.reddit.com/user/Nexsense/"><span class="icomoon icomoon-reddit last"></span></a>
 							</li>
 						</ul>
 					</div>
-					<div class="visible-xs visible-sm visible-md hidden-lg hidden-xl hidden-xxl">
-						<span class="btn btn-default icon-menu" data-toggle="modal" data-target="#mobile-navigation"></span>
+					<div class="visible-xs visible-sm visible-md visible-lg hidden-xl hidden-xxl">
+						<span class="btn btn-default icomoon icomoon-menu" data-toggle="modal" data-target="#mobile-navigation"></span>
 					</div>
 				</div>
 			</div>
@@ -101,7 +104,7 @@
 						<label class="hide" for="phone">Zip*</label>
 						<input type="text" class="form-control" id="zip" name="zip" placeholder="Zip*" required>
 					</div>
-					<div class="form-group">
+					<div class="form-group full">
 						<label class="hide" for="email">Email*</label>
 						<input type="email" class="form-control" id="email" name="email" placeholder="Email*" required>
 					</div>
@@ -123,7 +126,18 @@
 		<div class="modal-dialog">
 			<div class="modal-content mobile-navigation">
 				<span style="position: absolute; color: white; cursor: pointer; top: 10px; right: 20px; font-size: 24px; margin-top: 0; margin-bottom: 0;" data-dismiss="modal">&times;</span>
-				<?php include('navigation.php');?>
+				<ul>
+					<?php include('navigation.php');?>
+					<li class="social-links">
+						<a href="https://www.facebook.com/nexsense"><span class="icomoon icomoon-facebook"></span></a>
+						<a href="https://twitter.com/nexsense"><span class="icomoon icomoon-twitter"></span></a>
+						<a href="https://www.youtube.com/nexsense"><span class="icomoon icomoon-youtube"></span></a>
+						<a href="http://www.pinterest.com/nexsense"><span class="icomoon icomoon-pinterest"></span></a>
+						<a href="https://plus.google.com/u/0/b/109627038700775048616/"><span class="icomoon icomoon-googleplus"></span></a>
+						<a href="https://vimeo.com/nexsense"><span class="icomoon icomoon-vimeo"></span></a>
+						<a href="http://us.reddit.com/user/Nexsense/"><span class="icomoon icomoon-reddit"></span></a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>

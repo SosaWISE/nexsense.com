@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+.icomoon {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -23,30 +23,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-home:before {
-  content: "\e605";
-}
-.icon-phone:before {
-  content: "\e606";
-}
-.icon-email:before {
-  content: "\e607";
-}
-.icon-googleplus:before {
+.icomoon-googleplus:before {
   content: "\e600";
 }
-.icon-facebook:before {
+.icomoon-facebook:before {
   content: "\e601";
 }
-.icon-instagram:before {
+.icomoon-twitter:before {
   content: "\e602";
 }
-.icon-twitter:before {
+.icomoon-youtube:before {
   content: "\e603";
 }
-.icon-youtube:before {
+.icomoon-vimeo:before {
   content: "\e604";
 }
-.icon-menu:before {
-  content: "\e608";
+.icomoon-reddit:before {
+  content: "\e605";
+}
+.icomoon-pinterest:before {
+  content: "\e606";
+}
+.icomoon-menu:before {
+  content: "\e607";
 }

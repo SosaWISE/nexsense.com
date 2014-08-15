@@ -52,7 +52,7 @@
 		background-size: 199px 30px;
 		display: block;
 	}
-	.icon-menu {
+	.icomoon-menu {
 		position: absolute;
 		top: 10px;
 		left: 10px;
@@ -484,7 +484,7 @@
 			padding-right: 0;
 		}
 	}
-	.icon-menu {
+	.icomoon-menu {
 		position: absolute;
 		top: 14px;
 		right: 14px;
@@ -497,28 +497,10 @@
 	.contact {
 		text-align: right;
 	}
-	.social-icons {
-		height: 21px;
+	.icomoon {
 		margin-right: 12px;
-		background: url('../images/social-sprite.png') no-repeat;
 		display: inline-block;
 		float: left;
-		&.facebook {
-			width: 10px;
-			background-position: 0 0;
-		}
-		&.twitter {
-			width: 20px;
-			background-position: -24px 0;
-		}
-		&.gplus {
-			width: 21px;
-			background-position: -48px 0;
-		}
-		&.youtube {
-			width: 30px;
-			background-position: -72px 0;
-		}
 		&.last {
 			margin-right: 0;
 		}
@@ -544,7 +526,7 @@
 	background: url('../images/corner-stripes.png') no-repeat top left;
 	background-size: 80px 80px;
 }
-.icon-menu {
+.icomoon-menu {
 	color: $gray-light;
 	background: $white;
 	border: 1px solid $gray-light;
@@ -560,8 +542,17 @@
 		padding: 10px 0;
 		margin: 0;
 		border-bottom: 1px solid $white;
-		&.last {
+		&:last-child {
 			border-bottom: none;
+		}
+	}
+	.social-links {
+		a {
+			margin-right: 12px;
+			display: inline-block;
+			&:last-child {
+				margin-right: 0;
+			}
 		}
 	}
 }

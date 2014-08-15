@@ -54,7 +54,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  span, ul, p {
+  .modal-sub-title, .legal, ul, p {
     color: $white;
     font-size: 20px;
     font-weight: 600;
@@ -77,6 +77,11 @@
     padding-right: 30px;
   }
   .half {
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+  }
+  .full {
     width: 100%;
     float: left;
     margin-bottom: 0;

@@ -32,12 +32,14 @@
 					<span><a href="https://portal.myhomecontrol.com/myhome/access/signin.jsp">Login</a></span>
 					&nbsp;|&nbsp;
 					<a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
-					<?php include('navigation.php');?>
+					<ul>
+						<?php include('navigation.php');?>
+					</ul>
 				</nav>
 			</div>
 		</header>
 		<header class="global-header visible-xs visible-sm visible-md visible-lg hidden-xl hidden-xxl">
-			<span class="btn btn-default icon-menu" data-toggle="modal" data-target="#mobile-navigation"></span>
+			<span class="btn btn-default icomoon icomoon-menu" data-toggle="modal" data-target="#mobile-navigation"></span>
 			<a href="index" class="logo"></a>
 			<div class="top-navigation mobile-quote">
 				<span><a href="https://portal.myhomecontrol.com/myhome/access/signin.jsp">Login</a>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
