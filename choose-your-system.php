@@ -39,7 +39,7 @@
 								<li>Cellular Technology</li>
 								<li>MySense App *†</li>
 								<li>Wireless HD Cameras *†</li>
-								<li>NexSense Home Automation Control *†</li>
+								<li>Nexsense Home Automation Control *†</li>
 							</ul>
 						</div>
 					</div>
