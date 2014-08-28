@@ -1,0 +1,664 @@
+.product-sub {
+	.intro {
+		text-align: center;
+		h2 {
+			font-size: 24px;
+			line-height: 1.0em;
+			color: $brand-secondary;
+			margin-bottom: 12px;
+		}
+		.intro-copy {
+			padding-top: 10px;
+		}
+		.intro-photo {
+			padding: 0 0 20px 0;
+			margin-left: -5px;
+			.photo {
+				width: 100%;
+			}
+		}
+	}
+	.home-shot {
+		height: 200px;
+		background: url('../images/house-shot.png') no-repeat center center;
+	}
+	.product-shot {
+		text-align: center;
+		.container {
+			position: relative;
+		}
+		.product-photo {
+			display: block;
+		}
+		blockquote {
+			font-family: $font-family-cursive;
+			font-style: italic;
+			color: $gray-light;
+			line-height: 1.1;
+			margin: 10px auto;
+			&:before {
+				content: '';
+				height: 50px;
+				width: 50px;
+				background: url('../images/straightquotes.png') no-repeat;
+				background-position: -25px -350px;
+				position: absolute;
+			}
+			&:after {
+				content: '';
+				height: 50px;
+				width: 50px;
+				background: url('../images/straightquotes.png') no-repeat;
+				background-position: -25px -400px;
+				position: absolute;
+			}
+		}
+		.cta {
+			margin: 20px 0 30px 0;
+			.btn {
+				margin-right: 20px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+.life-doesnt-stand-still {
+	.product-shot {
+		.product-photo {
+			margin: -200px auto 10px auto;
+			width: 75%;
+		}
+		blockquote {
+			font-size: 30px;
+			width: 100%;
+			&:before {
+				top: -25px;
+				left: -12px;
+			}
+			&:after {
+				top: 6px;
+				right: -12px;
+			}
+		}
+	}
+}
+.safety-doesnt-just-happen {
+	.product-shot {
+		.product-photo {
+			margin: -120px auto 0 auto;
+			width: 90%;
+		}
+		blockquote {
+			font-size: 32px;
+			width: 100%;
+			&:before {
+				top: -25px;
+				left: -4px;
+			}
+			&:after {
+				top: 72px;
+				right: 15px;
+			}
+		}
+	}
+}
+.cutting-edge {
+	.product-shot {
+		.product-photo {
+			margin: -150px auto -40px auto;
+			width: 80%;
+		}
+		blockquote {
+			font-size: 28px;
+			width: 100%;
+			&:before {
+				top: -25px;
+				left: -5px;
+			}
+			&:after {
+				top: 32px;
+				right: -15px;
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-sm-min) {
+	.product-sub {
+		.intro {
+			.intro-photo {
+				.photo {
+					width: 50%;
+				}
+			}
+		}
+	}
+	.life-doesnt-stand-still {
+		.product-shot {
+			.product-photo {
+				margin: -200px auto 10px auto;
+				width: 35%;
+			}
+			blockquote {
+				font-size: 32px;
+				width: 100%;
+				&:before {
+					top: -25px;
+					left: 100px;
+				}
+				&:after {
+					top: 4px;
+					right: 100px;
+				}
+			}
+		}
+	}
+	.safety-doesnt-just-happen {
+		.product-shot {
+			.product-photo {
+				margin: -140px auto 0 auto;
+				width: 50%;
+			}
+			blockquote {
+				font-size: 40px;
+				width: 100%;
+				&:before {
+					top: -25px;
+					left: 94px;
+				}
+				&:after {
+					top: 98px;
+					right: 154px;
+				}
+			}
+		}
+	}
+	.cutting-edge {
+		.intro {
+			h2 {
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		.product-shot {
+			.product-photo {
+				margin: -150px auto -40px auto;
+				width: 40%;
+			}
+			blockquote {
+				font-size: 28px;
+				width: 100%;
+				&:before {
+					top: -25px;
+					left: -5px;
+				}
+				&:after {
+					top: 4px;
+					right: 0;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-md-min) {
+	.product-sub {
+		.intro {
+			text-align: right;
+			margin-top: 20px;
+			.intro-photo {
+				.photo {
+					width: 100%;
+				}
+			}
+		}
+		.home-shot {
+			height: 320px;
+			background-position: center bottom;
+		}
+	}
+	.life-doesnt-stand-still {
+		.intro {
+			.intro-copy {
+				margin-top: 26px;
+				p {
+					width: 90%;
+					margin-left: 10%;
+				}
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin-top: -280px;
+				width: 80%;
+			}
+			blockquote {
+				font-size: 36px;
+				width: 100%;
+				&:before {
+					top: -16px;
+					left: -20px;
+				}
+				&:after {
+					top: 20px;
+					right: 34px;
+				}
+			}
+		}
+	}
+	.safety-doesnt-just-happen {
+		.intro {
+			h2 {
+				width: 80%;
+				margin-left: 20%;
+			}
+			.intro-copy {
+				margin-top: 10px;
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin-top: -240px;
+				width: 100%;
+			}
+			blockquote {
+				font-size: 36px;
+				width: 80%;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				&:before {
+					top: -10px;
+					left: -15px;
+				}
+				&:after {
+					top: 94px;
+					right: 106px;
+				}
+			}
+		}
+	}
+	.cutting-edge {
+		.intro {
+			h2 {
+				width: 100%;
+			}
+			.intro-copy {
+				margin-top: 10px;
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin: -240px 0 0 20px;
+				width: 100%;
+			}
+			blockquote {
+				font-size: 36px;
+				width: 100%;
+				margin-left: 0;
+				&:before {
+					top: -15px;
+					left: -20px;
+				}
+				&:after {
+					top: 58px;
+					right: 4px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-lg-min) {
+	.product-sub {
+		margin-bottom: 40px;
+		.intro {
+			text-align: right;
+			margin-top: 20px;
+			h2 {
+				font-size: 32px;
+			}
+			.intro-photo {
+				.photo {
+					width: 100%;
+				}
+			}
+		}
+		.home-shot {
+			height: 360px;
+			background-position: center bottom;
+		}
+	}
+	.life-doesnt-stand-still {
+		.intro {
+			.intro-copy {
+				margin-top: 80px;
+				p {
+					width: 90%;
+					margin-left: 10%;
+				}
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin-top: -280px;
+				margin-right: 20px;
+				width: 75%;
+			}
+			blockquote {
+				font-size: 40px;
+				width: 100%;
+				&:before {
+					top: -16px;
+					left: -20px;
+				}
+				&:after {
+					top: 20px;
+					right: 110px;
+				}
+			}
+		}
+	}
+	.safety-doesnt-just-happen {
+		.intro {
+			h2 {
+				width: 80%;
+				margin-left: 20%;
+			}
+			.intro-copy {
+				margin-top: 70px;
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin-top: -240px;
+				width: 100%;
+			}
+			blockquote {
+				font-size: 44px;
+				width: 80%;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				&:before {
+					top: -10px;
+					left: -15px;
+				}
+				&:after {
+					top: 118px;
+					right: 218px;
+				}
+			}
+		}
+	}
+	.cutting-edge {
+		.intro {
+			h2 {
+				width: 100%;
+			}
+			.intro-copy {
+				margin-top: 60px;
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin: -280px 0 0 20px;
+				width: 100%;
+			}
+			blockquote {
+				font-size: 42px;
+				width: 90%;
+				margin-left: 0;
+				&:before {
+					top: -15px;
+					left: -20px;
+				}
+				&:after {
+					top: 68px;
+					right: 70px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-xl-min) {
+	.product-sub {
+		margin-bottom: 40px;
+		.intro {
+			text-align: right;
+			margin-top: 20px;
+			h2 {
+				font-size: 48px;
+			}
+			.intro-photo {
+				.photo {
+					width: 100%;
+				}
+			}
+		}
+		.product-shot {
+			blockquote {
+				&:before {
+					background-position: -25px -200px;
+				}
+				&:after {
+					background-position: -25px -275px;
+				}
+			}
+		}
+	}
+	.life-doesnt-stand-still {
+		.intro {
+			.intro-copy {
+				margin-top: 60px;
+				p {
+					width: 90%;
+					margin-left: 10%;
+				}
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin-top: -280px;
+				margin-right: 20px;
+				width: 75%;
+			}
+			blockquote {
+				font-size: 52px;
+				width: 100%;
+				&:before {
+					top: -16px;
+					left: -24px;
+				}
+				&:after {
+					top: 30px;
+					right: 70px;
+				}
+			}
+		}
+	}
+	.safety-doesnt-just-happen {
+		.intro {
+			h2 {
+				width: 100%;
+				margin-left: 0;
+			}
+			.intro-copy {
+				margin-top: 60px;
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin-top: -240px;
+				width: 100%;
+			}
+			blockquote {
+				font-size: 54px;
+				width: 80%;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				&:before {
+					top: -16px;
+					left: -24px;
+				}
+				&:after {
+					top: 140px;
+					right: 176px;
+				}
+			}
+		}
+	}
+	.cutting-edge {
+		margin-bottom: 0;
+		.intro {
+			h2 {
+				width: 100%;
+			}
+			.intro-copy {
+				margin-top: 30px;
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin: -280px 0 0 20px;
+				width: 100%;
+			}
+			blockquote {
+				font-size: 52px;
+				width: 100%;
+				margin-left: 0;
+				&:before {
+					top: -16px;
+					left: -24px;
+				}
+				&:after {
+					top: 80px;
+					right: 26px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: $screen-xxl-min) {
+	.product-sub {
+		margin-bottom: 120px;
+		.intro {
+			p {
+				width: 80%;
+				float: right;
+			}
+			.intro-copy {
+				padding-top: 50px;
+			}
+		}
+	}
+	.life-doesnt-stand-still {
+		.intro {
+			h2 {
+				width: 80%;
+				margin-left: 20%;
+			}
+			.intro-copy {
+				margin-top: 60px;
+				p {
+					width: 90%;
+					margin-left: 10%;
+				}
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin-top: -280px;
+				margin-right: 20px;
+				width: 75%;
+			}
+			blockquote {
+				font-size: 60px;
+				width: 100%;
+				&:before {
+					top: -16px;
+					left: -24px;
+				}
+				&:after {
+					top: 30px;
+					right: 96px;
+				}
+			}
+		}
+	}
+	.safety-doesnt-just-happen {
+		.intro {
+			.intro-copy {
+				margin-top: 24px;
+			}
+			h2 {
+				width: 60%;
+				margin-left: 40%;
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin-top: -240px;
+				width: 100%;
+			}
+			blockquote {
+				font-size: 60px;
+				width: 80%;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				&:before {
+					top: -16px;
+					left: -24px;
+				}
+				&:after {
+					top: 160px;
+					right: 228px;
+				}
+			}
+		}
+	}
+	.cutting-edge {
+		margin-bottom: 0;
+		.intro {
+			h2 {
+				width: 80%;
+				margin-left: 20%;
+			}
+			.intro-copy {
+				margin-top: 30px;
+			}
+		}
+		.product-shot {
+			text-align: left;
+			.product-photo {
+				margin: -280px 0 0 60px;
+				width: 100%;
+			}
+			blockquote {
+				font-size: 56px;
+				width: 90%;
+				margin-left: 0;
+				&:before {
+					top: -16px;
+					left: -24px;
+				}
+				&:after {
+					top: 90px;
+					right: 86px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+.about-us {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	.intro {
+		margin-bottom: 20px;
+		h2 {
+			font-size: 30px;
+			color: $gray-light;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+	h3 {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		color: $brand-primary;
+	}
+	.about-icons {
+		width: 100px;
+		height: 100px;
+		background: url('../images/about-sprite.png') no-repeat;
+		display: block;
+		margin: 20px auto;
+		&.prepare {
+			background-position: 0 0;
+		}
+		&.aware {
+			background-position: 0 -120px;
+		}
+		&.know {
+			background-position: 0 -240px;
+		}
+	}
+}
+@media (min-width: $screen-md-min) {
+	.about-us {
+		margin-top: 40px;
+		.intro {
+			h2 {
+				font-size: 48px;
+			}
+			p {
+				font-size: 26px;
+			}
+		}
+	}
+}
+@media (min-width: $screen-xl-min) {
+	.about-us {
+		h3 {
+			width: 70%;
+		}
+	}
+}

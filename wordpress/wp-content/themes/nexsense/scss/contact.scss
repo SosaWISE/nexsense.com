@@ -1,0 +1,63 @@
+.contact-us {
+	margin-bottom: 60px;
+	.contact-intro {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		h1 {
+			font-size: 32px;
+		}
+	}
+	h2 {
+		font-size: 28px;
+		color: $brand-primary;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	.address-info {
+		div {
+			margin-bottom: 10px;
+			overflow: hidden;
+		}
+	}
+	.contact-form {
+		margin-top: 40px;
+	}
+}
+@media (min-width: $screen-sm-min) {
+	.contact-us {
+		.contact-intro {
+			margin-top: 40px;
+			h1 {
+				font-size: 36px;
+			}
+			p {
+				font-size: 21px;
+			}
+		}
+		h2 {
+			font-size: 32px;
+		}
+		.address-info {
+			div {
+				margin-bottom: 20px;
+				overflow: hidden;
+			}
+		}
+		.contact-form {
+			margin-top: 40px;
+		}
+	}
+}
+@media (min-width: $screen-md-min) {
+	.contact-us {
+		.contact-intro {
+			h1 {
+				font-size: 48px;
+			}
+			p {
+				font-size: 24px;
+			}
+		}
+	}
+}
