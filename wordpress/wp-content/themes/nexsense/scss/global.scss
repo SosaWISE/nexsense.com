@@ -48,7 +48,7 @@
 		position: absolute;
 		top: 22px;
 		left: 68px;
-		background: url('../images/nexsense-logo.png') no-repeat center center;
+		background: url('images/nexsense-logo.png') no-repeat center center;
 		background-size: 199px 30px;
 		display: block;
 	}
@@ -99,7 +99,7 @@
 			position: absolute;
 			top: 32px;
 			left: 24px;
-			background: url('../images/nexsense-logo.png') no-repeat center center;
+			background: url('images/nexsense-logo.png') no-repeat center center;
 			background-size: 265px 40px;
 			display: block;
 		}
@@ -157,7 +157,7 @@
 		@include transition(opacity 1000ms ease, visibility 1000ms ease);
 	}
 	height: 500px;
-	background: url('../images/cta-purple-bg.png') no-repeat center center;
+	background: url('images/cta-purple-bg.png') no-repeat center center;
 	color: $white;
 	position: relative;
 	overflow: hidden;
@@ -203,21 +203,21 @@
 			display: inline-block;
 			width: 14px;
 			height: 16px;
-			background: url('../images/caret-sprite.png') no-repeat 0 0;
+			background: url('images/caret-sprite.png') no-repeat 0 0;
 			background-size: 14px 48px;
 			line-height: 1;
 		}
 	}
 	.cta-product-panel {
-		background: url('../images/cta-product-panel-sm.png') no-repeat;
+		background: url('images/cta-product-panel-sm.png') no-repeat;
 		background-size: cover;
 	}
 	.cta-user-mobile {
-		background: url('../images/cta-user-mobile-sm.png') no-repeat;
+		background: url('images/cta-user-mobile-sm.png') no-repeat;
 		background-size: cover;
 	}
 	.cta-product-camera {
-		background: url('../images/cta-product-camera-sm.png') no-repeat;
+		background: url('images/cta-product-camera-sm.png') no-repeat;
 		background-size: cover;
 	}
 	.hero-controls {
@@ -231,7 +231,7 @@
 			.dot {
 				width: 50px;
 				height: 14px;
-				background: url('../images/hero-control-sprite.png') no-repeat;
+				background: url('images/hero-control-sprite.png') no-repeat;
 				background-position: -50px 0;
 				margin: 0 10px;
 				display: block;
@@ -307,7 +307,7 @@
 				top: 5px;
 			    width: 17px;
 			    height: 19px;
-				background: url('../images/caret-sprite.png') no-repeat 0 0;
+				background: url('images/caret-sprite.png') no-repeat 0 0;
 				background-size: 17px 60px;
 			}
 		}
@@ -352,15 +352,15 @@
 			height: 417px;
 		}
 		.cta-product-panel {
-			background: url('../images/cta-product-panel.png') no-repeat;
+			background: url('images/cta-product-panel.png') no-repeat;
 			background-size: cover;
 		}
 		.cta-user-mobile {
-			background: url('../images/cta-user-mobile.png') no-repeat;
+			background: url('images/cta-user-mobile.png') no-repeat;
 			background-size: cover;
 		}
 		.cta-product-camera {
-			background: url('../images/cta-product-camera.png') no-repeat;
+			background: url('images/cta-product-camera.png') no-repeat;
 			background-size: cover;
 		}
 		.slide-0 {
@@ -458,7 +458,7 @@
 }
 .hero-mini {
 	height: 200px;
-	background: url('../images/hero-mini-house.png') no-repeat center center;
+	background: url('images/hero-mini-house.png') no-repeat center center;
 }
 .global-footer {
 	font-size: 14px;
@@ -519,11 +519,11 @@
 	}
 }
 .corner-stripes {
-	background: url('../images/corner-stripes.png') no-repeat top left;
+	background: url('images/corner-stripes.png') no-repeat top left;
 	background-size: 100px 100px;
 }
 .corner-stripes-small {
-	background: url('../images/corner-stripes.png') no-repeat top left;
+	background: url('images/corner-stripes.png') no-repeat top left;
 	background-size: 80px 80px;
 }
 .icomoon-menu {

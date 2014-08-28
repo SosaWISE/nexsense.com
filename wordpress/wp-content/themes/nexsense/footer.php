@@ -92,6 +92,41 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		$(document).ready(function() {
+			var slidePosition,
+				moveSlide,
+				heroInterval,
+				slideTimer = 5000,
+				currentPosition = 0,
+				numberOfSlides = $('.slide').length;
+
+			slidePosition = function() {
+				if (currentPosition == numberOfSlides - 1) {
+					currentPosition = 0;
+				} else {
+					currentPosition++;
+				}
+				moveSlide();
+			}
+			moveSlide = function() {
+				$('[rel="' + currentPosition + '"]').trigger('click');
+			}
+			
+			heroInterval = setInterval(slidePosition, slideTimer)
+
+			$('.dot').on('click', function(e) {
+				e.preventDefault();
+
+				clearInterval(heroInterval);
+				heroInterval = setInterval(slidePosition, 5000);
+				currentPosition = $(this).attr('rel');
+
+				$(this).addClass('active').siblings('.dot').removeClass('active');
+				$('.slide-' + $(this).attr('rel') + '').css({'visibility': 'visible', 'opacity': '1'}).siblings('.slide').css({'visibility': 'hidden', 'opacity': '0'});
+			});
+		});
+	</script>
 	<?php wp_footer(); ?>
 </body>
 </html>

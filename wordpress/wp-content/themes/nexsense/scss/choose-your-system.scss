@@ -21,7 +21,7 @@
 	.system-icons {
 		width: 100px;
 		height: 100px;
-		background: url('../images/system-sprite.png') no-repeat;
+		background: url('images/system-sprite.png') no-repeat;
 		display: block;
 		margin: 20px auto;
 		&.total-control {
@@ -41,7 +41,7 @@
 		j {
 			width: 22px;
 			height: 22px;
-			background: url('../images/caret-collapse.png') no-repeat;
+			background: url('images/caret-collapse.png') no-repeat;
 			background-size: 20px 42px;
 			background-position: 0 -22px;
 			display: inline-block;
@@ -70,7 +70,7 @@
 .add-ons {
 	overflow: hidden;
 	padding: 10px 0 20px 0;
-	background: url('../images/hero-yellow-bg.png') no-repeat;
+	background: url('images/hero-yellow-bg.png') no-repeat;
 	background-size: cover;
 	margin: 40px 0;
 	text-align: center;
@@ -126,7 +126,7 @@
 		j {
 			width: 26px;
 			height: 26px;
-			background: url('../images/caret-collapse.png') no-repeat;
+			background: url('images/caret-collapse.png') no-repeat;
 			background-size: 26px 56px;
 			background-position: 0 -30px;
 			display: inline-block;

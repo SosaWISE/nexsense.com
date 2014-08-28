@@ -8,7 +8,7 @@
 		margin-bottom: 20px;
 	}
 	.built-to-fit {
-		background: url('../images/floorplan-bg.png') no-repeat;
+		background: url('images/floorplan-bg.png') no-repeat;
 		background-size: 480px 236px;
 		background-position: -100px 14px;
 		border-bottom: 1px solid $gray-lighter;
@@ -18,7 +18,7 @@
 		}
 	}
 	.need-help {
-		background: url('../images/tool-bubble-bg.png') no-repeat;
+		background: url('images/tool-bubble-bg.png') no-repeat;
 		background-position: -200px -45px;
 		border-top: 1px solid $gray-lighter;
 		.inner {
@@ -30,7 +30,7 @@
 @media (min-width: $screen-sm-min) {
 	.primary-section {
 		.built-to-fit {
-			background: url('../images/floorplan-bg.png') no-repeat;
+			background: url('images/floorplan-bg.png') no-repeat;
 			background-size: 480px 236px;
 			background-position: 100px 14px;
 			border-bottom: 1px solid $gray-lighter;
@@ -40,7 +40,7 @@
 			}
 		}
 		.need-help {
-			background: url('../images/tool-bubble-bg.png') no-repeat;
+			background: url('images/tool-bubble-bg.png') no-repeat;
 			background-size: 512px 252px;
 			background-position: 100px -25px;
 			border-top: 1px solid $gray-lighter;
@@ -54,7 +54,7 @@
 @media (min-width: $screen-md-min) {
 	.primary-section {
 		.built-to-fit {
-			background: url('../images/floorplan-bg.png') no-repeat;
+			background: url('images/floorplan-bg.png') no-repeat;
 			background-size: 480px 236px;
 			background-position: bottom right;
 			border-bottom: none;
@@ -65,7 +65,7 @@
 			}
 		}
 		.need-help {
-			background: url('../images/tool-bubble-bg.png') no-repeat;
+			background: url('images/tool-bubble-bg.png') no-repeat;
 			background-size: 640px 315px;
 			background-position: -200px -25px;
 			border-top: none;
@@ -80,7 +80,7 @@
 @media (min-width: $screen-lg-min) {
 	.primary-section {
 		.built-to-fit {
-			background: url('../images/floorplan-bg.png') no-repeat;
+			background: url('images/floorplan-bg.png') no-repeat;
 			background-size: 480px 236px;
 			background-position: bottom right;
 			border-bottom: none;
@@ -94,7 +94,7 @@
 			}
 		}
 		.need-help {
-			background: url('../images/tool-bubble-bg.png') no-repeat;
+			background: url('images/tool-bubble-bg.png') no-repeat;
 			background-size: 640px 315px;
 			background-position: -100px -35px;
 			border-top: none;
@@ -298,11 +298,11 @@
 		padding-top: 32px;
 	}
 	&.parallax-swing {
-		background: url('../images/swing-parallax.png') no-repeat;
+		background: url('images/swing-parallax.png') no-repeat;
 		background-position: -835px 0;
 	}
 	&.parallax-house {
-		background: url('../images/house-parallax.png') no-repeat;
+		background: url('images/house-parallax.png') no-repeat;
 		background-position: -900px 0;
 	}
 }

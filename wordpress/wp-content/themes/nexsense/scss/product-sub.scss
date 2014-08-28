@@ -20,7 +20,7 @@
 	}
 	.home-shot {
 		height: 200px;
-		background: url('../images/house-shot.png') no-repeat center center;
+		background: url('images/house-shot.png') no-repeat center center;
 	}
 	.product-shot {
 		text-align: center;
@@ -40,7 +40,7 @@
 				content: '';
 				height: 50px;
 				width: 50px;
-				background: url('../images/straightquotes.png') no-repeat;
+				background: url('images/straightquotes.png') no-repeat;
 				background-position: -25px -350px;
 				position: absolute;
 			}
@@ -48,7 +48,7 @@
 				content: '';
 				height: 50px;
 				width: 50px;
-				background: url('../images/straightquotes.png') no-repeat;
+				background: url('images/straightquotes.png') no-repeat;
 				background-position: -25px -400px;
 				position: absolute;
 			}
