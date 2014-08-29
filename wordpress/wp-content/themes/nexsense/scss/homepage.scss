@@ -7,19 +7,14 @@
 		font-size: 16px;
 		margin-bottom: 20px;
 	}
-	.built-to-fit {
-		background: url('images/floorplan-bg.png') no-repeat;
-		background-size: 480px 236px;
-		background-position: -100px 14px;
+	.col-xs-12:first-child {
 		border-bottom: 1px solid $gray-lighter;
 		.inner {
 			height: 250px;
 			padding-top: 16px;
 		}
 	}
-	.need-help {
-		background: url('images/tool-bubble-bg.png') no-repeat;
-		background-position: -200px -45px;
+	.col-xs-12:last-child {
 		border-top: 1px solid $gray-lighter;
 		.inner {
 			height: 220px;
@@ -29,21 +24,13 @@
 }
 @media (min-width: $screen-sm-min) {
 	.primary-section {
-		.built-to-fit {
-			background: url('images/floorplan-bg.png') no-repeat;
-			background-size: 480px 236px;
-			background-position: 100px 14px;
-			border-bottom: 1px solid $gray-lighter;
+		.col-xs-12:first-child {
 			.inner {
 				height: 200px;
 				padding-top: 16px;
 			}
 		}
-		.need-help {
-			background: url('images/tool-bubble-bg.png') no-repeat;
-			background-size: 512px 252px;
-			background-position: 100px -25px;
-			border-top: 1px solid $gray-lighter;
+		.col-xs-12:last-child {
 			.inner {
 				height: 200px;
 				padding-top: 16px;
@@ -53,10 +40,7 @@
 }
 @media (min-width: $screen-md-min) {
 	.primary-section {
-		.built-to-fit {
-			background: url('images/floorplan-bg.png') no-repeat;
-			background-size: 480px 236px;
-			background-position: bottom right;
+		.col-xs-12:first-child {
 			border-bottom: none;
 			border-right: 1px solid $gray-lighter;
 			.inner {
@@ -64,10 +48,7 @@
 				padding-top: 24px;
 			}
 		}
-		.need-help {
-			background: url('images/tool-bubble-bg.png') no-repeat;
-			background-size: 640px 315px;
-			background-position: -200px -25px;
+		.col-xs-12:last-child {
 			border-top: none;
 			border-left: 1px solid $gray-lighter;
 			.inner {
@@ -79,12 +60,7 @@
 }
 @media (min-width: $screen-lg-min) {
 	.primary-section {
-		.built-to-fit {
-			background: url('images/floorplan-bg.png') no-repeat;
-			background-size: 480px 236px;
-			background-position: bottom right;
-			border-bottom: none;
-			border-right: 1px solid $gray-lighter;
+		.col-xs-12:first-child {
 			.inner {
 				height: 240px;
 				padding-top: 32px;
@@ -93,12 +69,7 @@
 				width: 80%;
 			}
 		}
-		.need-help {
-			background: url('images/tool-bubble-bg.png') no-repeat;
-			background-size: 640px 315px;
-			background-position: -100px -35px;
-			border-top: none;
-			border-left: 1px solid $gray-lighter;
+		.col-xs-12:last-child {
 			.inner {
 				height: 240px;
 				padding-top: 32px;
@@ -115,17 +86,13 @@
 			font-size: 20px;
 			margin-bottom: 30px;
 		}
-		.built-to-fit {
-			background-size: 640px 315px;
-			background-position: right bottom;
+		.col-xs-12:first-child {
 			.inner {
 				height: 340px;
 				padding-top: 50px;
 			}
 		}
-		.need-help {
-			background-size: 640px 315px;
-			background-position: right bottom;
+		.col-xs-12:last-child {
 			.inner {
 				height: 340px;
 				padding-top: 50px;
@@ -142,17 +109,13 @@
 			font-size: 20px;
 			margin-bottom: 30px;
 		}
-		.built-to-fit {
-			background-size: 640px 315px;
-			background-position: right bottom;
+		.col-xs-12:first-child {
 			.inner {
 				height: 320px;
 				padding-top: 50px;
 			}
 		}
-		.need-help {
-			background-size: 640px 315px;
-			background-position: right bottom;
+		.col-xs-12:last-child {
 			.inner {
 				height: 320px;
 				padding-top: 50px;
@@ -182,7 +145,7 @@
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
-	.need-the-app {
+	.middle {
 		border-top: 2px solid $gray-lighter;
 		border-bottom: 2px solid $gray-lighter;
 	}
@@ -200,20 +163,14 @@
 			padding-top: 60px;
 			padding-bottom: 50px;
 		}
-		.how-we-compare {
-			border-right: 1px solid $gray-lighter;
-		}
-		.need-the-app {
+		.middle {
 			border-top: none;
-			border-left: 1px solid $gray-lighter;
+			border-left: 2px solid $gray-lighter;
 			border-bottom: none;
-			border-right: 1px solid $gray-lighter;
-			.btn {
+			border-right: 2px solid $gray-lighter;
+			.custom-button {
 				margin-top: 24px;
 			}
-		}
-		.explore-our-system {
-			border-left: 1px solid $gray-lighter;
 		}
 	}
 }
@@ -248,12 +205,10 @@
 			padding-top: 50px;
 			padding-bottom: 60px;
 		}
-		.need-the-app {
-			h2 {
-				margin-top: 14px;
-			}
+		.custom-button {
 			p {
-				margin-top: 18px;
+				margin-top: 24px;
+				margin-bottom: 26px;
 			}
 		}
 	}
@@ -274,11 +229,6 @@
 			padding-top: 50px;
 			padding-bottom: 50px;
 		}
-		.how-we-help {
-			.btn {
-				margin-top: 31px;
-			}
-		}
 	}
 }
 
@@ -297,25 +247,11 @@
 	.inner {
 		padding-top: 32px;
 	}
-	&.parallax-swing {
-		background: url('images/swing-parallax.png') no-repeat;
-		background-position: -835px 0;
-	}
-	&.parallax-house {
-		background: url('images/house-parallax.png') no-repeat;
-		background-position: -900px 0;
-	}
 }
 @media (min-width: $screen-sm-min) {
 	.parallax {
 		.inner {
 			padding-top: 48px;
-		}
-		&.parallax-swing {
-			background-position: -586px 0;
-		}
-		&.parallax-house {
-			background-position: -680px 0;
 		}
 	}
 }
@@ -326,12 +262,6 @@
 		}
 		.inner {
 			padding-top: 75px;
-		}
-		&.parallax-swing {
-			background-position: right bottom;
-		}
-		&.parallax-house {
-			background-position: right bottom;
 		}
 	}
 }

@@ -8,9 +8,8 @@
 
 get_header(); ?>
 <?php if( get_field('hero_type') == 'none' ) : ?>
-	<?php return; ?>
 <?php elseif( get_field('hero_type') == 'image' ) : ?>
-	<div>HERO IMAGE</div>
+	<div class="hero-mini"></div>
 <?php elseif( get_field('hero_type') == 'slider' ) : ?>
 	<?php if( get_field('slider') ): ?>
 		<div class="hero-slider">
@@ -28,7 +27,7 @@ get_header(); ?>
 					<div class="product-inner col-xs-12 col-sm-6">
 						<div class="row">
 							<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
-								<img src="<?php echo get_sub_field('image')['url']; ?>" alt="<?php echo get_sub_field('image')['alt']; ?>" />
+								<a href="<?php the_sub_field('learn_more_link'); ?>"><img src="<?php echo get_sub_field('image')['url']; ?>" alt="<?php echo get_sub_field('image')['alt']; ?>" /></a>
 							</div>
 						</div>
 					</div>
@@ -51,7 +50,7 @@ get_header(); ?>
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<?php while ( has_sub_field('2_column_w_background_image') ) : ?>
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-6" style="background: url(<?php echo get_sub_field('image')['url']; ?>) no-repeat bottom left;">
 						<div class="row">
 							<div class="inner col-xs-10 col-xs-offset-1">
 								<h2><?php the_sub_field('headline'); ?></h2>
@@ -68,7 +67,7 @@ get_header(); ?>
 
 <?php if ( get_field('parallax') ) : ?>
 	<?php while ( has_sub_field('parallax') ) : ?>
-		<div class="parallax text-center clearfix">
+		<div class="parallax text-center clearfix" style="background: url(<?php echo get_sub_field('image')['url']; ?>) no-repeat center center;">
 			<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="inner col-xs-12">
@@ -84,15 +83,17 @@ get_header(); ?>
 	<div class="secondary-section text-center clearfix">
 		<div class="container-fluid">
 			<div class="row-fluid">
+				<?php $columnCounter = 1; ?>
 				<?php while ( has_sub_field('3_column_w_stripe') ) : ?>
-					<div class="<?php if ( get_sub_field('stripe') ) { echo 'corner-stripes-small'; } ?> inner col-xs-12 col-md-4">
+					<div class="<?php if ( get_sub_field('stripe') ) { echo 'corner-stripes-small'; } ?><?php if ( $columnCounter == 2 ) { echo 'middle'; } ?> inner col-xs-12 col-md-4">
 						<h2><?php the_sub_field('headline'); ?></h2>
 						<?php if ( get_sub_field('button_type') == 'default' ) : ?>
 							<a href="<?php the_sub_field('button_link'); ?>" class="btn btn-default"><?php the_sub_field('button_text'); ?> <i></i></a>
 						<?php elseif ( get_sub_field('button_type') == 'custom' ) : ?>
-							<?php the_sub_field('button_custom'); ?>
+							<div class="custom-button"><?php the_sub_field('button_custom'); ?></div>
 						<?php endif; ?>
 					</div>
+					<?php $columnCounter++; ?>
 				<?php endwhile; ?>
 			</div>
 		</div>
@@ -101,7 +102,7 @@ get_header(); ?>
 
 <?php if ( get_field('parallax_2') ) : ?>
 	<?php while ( has_sub_field('parallax_2') ) : ?>
-		<div class="parallax text-center clearfix">
+		<div class="parallax text-center clearfix" style="background: url(<?php echo get_sub_field('image')['url']; ?>) no-repeat center center;">
 			<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="inner col-xs-12">

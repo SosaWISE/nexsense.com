@@ -128,12 +128,23 @@
 			});
 		});
 		$(document).ready(function() {
-				$('[rel="customer-service"]').addClass('current');
-				$('h3, h4').on('click', function(e) {
-					$(this).toggleClass('active').siblings('div').slideToggle();
-					$(this).children('j').toggleClass('active');
-				});
+			$('[rel="customer-service"]').addClass('current');
+			$('h3, h4').on('click', function(e) {
+				$(this).toggleClass('active').siblings('div').slideToggle();
+				$(this).children('j').toggleClass('active');
 			});
+		});
+		$(document).ready(function() {
+			$('[rel="choose-your-system"]').addClass('current');
+			$('.what-you-get-toggle').on('click', function(e) {
+				$('j').toggleClass('active');
+				$('.slide').slideToggle();
+			});
+			$('.options-intro h2').on('click', function(e) {
+				$(this).find('j').toggleClass('active');
+				$(this).parent().siblings('.slide').slideToggle();
+			});
+		});
 	</script>
 	<?php wp_footer(); ?>
 </body>

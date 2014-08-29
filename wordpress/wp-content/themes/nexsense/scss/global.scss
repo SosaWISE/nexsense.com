@@ -167,6 +167,10 @@
 		left: 0;
 		width: 100%;
 	}
+	.slide-1, .slide-2 {
+		visibility: hidden;
+		opacity: 0;
+	}
 	.copy-inner {
 		padding-top: 14px;
 		h2 {
@@ -182,43 +186,6 @@
 	.product-inner {
 		padding-top: 14px;
 		padding-bottom: 14px;
-	}
-	.product-image {
-		width: 230px;
-		height: 230px;
-		display: block;
-		overflow: hidden;
-		position: relative;
-	}
-	.learn-more {
-		font-size: 12px;
-		font-family: $font-family-secondary;
-		text-transform: uppercase;
-		position: absolute;
-		top: 186px;
-		left: 64px;
-		i {
-			position: relative;
-			top: 4px;
-			display: inline-block;
-			width: 14px;
-			height: 16px;
-			background: url('images/caret-sprite.png') no-repeat 0 0;
-			background-size: 14px 48px;
-			line-height: 1;
-		}
-	}
-	.cta-product-panel {
-		background: url('images/cta-product-panel-sm.png') no-repeat;
-		background-size: cover;
-	}
-	.cta-user-mobile {
-		background: url('images/cta-user-mobile-sm.png') no-repeat;
-		background-size: cover;
-	}
-	.cta-product-camera {
-		background: url('images/cta-product-camera-sm.png') no-repeat;
-		background-size: cover;
 	}
 	.hero-controls {
 		bottom: 20px;
@@ -251,15 +218,6 @@
 		.product-inner {
 			padding-top: 40px;
 			padding-bottom: 40px;
-		}
-		.product-image {
-			width: 200px;
-			height: 200px;
-		}
-		.learn-more {
-			font-size: 10px;
-			top: 160px;
-			left: 56px;
 		}
 		.slide-0 {
 			.copy-inner {
@@ -295,22 +253,6 @@
 			padding-top: 40px;
 			padding-bottom: 40px;
 		}
-		.product-image {
-			width: 316px;
-			height: 316px;
-		}
-		.learn-more {
-			font-size: 14px;
-			top: 260px;
-			left: 100px;
-			i {
-				top: 5px;
-			    width: 17px;
-			    height: 19px;
-				background: url('images/caret-sprite.png') no-repeat 0 0;
-				background-size: 17px 60px;
-			}
-		}
 		.slide-0 {
 			.copy-inner {
 				padding-top: 80px;
@@ -343,25 +285,6 @@
 		.product-inner {
 			padding-top: 40px;
 			padding-bottom: 40px;
-		}
-		.learn-more {
-			display: none;
-		}
-		.product-image {
-			width: 417px;
-			height: 417px;
-		}
-		.cta-product-panel {
-			background: url('images/cta-product-panel.png') no-repeat;
-			background-size: cover;
-		}
-		.cta-user-mobile {
-			background: url('images/cta-user-mobile.png') no-repeat;
-			background-size: cover;
-		}
-		.cta-product-camera {
-			background: url('images/cta-product-camera.png') no-repeat;
-			background-size: cover;
 		}
 		.slide-0 {
 			.copy-inner {
@@ -396,10 +319,6 @@
 			padding-top: 40px;
 			padding-bottom: 40px;
 		}
-		.product-image {
-			width: 468px;
-			height: 468px;
-		}
 		.slide-0 {
 			.copy-inner {
 				padding-top: 150px;
@@ -431,10 +350,6 @@
 		.product-inner {
 			padding-top: 40px;
 			padding-bottom: 40px;
-		}
-		.product-image {
-			width: 497px;
-			height: 497px;
 		}
 		.slide-0 {
 			.copy-inner {
