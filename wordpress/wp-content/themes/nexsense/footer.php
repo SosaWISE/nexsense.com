@@ -92,6 +92,7 @@
 			</div>
 		</div>
 	</div>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script>
 		$(document).ready(function() {
 			var slidePosition,
@@ -126,6 +127,13 @@
 				$('.slide-' + $(this).attr('rel') + '').css({'visibility': 'visible', 'opacity': '1'}).siblings('.slide').css({'visibility': 'hidden', 'opacity': '0'});
 			});
 		});
+		$(document).ready(function() {
+				$('[rel="customer-service"]').addClass('current');
+				$('h3, h4').on('click', function(e) {
+					$(this).toggleClass('active').siblings('div').slideToggle();
+					$(this).children('j').toggleClass('active');
+				});
+			});
 	</script>
 	<?php wp_footer(); ?>
 </body>
