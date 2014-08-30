@@ -10,7 +10,7 @@
  */
 
 get_header(); ?>
-
+<div class="hero-mini"></div>
 	<section id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 

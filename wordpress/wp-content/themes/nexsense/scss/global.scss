@@ -120,7 +120,7 @@
 				font-size: 12px;
 				line-height: 2;
 				margin-left: 20px;
-				&.current {
+				&.current-menu-item, &.current-page-ancestor {
 					border-top: 2px solid $brand-secondary;
 					a {
 						color: $brand-primary;
@@ -170,6 +170,9 @@
 	.slide-1, .slide-2 {
 		visibility: hidden;
 		opacity: 0;
+	}
+	img {
+		width: 100%;
 	}
 	.copy-inner {
 		padding-top: 14px;

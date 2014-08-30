@@ -10,8 +10,23 @@
  */
 ?>
 
+
+<div class="post">
+	<div class="row">
+		<div class="col-xs-12 col-lg-11">
+			<h1><?php the_title(); ?></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-lg-11">
+			<h6>Posted on <?php the_time('m.d.y') ?> by <?php the_author(); ?></h6>
+			<?php the_content(); ?>
+		</div>
+	</div>
+</div>
+
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php twentyfourteen_post_thumbnail(); ?>
 
 	<header class="entry-header">
 		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
