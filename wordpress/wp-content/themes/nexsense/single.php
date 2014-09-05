@@ -7,14 +7,6 @@
 
 get_header(); ?>
 
-<?php if( has_post_thumbnail( $post_id ) ) : ?>
-	<div class="row">
-		<div class="col-xs-12">
-			<img src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" class="featured-image">
-		</div>
-    </div>
-<?php endif; ?>
-
 <div class="blog blog-post">
 	<div class="container">
 		<div class="row">

@@ -39,39 +39,7 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<span style="position: absolute; color: white; cursor: pointer; top: 10px; right: 20px; font-size: 24px; margin-top: 0; margin-bottom: 0;" data-dismiss="modal">&times;</span>
-				<form id="get-quote-form" class="contact-form" role="form">
-					<h4 class="modal-title">Get A Free Quote</h4>
-					<div class="form-group half">
-						<label class="hide" for="email">First Name*</label>
-						<input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name*" required>
-					</div>
-					<div class="form-group half">
-						<label class="hide" for="email">Last Name*</label>
-						<input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name*" required>
-					</div>
-					<div class="form-group half">
-						<label class="hide" for="phone">Phone*</label>
-						<input type="text" class="form-control" id="phone" name="phone" placeholder="Phone*" required>
-					</div>
-					<div class="form-group half">
-						<label class="hide" for="phone">Zip*</label>
-						<input type="text" class="form-control" id="zip" name="zip" placeholder="Zip*" required>
-					</div>
-					<div class="form-group full">
-						<label class="hide" for="email">Email*</label>
-						<input type="email" class="form-control" id="email" name="email" placeholder="Email*" required>
-					</div>
-					<div class="form-group" style="display: none;">
-						<label class="hide" for="age">Age (If you are human... do not fill out this field!)</label>
-						<input type="text" class="form-control" id="age" name="age" placeholder="Age (If you are human... do not fill out this field!)">
-					</div>
-					<span class="modal-sub-title">or Contact Us at 866.205.5200</span>
-					<span class="legal">By clicking this button, you consent for Nexsense to use automated technology including pre-recorded messages to contact you at the number provided.<br>This consent is not required to make a purchase from us.</span>
-					<div class="form-group">
-						<input type="hidden" name="department" value="sales@nexsense.com, dfreitas@nexsense.com, bcarter@nexsense.com">
-						<button type="submit" id="submit" class="btn btn-secondary">Submit <i></i></a>
-					</div>
-				</form>
+				<?php get_sidebar('footer'); ?>
 			</div>
 		</div>
 	</div>

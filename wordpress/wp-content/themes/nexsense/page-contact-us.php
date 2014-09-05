@@ -9,7 +9,7 @@
 get_header(); ?>
 <?php if( get_field('hero_type') == 'none' ) : ?>
 <?php elseif( get_field('hero_type') == 'image' ) : ?>
-	<div class="hero-mini"></div>
+	<div class="hero-mini" style="background-image: url('<?php echo get_field('image')['url']; ?>');"></div>
 <?php elseif( get_field('hero_type') == 'slider' ) : ?>
 	<?php if( get_field('slider') ): ?>
 		<div class="hero-slider">

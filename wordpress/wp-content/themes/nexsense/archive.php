@@ -18,35 +18,35 @@
  */
 
 get_header(); ?>
+<div class="blog blog-feed">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-lg-9">
+				<?php if ( have_posts() ) : ?>
 
-	<section id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+					<header class="page-header">
+						<h1 class="page-title">
+							<?php
+								if ( is_day() ) :
+									printf( __( 'Daily Archives: %s', 'twentyfourteen' ), get_the_date() );
 
-			<?php if ( have_posts() ) : ?>
+								elseif ( is_month() ) :
+									printf( __( 'Monthly Archives: %s', 'twentyfourteen' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentyfourteen' ) ) );
 
-			<header class="page-header">
-				<h1 class="page-title">
-					<?php
-						if ( is_day() ) :
-							printf( __( 'Daily Archives: %s', 'twentyfourteen' ), get_the_date() );
+								elseif ( is_year() ) :
+									printf( __( 'Yearly Archives: %s', 'twentyfourteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentyfourteen' ) ) );
 
-						elseif ( is_month() ) :
-							printf( __( 'Monthly Archives: %s', 'twentyfourteen' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentyfourteen' ) ) );
+								else :
+									_e( 'Archives', 'twentyfourteen' );
 
-						elseif ( is_year() ) :
-							printf( __( 'Yearly Archives: %s', 'twentyfourteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentyfourteen' ) ) );
+								endif;
+							?>
+						</h1>
+					</header><!-- .page-header -->
 
-						else :
-							_e( 'Archives', 'twentyfourteen' );
-
-						endif;
-					?>
-				</h1>
-			</header><!-- .page-header -->
-
-			<?php
-					// Start the Loop.
-					while ( have_posts() ) : the_post();
+				<?php
+						// Start the Loop.
+						while ( have_posts() ) : the_post();
 
 						/*
 						 * Include the post format-specific template for the content. If you want to
@@ -55,20 +55,22 @@ get_header(); ?>
 						 */
 						get_template_part( 'content', get_post_format() );
 
-					endwhile;
-					// Previous/next page navigation.
-					twentyfourteen_paging_nav();
+						endwhile;
+						// Previous/next page navigation.
+						twentyfourteen_paging_nav();
 
-				else :
-					// If no content, include the "No posts found" template.
-					get_template_part( 'content', 'none' );
+					else :
+						// If no content, include the "No posts found" template.
+						get_template_part( 'content', 'none' );
 
-				endif;
-			?>
-		</div><!-- #content -->
-	</section><!-- #primary -->
-
+					endif;
+				?>
+			</div>
+			<div class="col-xs-12 col-lg-3 sidebar">
+				<?php get_sidebar(); ?>
+			</div>
+		</div>
+	</div>
+</div>
 <?php
-get_sidebar( 'content' );
-get_sidebar();
 get_footer();

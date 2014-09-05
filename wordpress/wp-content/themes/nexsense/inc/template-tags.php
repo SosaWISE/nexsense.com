@@ -42,19 +42,18 @@ function twentyfourteen_paging_nav() {
 		'current'  => $paged,
 		'mid_size' => 1,
 		'add_args' => array_map( 'urlencode', $query_args ),
-		'prev_text' => __( '&larr; Previous', 'twentyfourteen' ),
-		'next_text' => __( 'Next &rarr;', 'twentyfourteen' ),
+		'prev_text' => __( '&laquo; Older', 'twentyfourteen' ),
+		'next_text' => __( 'Newer &raquo;', 'twentyfourteen' ),
 	) );
 
 	if ( $links ) :
 
 	?>
-	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'twentyfourteen' ); ?></h1>
-		<div class="pagination loop-pagination">
+	<div class="row">
+		<div class="col-xs-12">
 			<?php echo $links; ?>
-		</div><!-- .pagination -->
-	</nav><!-- .navigation -->
+		</div>
+	</div>
 	<?php
 	endif;
 }

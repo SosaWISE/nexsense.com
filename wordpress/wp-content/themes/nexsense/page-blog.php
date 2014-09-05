@@ -9,7 +9,7 @@ get_header(); ?>
 
 <?php if( get_field('hero_type') == 'none' ) : ?>
 <?php elseif( get_field('hero_type') == 'image' ) : ?>
-	<div class="hero-mini"></div>
+	<div class="hero-mini" style="background-image: url('<?php echo get_field('image')['url']; ?>');"></div>
 <?php elseif( get_field('hero_type') == 'slider' ) : ?>
 	<?php if( get_field('slider') ): ?>
 		<div class="hero-slider">
@@ -63,18 +63,18 @@ get_header(); ?>
 								<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-xs-12 col-lg-11">
-								<a href="<?php the_permalink() ?>">
-									<?php if( has_post_thumbnail( $post_id ) ) : ?>
-									    <img src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" class="featured-image">
-									<?php endif; ?>
-								</a>
+						<?php if( has_post_thumbnail( $post_id ) ) : ?>
+							<div class="row">
+								<div class="col-xs-12 col-lg-11">
+									<a href="<?php the_permalink() ?>">
+										<img src="<?=wp_get_attachment_url( get_post_thumbnail_id() ); ?>" class="featured-image">
+									</a>
+								</div>
 							</div>
-						</div>
+						<?php endif; ?>
 						<div class="row">
 							<div class="col-xs-12 col-lg-11">
-								<h6>Posted on <?php the_time('m.d.y') ?> by ______</h6>
+								<h6>Posted on <?php the_time('m.d.y') ?> by <?php the_author_link(); ?></h6>
 								<p><?php the_excerpt(); ?></p>
 								<a href="<?php the_permalink() ?>" class="btn btn-default">Read more <i></i></a>
 							</div>
@@ -84,10 +84,10 @@ get_header(); ?>
 				endwhile;
 ?>
 					<div class="row">
-						<div class="col-xs-12">
+						<div class="col-xs-6">
 							<span><?php previous_posts_link('&laquo; Newer Articles') ?></span>
 						</div>
-						<div class="col-xs-12">
+						<div class="col-xs-6">
 							<span><?php next_posts_link('Older Articles &raquo;') ?></span>
 						</div>
 					</div>
