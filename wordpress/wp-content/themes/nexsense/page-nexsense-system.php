@@ -7,9 +7,10 @@
  */
 
 get_header(); ?>
+
 <?php if( get_field('hero_type') == 'none' ) : ?>
 <?php elseif( get_field('hero_type') == 'image' ) : ?>
-	<div class="hero-mini" style="background-image: url('<?php echo get_field('image')['url']; ?>');"></div>
+	<?php $image = get_field('image'); ?><div class="hero-mini" style="background-image: url('<?php echo $image['url']; ?>');"></div>
 <?php elseif( get_field('hero_type') == 'slider' ) : ?>
 	<?php if( get_field('slider') ): ?>
 		<div class="hero-slider">
@@ -27,7 +28,7 @@ get_header(); ?>
 					<div class="product-inner col-xs-12 col-sm-6">
 						<div class="row">
 							<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
-								<a href="<?php the_sub_field('learn_more_link'); ?>"><img src="<?php echo get_sub_field('image')['url']; ?>" alt="<?php echo get_sub_field('image')['alt']; ?>" /></a>
+								<a href="<?php the_sub_field('learn_more_link'); ?>"><?php $image = get_sub_field('image'); ?><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
 							</div>
 						</div>
 					</div>
@@ -67,8 +68,8 @@ get_header(); ?>
 		<div class="product-sub-section clearfix">
 			<div class="container-fluid">
 				<div class="row-fluid">
-					<div class="col-md-6 <?php if ( $columnCounter == 2 ) { echo 'col-md-push-6'; } ?> image" style="background: url(<?php echo get_sub_field('image')['url']; ?>) no-repeat center center;"></div>
-					<div class="col-md-6 <?php if ( $columnCounter == 2 ) { echo 'col-md-pull-6'; } ?>">
+					<?php $image = get_sub_field('image'); ?><div class="col-md-6 <?php if ( $columnCounter % 2 == 0 ) { echo 'col-md-push-6'; } ?> image" style="background: url(<?php echo $image['url']; ?>) no-repeat center center;"></div>
+					<div class="col-md-6 <?php if ( $columnCounter % 2 == 0 ) { echo 'col-md-pull-6'; } ?>">
 						<div class="row">
 							<div class="inner col-sm-10 col-sm-offset-1">
 								<h2><?php the_sub_field('headline'); ?></h2>

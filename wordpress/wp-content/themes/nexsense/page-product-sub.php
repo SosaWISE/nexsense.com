@@ -7,9 +7,10 @@
  */
 
 get_header(); ?>
+
 <?php if( get_field('hero_type') == 'none' ) : ?>
 <?php elseif( get_field('hero_type') == 'image' ) : ?>
-	<div class="hero-mini" style="background-image: url('<?php echo get_field('image')['url']; ?>');"></div>
+	<?php $image = get_field('image'); ?><div class="hero-mini" style="background-image: url('<?php echo $image['url']; ?>');"></div>
 <?php elseif( get_field('hero_type') == 'slider' ) : ?>
 	<?php if( get_field('slider') ): ?>
 		<div class="hero-slider">
@@ -27,7 +28,7 @@ get_header(); ?>
 					<div class="product-inner col-xs-12 col-sm-6">
 						<div class="row">
 							<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-0 col-md-11 col-xxl-10">
-								<a href="<?php the_sub_field('learn_more_link'); ?>"><img src="<?php echo get_sub_field('image')['url']; ?>" alt="<?php echo get_sub_field('image')['alt']; ?>" /></a>
+								<a href="<?php the_sub_field('learn_more_link'); ?>"><?php $image = get_sub_field('image'); ?><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
 							</div>
 						</div>
 					</div>
@@ -56,7 +57,7 @@ get_header(); ?>
 							<?php the_sub_field('content'); ?>
 						</div>
 						<div class="intro-photo col-xs-12 col-md-6">
-							<img src="<?php echo get_sub_field('image')['url']; ?>" alt="<?php echo get_sub_field('image')['alt']; ?>" />
+							<?php $image = get_sub_field('image'); ?><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 						</div>
 					</div>
 				</div>
@@ -74,7 +75,7 @@ get_header(); ?>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<img class="product-photo" src="<?php echo get_sub_field('image')['url']; ?>" alt="<?php echo get_sub_field('image')['alt']; ?>" />
+							<?php $image = get_sub_field('image'); ?><img class="product-photo" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 						</div>
 						<div class="col-md-6">
 							<blockquote><?php the_sub_field('quote'); ?></blockquote>
