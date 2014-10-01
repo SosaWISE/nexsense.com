@@ -41,10 +41,10 @@
 					&nbsp;|&nbsp;
 					<a class="btn btn-default" data-toggle="modal" data-target="#get-quote">Get A Free Quote <i></i></a>
 					<?php wp_nav_menu( array(
-					'theme_location' => 'primary',
-					'container' => false,
-					'items_wrap' => '<ul>%3$s</ul>'
-				) ); ?>
+						'theme_location' => 'primary',
+						'container' => false,
+						'items_wrap' => '<ul>%3$s</ul>'
+					) ); ?>
 				</nav>
 			</div>
 		</header>

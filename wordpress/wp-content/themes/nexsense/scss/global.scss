@@ -150,6 +150,18 @@
 			}
 		}
 	}
+	.single, .archive {
+		.global-header {
+			.top-navigation {
+				li#menu-item-284 {
+					border-top: 2px solid $brand-secondary;
+					a {
+						color: $brand-primary;
+					}
+				}
+			}
+		}
+	}
 }
 
 .hero-slider {
