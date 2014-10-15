@@ -15,9 +15,6 @@
 								<a href="https://twitter.com/nexsense"><span class="icomoon icomoon-twitter"></span></a>
 								<a href="https://www.youtube.com/nexsense"><span class="icomoon icomoon-youtube"></span></a>
 								<a href="http://www.pinterest.com/nexsense"><span class="icomoon icomoon-pinterest"></span></a>
-								<a href="https://plus.google.com/u/0/b/109627038700775048616/"><span class="icomoon icomoon-googleplus"></span></a>
-								<a href="https://vimeo.com/nexsense"><span class="icomoon icomoon-vimeo"></span></a>
-								<a href="http://us.reddit.com/user/Nexsense/"><span class="icomoon icomoon-reddit last"></span></a>
 							</li>
 						</ul>
 					</div>

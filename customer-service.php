@@ -9,7 +9,7 @@
 						<h2>FAQs</h2>
 
 						<div>
-							<h3><j></j> I have questions about signing up with Nexsense.</h3>
+							<h3>I have questions about signing up with Nexsense.</h3>
 							<div class="faq-question">
 								<h4>I see you’re new to town. Why should I trust your systems?</h4>
 								<div class="faq-answer">
@@ -37,9 +37,9 @@
 						</div>
 
 						<div>
-							<h3><j></j> I have questions about my account.</h3>
+							<h3>I have questions about my account.</h3>
 							<div class="faq-question">
-								<h4>How do I adjust my contact list?</h4>
+								<h4>Where do I send my payment?</h4>
 								<div class="faq-answer">
 									<p>The majority of the time the best payment avenues are credit/debit cards or EFT.  However if you need to mail us, our address is:</p>
 									<p>722 E Technology Ave,<br>Suite 1100 Bldg E<br>Orem, UT 84097</p>
