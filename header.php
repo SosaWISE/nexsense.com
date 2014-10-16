@@ -6,13 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Nexsense offers safety solutions that match your home and your lifestyle." />
 	<meta name="keywords" content="Nexsense, home security, alarm system, home automation, home management" />
-	<link rel="shortcut icon" href="//www.nexsense.com/favicon.ico">
+	<link rel="shortcut icon" href="/favicon.ico">
 
 	<title><?php echo $title; ?></title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600|Montserrat:400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
-	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet"/>
+	<link href="/scss/nexsense.css" rel="stylesheet"/>
+	<?php if (isset($css)): ?>
+		<link href="/scss/<?php echo $css; ?>" rel="stylesheet">
+	<?php endif; ?>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="assets/js/third_party/angular.min.js"></script>
+	<script src="assets/js/nexsense-angular.js"></script>
+	<script src="assets/js/common-1.3.0.js"></script>
 	<script src="assets/js/nexsense.min.js"></script>
 	<script>
 	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,7 +30,7 @@
   		ga('send', 'pageview');
 	</script>	
 </head>
-<body>
+<body ng-app="Nexsense">
 	<div class="main">
 		<header class="global-header hidden-xs hidden-sm hidden-md hidden-lg visible-xl visible-xxl">
 			<div class="container-fluid">

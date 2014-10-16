@@ -1,0 +1,120 @@
+div.purple {
+	background-image: url("../assets/images/purple-stripe-bg.png");
+	padding: 20px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	max-width: 750px;
+	margin: 0 auto 0 auto;
+}
+
+h4 {
+	color: #fec524;
+}
+
+
+div.flex-row {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+}
+div.flex-half {
+    flex: 1 1 50%;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    -moz-flex: 1 1 50%;
+}
+div.flex-quarter {
+    flex: 1 1 25%;
+    -webkit-flex: 1 1 25%;
+    -ms-flex: 1 1 25%;
+    -moz-flex: 1 1 25%;
+}
+div.margin {
+	margin: 2px;
+}
+div.margin:first-child {
+	margin-left: 0;
+}
+div.margin:last-child {
+	margin-right: 0;
+}
+input[type=text], input[type=email], input[type=phone], input[type=number], textarea {
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+textarea {
+	height: 60px;
+}
+div#chars-remaining {
+	text-align: right;
+	font-size: 12px;
+}
+div#chars-remaining.warning {
+	color: #D3242B;
+}
+
+
+div.application-question {
+	margin: 30px 0 0 0;
+}
+div.application-button {
+	margin: 30px 0 0 0;
+	text-align: center;
+}
+div.radio-container {
+	margin: 0 5px 0 20px;
+}
+
+
+table#work-history > thead > tr > th {
+	text-align: left;
+	font-size: 11px;
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	padding: 2px 4px;
+	vertical-align: bottom;
+}
+
+table#work-history > tbody > tr > td {
+	padding: 2px 4px;
+}
+
+div#add-company {
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #fec524;
+}
+div#add-company:hover {
+	text-decoration: underline;
+}
+div#add-company > img {
+	width: 20px;
+	margin-right: 6px;
+}
+
+td.remove-work-history {
+	cursor: pointer;
+	
+}
+td.remove-work-history > img {
+	width: 20px;
+}
+

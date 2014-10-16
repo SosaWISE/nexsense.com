@@ -9,7 +9,7 @@
 						<h2>FAQs</h2>
 
 						<div>
-							<h3>I have questions about signing up with Nexsense.</h3>
+							<h3><j></j> I have questions about signing up with Nexsense.</h3>
 							<div class="faq-question">
 								<h4>I see you’re new to town. Why should I trust your systems?</h4>
 								<div class="faq-answer">
@@ -37,7 +37,7 @@
 						</div>
 
 						<div>
-							<h3>I have questions about my account.</h3>
+							<h3><j></j> I have questions about my account.</h3>
 							<div class="faq-question">
 								<h4>Where do I send my payment?</h4>
 								<div class="faq-answer">
