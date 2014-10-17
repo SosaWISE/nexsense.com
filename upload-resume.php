@@ -18,7 +18,7 @@ try {
 	$body = '';
 
 	// plain text section
-	$body .= "$boundary\r\n\r\n";
+	$body .= "--$boundary\r\n";
 	$body .= "Content-Type: text/plain; charset=\"iso-8859-1\"\r\n";
 	$body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
 
@@ -30,16 +30,16 @@ try {
 	$body .= "Zip Code: " . $request->zip . "\r\n";
 	$body .= "\r\n";
 
-	if (!empty($request->workHistory)) {
-		$body .= "Previous home security experience:\r\n";
-		for ($i=0; $i<count($request->workHistory); $i++) {
-			$body .= "  Worked for " . $request->workHistory[$i]->company . " for " . $request->workHistory[$i]->yearsWorked . " years and sold " . $request->workHistory[$i]->annualSales . " accounts each year\r\n";
-		}
-		$body .= "\r\n";
-	}
-	else if (!empty($request->salesExperience)) {
+	if (!empty($request->salesExperience)) {
 		$body .= "This candidate doesn't have previous home security sales experience, but has listed some other experience as follows:\r\n";
 		$body .= $request->salesExperience . "\r\n\r\n";
+	}
+	else if (!empty($request->workHistory)) {
+		$body .= "Previous home security experience:\r\n";
+		for ($i=0; $i<count($request->workHistory); $i++) {
+			$body .= " - Worked for " . $request->workHistory[$i]->company . " for " . $request->workHistory[$i]->yearsWorked . " years and sold " . $request->workHistory[$i]->annualSales . " accounts each year\r\n";
+		}
+		$body .= "\r\n";
 	}
 
 	if (!empty($request->sellYourself)) {
@@ -57,7 +57,7 @@ try {
 			$attachment = chunk_split(substr($request->resume, strpos($request->resume, ';')+1));
 			$filename = $request->firstName . $request->lastName . '-resume.' . $extension;
 
-			$body .= "$boundary\r\n\r\n";
+			$body .= "--$boundary\r\n";
 			$body .= "Content-Type: $contentType; name=\"$filename\"\r\n";
 			$body .= "Content-Description: $filename\r\n";
 			$body .= "Content-Disposition: attachment; filename=\"$filename\"\r\n";
@@ -68,7 +68,7 @@ try {
 		}
 	}
 
-	$body .= "$boundary\r\n\r\n";
+	$body .= "--$boundary--";
 
 	// send email
 	$success = mail($emailto, $subject, $body, $headers);
