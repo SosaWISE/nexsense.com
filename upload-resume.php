@@ -3,7 +3,7 @@ try {
 	$postdata = file_get_contents("php://input");
 	$request = json_decode($postdata);
 
-/*
+
 	// Plain text email with attachment
 	$boundary = 'NXS-'.md5(date('r', time()));
 
@@ -72,8 +72,8 @@ try {
 	}
 
 	$body .= "--$boundary--";
-*/
 
+/*
 
 	$headers .= "Organization: Nexsense" . "\r\n";
 	$headers .= "Content-Type: text/plain; charset=\"iso-8859-1\"\r\n";
@@ -123,7 +123,7 @@ try {
 			$attachment = substr($request->resume, strpos($request->resume, ';')+1);
 			$filename = $request->firstName . $request->lastName . '-resume.' . $extension;
 
-			
+
 
 			$body .= "Download resume at http://www.nexsense.com/wp-content/uploads/sales/$filename";
 
@@ -132,7 +132,7 @@ try {
 	}
 
 
-
+*/
 
 
 
@@ -143,7 +143,7 @@ try {
 	$success = mail($emailto, $subject, $body, $headers);
 
 	if ($success)
-		$response = array('status'=>1);
+		$response = array('status'=>1, 'message'=>'mail successfully sent');
 	else {
 		$error = error_get_last();
 		$response = array('status'=>0, 'message'=>"mail() didn't send: " . $error['message']);
