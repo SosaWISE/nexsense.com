@@ -7,10 +7,8 @@ $boundary = md5(date('r', time()));
 
 $headers .= "Organization: Nexsense" . "\r\n";
 $headers .= "MIME-Version: 1.0" . "\r\n";
-//$headers .= "Content-type: text/plain; charset=iso-8859-1" . "\r\n";
-$headers .= "Content-type: multipart/mixed; boundary=\"NXS-$boundary\"";
-$headers .= "X-Priority: 3" . "\r\n";
-$headers .= "X-Mailer: PHP". phpversion() ."\r\n";
+$headers .= "Content-type: text/plain; charset=iso-8859-1" . "\r\n";
+//$headers .= "Content-type: multipart/mixed; boundary=\"NXS-$boundary\"";
 $headers .= "From: no-reply@nexsense.com" . "\r\n";
 $headers .= "Reply-To: no-reply@nexsense.com" . "\r\n";
 
@@ -105,8 +103,6 @@ if (!empty($request->resumeData)) {
 $body .= "\nNXS-$boundary\n\n";
 
 
-
-//echo json_encode(array('email'=>$body));
 
 try {
 	// send email
