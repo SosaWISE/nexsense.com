@@ -196,8 +196,9 @@
 					phone: $scope.phone,
 					email: $scope.email,
 					resume: $scope.resumeData,
+					zip: $scope.zip,
 				}
-				if ($scope.hasExperience) {
+				if ($scope.hasExperience == 'yes') {
 					postData.workHistory = $scope.workHistory;
 				}
 				else {
