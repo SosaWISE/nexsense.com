@@ -30,9 +30,9 @@
 							<div class="flex-half margin"><input type="text" name="lastName" ng-model="lastName" ng-class="{warning:(appForm.lastName.$invalid && (appForm.lastName.$dirty || submitAttempted))}" placeholder="Last name" max-length="40" required/></div>
 						</div>
 						<div class="flex-row">
-							<div class="flex-quarter margin"><input type="text" name="phone" ng-model="phone" ng-class="{warning:(appForm.firstName.$invalid && (appForm.firstName.$dirty || submitAttempted))}" placeholder="Phone" max-length="15" required/></div>
-							<div class="flex-half margin"><input type="text" name="email" ng-model="email" ng-class="{warning:(appForm.firstName.$invalid && (appForm.firstName.$dirty || submitAttempted))}" placeholder="Email" max-length="40" required/></div>
-							<div class="flex-quarter margin"><input type="text" name="zip" ng-model="zip" ng-class="{warning:(appForm.firstName.$invalid && (appForm.firstName.$dirty || submitAttempted))}" placeholder="Zip code" max-length="6" required/></div>
+							<div class="flex-quarter margin"><input type="phone" name="phone" ng-model="phone" ng-pattern="validation.phone" ng-class="{warning:(appForm.phone.$invalid && (appForm.phone.$dirty || submitAttempted))}" placeholder="Phone" max-length="15" required/></div>
+							<div class="flex-half margin"><input type="email" name="email" ng-model="email" ng-class="{warning:(appForm.email.$invalid && (appForm.email.$dirty || submitAttempted))}" placeholder="Email" max-length="40" required/></div>
+							<div class="flex-quarter margin"><input type="text" name="zip" ng-model="zip" ng-pattern="validation.zip" ng-class="{warning:(appForm.zip.$invalid && (appForm.zip.$dirty || submitAttempted))}" placeholder="Zip code" max-length="6" required/></div>
 						</div>
 
 						<div class="application-question">
@@ -116,28 +116,33 @@
 	</div>
 	<script type="text/javascript" language="javascript">
 
-		nexsense.controller("SellForNexsensePage", ['$scope', '$http', function($scope, $http) {
-			$scope.hasExperience = 'no';
-			$scope.firstName = '';
-			$scope.lastName = '';
-			$scope.phone = '';
-			$scope.email = '';
-			$scope.zip = '';
+		nexsense.controller("SellForNexsensePage", ['$scope', '$http', 'FormValidation', function($scope, $http, validation) {
+			$scope.validation = validation;
 
-			$scope.salesExperience = '';
-			$scope.sellYourself = '';
+			$scope.resetvars = function() {
+				$scope.hasExperience = 'no';
+				$scope.firstName = '';
+				$scope.lastName = '';
+				$scope.phone = '';
+				$scope.email = '';
+				$scope.zip = '';
 
-			$scope.resumeData = '';
-			$scope.resumeFilename = '';
+				$scope.salesExperience = '';
+				$scope.sellYourself = '';
 
-			$scope.step = 1;
-			$scope.isSubmitting = false;
+				$scope.resumeData = '';
+				$scope.resumeFilename = '';
 
-			$scope.submitAttempted = false;
+				$scope.step = 1;
+				$scope.isSubmitting = false;
 
-			$scope.workHistory = [
-				{companyName: '', yearsWorked:0, annualSales: 0}
-			];
+				$scope.submitAttempted = false;
+
+				$scope.workHistory = [
+					{companyName: '', yearsWorked:0, annualSales: 0}
+				];
+			}
+			$scope.resetvars();
 
 			$scope.addWorkHistory = function() {
 				$scope.workHistory.push({companyName: '', yearsWorked:0, annualSales: 0});
@@ -222,6 +227,8 @@
 					console.log(data);
 					displayMessage("Your application was successfully sent to Nexsense.  Thanks for applying.");
 					$scope.isSubmitting = false;
+					$scope.resetvars();
+					$scope.appForm.$setPristine();
 				}).error(function(data, status, headers, config) {
 					console.log("ERROR");
 					console.log(data);
