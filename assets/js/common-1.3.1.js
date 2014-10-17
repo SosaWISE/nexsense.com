@@ -232,14 +232,13 @@ function displayMessage(msg, isWarning, callbackFunction, isCancellable) {
     else
         msgCancelButton.style.display = "none";
     
-    msgContainer.innerHTML = "";
+    msgContainer.innerHTML = msg;
     msgElementContainer.innerHTML = "";
     msgElementContainer.style.display = "none";
-    msgContainer.appendChild(document.createTextNode(msg));
     if (isWarning)
-        msgContainer.className = "warning";
+        msgBox.className = "warning";
     else
-        msgContainer.className = "message";
+        msgBox.className = "message";
     msgBox.style.display = "block";
 }
 

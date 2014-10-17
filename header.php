@@ -12,14 +12,14 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600|Montserrat:400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
 	<link href="assets/css/style.css" rel="stylesheet"/>
-	<link href="/scss/nexsense.css" rel="stylesheet"/>
+	<link href="assets/css/nexsense.css" rel="stylesheet"/>
 	<?php if (isset($css)): ?>
-		<link href="/scss/<?php echo $css; ?>" rel="stylesheet">
+		<link href="assets/css/<?php echo $css; ?>" rel="stylesheet">
 	<?php endif; ?>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="assets/js/third_party/angular.min.js"></script>
-	<script src="assets/js/nexsense-angular.js"></script>
-	<script src="assets/js/common-1.3.0.js"></script>
+	<script src="assets/js/common-1.3.1.js"></script>
+	<script src="assets/js/nexsense.js"></script>
 	<script src="assets/js/nexsense.min.js"></script>
 	<script>
 	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

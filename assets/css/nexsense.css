@@ -32,29 +32,36 @@ div#_messageBox_ {
 	left: 50%;
 	width: 600px;
 	margin-left: -300px;
-	background-color: #FFC52F;
+	background-color: #5B2D82;
 	border: none;
 	z-index: 1001;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	padding: 20px 30px 10px 30px;
 }
+div#_messageBox_.warning {
+	background-color: #FFC52F;
+	border: none;
+}
 
 div#_messageContainer_ {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
-	color: #5B2D82;
+	color: #fff;
 	text-align: center;
 }
-div#_messageContainer_.warning {
-	color: #b01000;
+div#_messageBox.warning div#_messageContainer_ {
+	color: #5B2D82;
 }
 
 div#_messageButtonContainer_ {
 	text-align: center;
 	padding: 8px;
 	margin: 30px 0px 0px 0px;
+	border-top: 1px solid #fff;
+}
+div#_messageBox.warning div#_messageButtonContainer_ {
 	border-top: 1px solid #5B2D82;
 }
 
@@ -112,8 +119,18 @@ input[type=button].chevron, input[type=submit].chevron {
 	background-size: 17px 18px;
 	padding-right: 40px;
 }
+input[type=button].secondary.chevron, input[type=submit].secondary.chevron {
+	background-image: url(/assets/images/button-chevron-hover.png);
+	background-position: calc(100% - 15px) center;
+	background-repeat: no-repeat;
+	background-size: 17px 18px;
+	padding-right: 40px;
+}
 input[type=button].chevron:hover, input[type=submit].chevron:hover {
 	background-image: url(/assets/images/button-chevron-hover.png);
+}
+input[type=button].secondary.chevron:hover, input[type=submit].secondary.chevron:hover {
+	background-image: url(/assets/images/button-chevron.png);
 }
 input[type=button].chevron-reverse, input[type=submit].chevron-reverse {
 	background-image: url(/assets/images/button-chevron-reverse.png);

@@ -1,5 +1,5 @@
 div.purple {
-	background-image: url("../assets/images/purple-stripe-bg.png");
+	background-image: url("../images/purple-stripe-bg.png");
 	padding: 20px;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
@@ -57,6 +57,9 @@ input[type=text], input[type=email], input[type=phone], input[type=number], text
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
+input[type=text].warning, input[type=email].warning, input[type=phone].warning, input[type=number].warning, textarea.warning {
+	border: 2px solid red;
+}
 textarea {
 	height: 60px;
 }
@@ -112,9 +115,11 @@ div#add-company > img {
 
 td.remove-work-history {
 	cursor: pointer;
-	
 }
 td.remove-work-history > img {
 	width: 20px;
 }
 
+input#resumeFile {
+	display: none;
+}
