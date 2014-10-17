@@ -27,7 +27,7 @@
 					</div>
 					<div>
 						<h2>Customer Service<br>&amp; Technical Support</h2>
-						<p><a href="mailto:support@nexsense.com">support@nexsense.com</a><br>385.375.8150</p>
+						<p><a href="mailto:support@nexsense.com">support@nexsense.com</a><br>385.375.8140</p>
 					</div>
 				</div>
 				<div class="get-in-touch col-xs-12 col-md-6">
