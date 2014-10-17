@@ -168,16 +168,17 @@
 			}
 
 			$scope.useResume = function(fileInput) {
-				console.log('got resume');
-
-				var reader = new FileReader();
-				reader.onload = function(e) {
-					$scope.resumeData = e.target.result;
-					$scope.$apply(function() {
-						$scope.resumeFilename = fileInput.value;
-					});
+				if (fileInput.files.length) {
+					console.log('got resume');
+					var reader = new FileReader();
+					reader.onload = function(e) {
+						$scope.resumeData = e.target.result;
+						$scope.$apply(function() {
+							$scope.resumeFilename = fileInput.value;
+						});
+					}
+					reader.readAsDataURL(fileInput.files[0]);
 				}
-				reader.readAsDataURL(fileInput.files[0]);
 			}
 
 

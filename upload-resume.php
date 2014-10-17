@@ -57,8 +57,12 @@ try {
 		if (count($matches) > 1) {
 			$contentType = $matches[1];
 			$extension = substr($contentType, strpos($contentType, '/')+1);
-			$attachment = chunk_split(substr($request->resume, strpos($request->resume, 'base64,')+7));
+			$attachment = substr($request->resume, strpos($request->resume, 'base64,')+7);
 			$filename = $request->firstName . $request->lastName . '-resume.' . $extension;
+
+			$debugstr = "Content-Type: $contentType\r\nExtension: $extension\r\nfilename: $filename\r\nbase64: " . substr($attachment, 0, 20) . "\r\n";
+
+			$attachment = chunk_split($attachment);
 
 			$body .= "--$boundary\r\n";
 			$body .= "Content-Type: $contentType; name=\"$filename\"\r\n";
@@ -143,10 +147,10 @@ try {
 	$success = mail($emailto, $subject, $body, $headers);
 
 	if ($success)
-		$response = array('status'=>1, 'message'=>'mail successfully sent');
+		$response = array('status'=>1, 'message'=>'mail successfully sent', 'debug'=>$debugstr);
 	else {
 		$error = error_get_last();
-		$response = array('status'=>0, 'message'=>"mail() didn't send: " . $error['message']);
+		$response = array('status'=>0, 'message'=>"mail() didn't send: " . $error['message'], 'debug'=>$debugstr);
 	}
 }
 catch (Exception $ex) {
