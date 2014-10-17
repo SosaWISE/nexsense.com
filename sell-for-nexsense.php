@@ -204,6 +204,7 @@
 				else {
 					postData.salesExperience = $scope.salesExperience;
 				}
+				postData.sellYourself = $scope.sellYourself;
 
 				// replace the submit button with a wait icon
 				$scope.isSubmitting = true;
