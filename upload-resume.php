@@ -57,7 +57,7 @@ try {
 		if (count($matches) > 1) {
 			$contentType = $matches[1];
 			$extension = substr($contentType, strpos($contentType, '/')+1);
-			$attachment = chunk_split($request->resume);
+			$attachment = chunk_split(substr($request->resume, strpos($request->resume, 'base64,')+7));
 			$filename = $request->firstName . $request->lastName . '-resume.' . $extension;
 
 			$body .= "--$boundary\r\n";
