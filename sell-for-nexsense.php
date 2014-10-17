@@ -30,9 +30,9 @@
 							<div class="flex-half margin"><input type="text" name="lastName" ng-model="lastName" ng-class="{warning:(appForm.lastName.$invalid && (appForm.lastName.$dirty || submitAttempted))}" placeholder="Last name" max-length="40" required/></div>
 						</div>
 						<div class="flex-row">
-							<div class="flex-quarter margin"><input type="text" name="phone" ng-model="phone" placeholder="Phone" max-length="15" required/></div>
-							<div class="flex-half margin"><input type="text" name="email" ng-model="email" placeholder="Email" max-length="40" required/></div>
-							<div class="flex-quarter margin"><input type="text" name="zip" ng-model="zip" placeholder="Zip code" max-length="6" required/></div>
+							<div class="flex-quarter margin"><input type="text" name="phone" ng-model="phone" ng-class="{warning:(appForm.firstName.$invalid && (appForm.firstName.$dirty || submitAttempted))}" placeholder="Phone" max-length="15" required/></div>
+							<div class="flex-half margin"><input type="text" name="email" ng-model="email" ng-class="{warning:(appForm.firstName.$invalid && (appForm.firstName.$dirty || submitAttempted))}" placeholder="Email" max-length="40" required/></div>
+							<div class="flex-quarter margin"><input type="text" name="zip" ng-model="zip" ng-class="{warning:(appForm.firstName.$invalid && (appForm.firstName.$dirty || submitAttempted))}" placeholder="Zip code" max-length="6" required/></div>
 						</div>
 
 						<div class="application-question">
@@ -90,7 +90,7 @@
 						<div ng-show="step==2">
 							<div class="application-question">
 								Sell yourself in 140 characters or less.
-								<div><textarea ng-model="sellYourself" ng-keyup="updateCharsRemaining()" required></textarea></div>
+								<div><textarea ng-model="sellYourself" ng-keyup="updateCharsRemaining()" ng-class="{warning:(appForm.firstName.$invalid && (appForm.firstName.$dirty || submitAttempted))}" required></textarea></div>
 								<div id="chars-remaining">140 characters remaining</div>
 							</div>
 
@@ -185,15 +185,10 @@
 			$scope.submitApplication = function() {
 				$scope.submitAttempted = true;
 
-				/*if ($scope.firstName == '')
-					$scope.appForm.$valid = false;
-				if ($scope.lastName == '')
-					$scope.appForm.$valid = false;
-
 				if (!$scope.appForm.$valid) {
 					displayMessage("There were some problems with your application.  Please check your information and try again.", true);
 					return;
-				}*/
+				}
 
 				var postData = {
 					firstName: $scope.firstName,
