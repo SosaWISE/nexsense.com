@@ -173,8 +173,6 @@
 				var reader = new FileReader();
 				reader.onload = function(e) {
 					$scope.resumeData = e.target.result;
-					console.log($scope.resumeData);
-					console.log(fileInput);
 					$scope.$apply(function() {
 						$scope.resumeFilename = fileInput.value;
 					});
@@ -203,7 +201,6 @@
 					phone: $scope.phone,
 					email: $scope.email,
 					resume: $scope.resumeData,
-					test: 'hi there',
 				}
 				if ($scope.hasExperience) {
 					postData.workHistory = $scope.workHistory;
@@ -212,11 +209,8 @@
 					postData.salesExperience = $scope.salesExperience;
 				}
 
-				console.log("post to /uploadResume.php");
-
 				// replace the submit button with a wait icon
 				$scope.isSubmitting = true;
-
 
 				// send the application
 				$http({
