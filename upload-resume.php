@@ -18,7 +18,7 @@ try {
 	$body = '';
 
 	// plain text section
-	$body .= "$boundary\r\n";
+	$body .= "$boundary\r\n\r\n";
 	$body .= "Content-Type: text/plain; charset=\"iso-8859-1\"\r\n";
 	$body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
 
@@ -38,7 +38,7 @@ try {
 		$body .= "\r\n";
 	}
 	else if (!empty($request->salesExperience)) {
-		$body .= "This candidate has previous home security sales experience, but has listed some other experience as follows:\r\n";
+		$body .= "This candidate doesn't have previous home security sales experience, but has listed some other experience as follows:\r\n";
 		$body .= $request->salesExperience . "\r\n\r\n";
 	}
 
@@ -57,7 +57,7 @@ try {
 			$attachment = chunk_split(substr($request->resume, strpos($request->resume, ';')+1));
 			$filename = $request->firstName . $request->lastName . '-resume.' . $extension;
 
-			$body .= "$boundary\r\n";
+			$body .= "$boundary\r\n\r\n";
 			$body .= "Content-Type: $contentType; name=\"$filename\"\r\n";
 			$body .= "Content-Description: $filename\r\n";
 			$body .= "Content-Disposition: attachment; filename=\"$filename\"\r\n";
@@ -68,7 +68,7 @@ try {
 		}
 	}
 
-	$body .= $boundary;
+	$body .= "$boundary\r\n\r\n";
 
 	// send email
 	$success = mail($emailto, $subject, $body, $headers);
