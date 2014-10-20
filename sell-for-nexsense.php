@@ -32,7 +32,7 @@
 						<div class="flex-row">
 							<div class="flex-quarter margin"><input type="phone" name="phone" ng-model="phone" ng-pattern="validation.phone" ng-class="{warning:(appForm.phone.$invalid && (appForm.phone.$dirty || submitAttempted))}" placeholder="Phone" max-length="15" required/></div>
 							<div class="flex-half margin"><input type="email" name="email" ng-model="email" ng-class="{warning:(appForm.email.$invalid && (appForm.email.$dirty || submitAttempted))}" placeholder="Email" max-length="40" required/></div>
-							<div class="flex-quarter margin"><input type="text" name="zip" ng-model="zip" ng-pattern="validation.zip" ng-class="{warning:(appForm.zip.$invalid && (appForm.zip.$dirty || submitAttempted))}" placeholder="Zip code" max-length="6" required/></div>
+							<div class="flex-quarter margin"><input type="text" name="zip" ng-model="zip" ng-pattern="validation.zip" ng-class="{warning:(appForm.zip.$invalid && (appForm.zip.$dirty || submitAttempted))}" placeholder="Zip code" max-length="5" required/></div>
 						</div>
 
 						<div class="application-question">
@@ -155,7 +155,7 @@
 			// Count the characters used in the Sell Yourself textarea and report to the user how many he has left
 			$scope.updateCharsRemaining = function() {
 				var allowedChars = 140;
-				var chars = $scope.sellYourself.length;
+				var chars = $scope.sellYourself ? $scope.sellYourself.length : 0;
 				var availableChars = allowedChars - chars;
 
 				var text = availableChars + " characters remaining";
