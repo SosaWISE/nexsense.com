@@ -51,10 +51,16 @@ try {
 	}
 
 
+	$debugmsg = "checking for attachments:\r\n";
+
 	// attachment
 	if (!empty($request->resume)) {
+		$debugmsg .= substr($request->resume, 0, 20) . "\r\n";
+
 		preg_match("/data:(.+);/", $request->resume, $matches);
 		if (count($matches) > 1) {
+
+			$debugmsg .= "Adding attachment\r\n";
 
 			$contentType = $matches[1];
 			$extension = substr($contentType, strpos($contentType, '/')+1);
@@ -72,7 +78,11 @@ try {
 			$body .= $attachment;
 			$body .= "\r\n\r\n";
 		}
+		else
+			$debugmsg .= "Couldn't find base64 header\r\n";
 	}
+	else
+		$debugmsg .= "No attachment found\r\n";
 
 	$body .= "--$boundary--";
 
