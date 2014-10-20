@@ -58,6 +58,7 @@ try {
 		$debugmsg .= substr($request->resume, 0, 20) . "\r\n";
 
 		preg_match("/data:(.+);/", $request->resume, $matches);
+		$debugmsg .= json_encode($matches) . "\r\n";
 		if (count($matches) > 1) {
 
 			$debugmsg .= "Adding attachment\r\n";
