@@ -55,13 +55,17 @@ try {
 
 	// attachment
 	if (!empty($request->resume)) {
-		$debugmsg .= substr($request->resume, 0, 20) . "\r\n";
+		$debugmsg .= '|'.substr($request->resume, 0, 30) . "|\r\n";
 
 		//preg_match("/data:(.+);/", $request->resume, $matches);
 		//$debugmsg .= json_encode($matches) . "\r\n";
 
-		$p1 = strpos($request->resume('data:')+5);
-		$p2 = strpos($request->resume(';base64'));
+		$p1 = strpos($request->resume, 'data:')+5;
+		$debugmsg .= "p1: $p1\r\n";
+		$p2 = strpos($request->resume, ';base64');
+		$debugmsg .= "p2: $p2\r\n";
+
+		//$contentType = null;
 		$contentType = substr($request->resume, $p1, $p2 - $p1);
 
 		//if (count($matches) > 1) {
@@ -88,7 +92,7 @@ try {
 			$debugmsg .= "Couldn't find base64 header\r\n";
 	}
 	else
-		$debugmsg .= "No attachment found\r\n";
+		$debugmsg .= "No attachment found\r\n" . $request->resume . "\r\n";
 
 	$body .= "--$boundary--";
 
