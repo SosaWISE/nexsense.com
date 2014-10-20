@@ -53,21 +53,13 @@ try {
 
 	// attachment
 	if (!empty($request->resume)) {
-		$debugstr = "base64: " . substr($request->resume, 0, 25) . "\r\n";
-
 		preg_match("/data:(.+);/", $request->resume, $matches);
 		if (count($matches) > 1) {
-
-			$debugstr .= $matches[1] . "\r\n";
 
 			$contentType = $matches[1];
 			$extension = substr($contentType, strpos($contentType, '/')+1);
 			$attachment = substr($request->resume, strpos($request->resume, 'base64,')+7);
 			$filename = $request->firstName . $request->lastName . '-resume.' . $extension;
-
-			$debugstr .= "Content-Type: $contentType\r\nExtension: $extension\r\nfilename: $filename\r\n";
-
-			$debugstr .= "base64: " . substr($attachment, 0, 25);
 
 			$attachment = chunk_split($attachment);
 
@@ -154,10 +146,10 @@ try {
 	$success = mail($emailto, $subject, $body, $headers);
 
 	if ($success)
-		$response = array('status'=>1, 'message'=>'mail successfully sent', 'debug'=>$debugstr);
+		$response = array('status'=>1, 'message'=>'mail successfully sent', 'debug'=>$body);
 	else {
 		$error = error_get_last();
-		$response = array('status'=>0, 'message'=>"mail() didn't send: " . $error['message'], 'debug'=>$debugstr);
+		$response = array('status'=>0, 'message'=>"mail() didn't send: " . $error['message'], 'debug'=>$body);
 	}
 }
 catch (Exception $ex) {
