@@ -57,13 +57,18 @@ try {
 	if (!empty($request->resume)) {
 		$debugmsg .= substr($request->resume, 0, 20) . "\r\n";
 
-		preg_match("/data:(.+);/", $request->resume, $matches);
-		$debugmsg .= json_encode($matches) . "\r\n";
-		if (count($matches) > 1) {
+		//preg_match("/data:(.+);/", $request->resume, $matches);
+		//$debugmsg .= json_encode($matches) . "\r\n";
 
+		$p1 = strpos($request->resume('data:')+5);
+		$p2 = strpos($request->resume(';base64'));
+		$contentType = substr($request->resume, $p1, $p2 - $p1);
+
+		//if (count($matches) > 1) {
+		if ($contentType) {
 			$debugmsg .= "Adding attachment\r\n";
 
-			$contentType = $matches[1];
+			//$contentType = $matches[1];
 			$extension = substr($contentType, strpos($contentType, '/')+1);
 			$attachment = substr($request->resume, strpos($request->resume, 'base64,')+7);
 			$filename = $request->firstName . $request->lastName . '-resume.' . $extension;
