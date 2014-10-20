@@ -156,10 +156,10 @@ try {
 	$success = mail($emailto, $subject, $body, $headers);
 
 	if ($success)
-		$response = array('status'=>1, 'message'=>'mail successfully sent', 'debug'=>$body);
+		$response = array('status'=>1, 'message'=>'mail successfully sent', 'debug'=>$debugmsg);
 	else {
 		$error = error_get_last();
-		$response = array('status'=>0, 'message'=>"mail() didn't send: " . $error['message'], 'debug'=>$body);
+		$response = array('status'=>0, 'message'=>"mail() didn't send: " . $error['message'], 'debug'=>$debugmsg);
 	}
 }
 catch (Exception $ex) {
