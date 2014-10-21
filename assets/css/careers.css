@@ -1,0 +1,44 @@
+div.purple {
+	background-image: url("../images/purple-stripe-bg.png");
+	padding: 0;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin: 0 0 20px 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+div.careers-hero {
+	padding: 20px 20px 30px 20px;
+	height: 380px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-image: url(../images/careers.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.justified-title {
+	margin-left: 500px;
+}
+
+h1 {
+	color: #fff;
+}
+
+h2 {
+	color: #5a2a82;
+	font-size: 26px;
+	margin-bottom: 4px;
+}
+
+h3 {
+	color: #AFB3B2;
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+
+
+div.job-description {
+}
