@@ -1,3 +1,6 @@
+div.content {
+	margin-bottom: 60px;
+}
 div.purple {
 	background-image: url("../images/purple-stripe-bg.png");
 	padding: 0;
@@ -41,4 +44,30 @@ h3 {
 
 
 div.job-description {
+}
+div.full-job-description {
+	margin-top: 20px;
+}
+
+
+ul {
+	display: block;
+	margin-left: 40px;
+	padding: 0;
+}
+li {
+	border: none;
+	list-style-type: disc;
+}
+
+div.button-footer {
+	text-align: right;
+	margin: 8px 0 4px 0;
+}
+
+div.complement-divider {
+	height: 10px;
+	background-image: url(../images/yellow-stripe.png);
+	background-position: top left;
+	background-repeat: repeat-x;
 }

@@ -100,9 +100,25 @@ input[type=button], input[type=submit] {
 	padding: 10px 20px;
 	cursor: pointer;
 }
+input[type=button].small, input[type=submit].small {
+	border: 1px solid #fff;
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	background-color: #5B2D82;
+	color: #fff;
+	padding: 5px 10px;
+	cursor: pointer;
+}
 input[type=button].secondary, input[type=submit].secondary {
 	background-color: #FFC52F;
 	color: #5B2D82;
+}
+input[type=button].tertiary, input[type=submit].tertiary {
+	background-color: #707C7C;
+	color: #fff;
 }
 input[type=button]:hover, input[type=submit]:hover {
 	background-color: #FFC52F;
@@ -111,6 +127,10 @@ input[type=button]:hover, input[type=submit]:hover {
 input[type=button].secondary:hover, input[type=submit].secondary:hover {
 	background-color: #5B2D82;
 	color: #fff;
+}
+input[type=button].tertiary:hover, input[type=submit].tertiary:hover {
+	background-color: #FFC52F;
+	color: #5B2D82;
 }
 input[type=button].chevron, input[type=submit].chevron {
 	background-image: url(/assets/images/button-chevron.png);
