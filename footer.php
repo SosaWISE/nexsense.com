@@ -10,6 +10,7 @@
 							<li><a href="contact">Billing</a></li>
 							<li><a href="contact">Sales</a></li>
 							<li><a href="contact">Customer Service &amp; Tech Support</a></li>
+							<li><a href="careers">Careers</a></li>
 							<li>
 								<a href="https://www.facebook.com/nexsense"><span class="icomoon icomoon-facebook"></span></a>
 								<a href="https://twitter.com/nexsense"><span class="icomoon icomoon-twitter"></span></a>

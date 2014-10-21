@@ -26,7 +26,7 @@ div.justified-title {
 	margin-left: 500px;
 }
 
-h1 {
+h1.invert {
 	color: #fff;
 }
 
@@ -34,6 +34,9 @@ h2 {
 	color: #5a2a82;
 	font-size: 26px;
 	margin-bottom: 4px;
+}
+h2.toggle {
+	cursor: pointer;
 }
 
 h3 {
@@ -70,4 +73,39 @@ div.complement-divider {
 	background-image: url(../images/yellow-stripe.png);
 	background-position: top left;
 	background-repeat: repeat-x;
+}
+
+div.flex-row {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0;
+	padding: 0;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+}
+div.flex-row > div {
+	flex: 1 1 50%;
+	-webkit-flex: 1 1 50%;
+	-moz-flex: 1 1 50%;
+	-ms-flex: 1 1 50%;
+}
+
+div.flex-row > div:first-child {
+	margin: 0 20px 0 15%;
+}
+div.flex-row > div:last-child {
+	margin: 0 15% 0 20px;
+}
+
+p {
+	margin-top: 30px;
 }

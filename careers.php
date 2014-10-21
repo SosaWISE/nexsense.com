@@ -7,7 +7,7 @@
 		<div class="purple">
 			<div class="careers-hero">
 				<div class="justified-title">
-					<h1>Work at Nexsense</h1>
+					<h1 class="invert">Work at Nexsense</h1>
 					Because Sarah and Ben do.
 				</div>
 			</div>
@@ -15,19 +15,22 @@
 		<div class="options-section" ng-controller="CareersPage">
 			<div class="container">
 
+				<h1>We're Hiring</h1>
+				Protecting our culture at Nexsense is of utmost importance. Candidates are weighted 60% on culture fit and 40% on hard skills. When candidates apply, they are asked to answer culture questions. Candidates who do not respond to these questions are not considered for employment. During the interview process candidates are encouraged to show their personality and demonstrate enthusiasm for our core values.
 
-				Here's some more copy for everyone to read.
-
+				<p>
+					Here's a list of the currently available positions within our company.
+				</p>
 
 				<div id="all-jobs">
 
 					<div class="job" ng-repeat="job in jobs">
-						<h2>{{job.title}}</h2>
+						<h2 class="toggle" ng-click="setActiveJob(job)">{{job.title}}</h2>
 						<div class="job-description">
 							{{job.blurb}}
-							<input type="button" class="small tertiary" ng-click="getDescription(job);" ng-show="jobid!=job.id" value="more" />
+							<input type="button" class="small tertiary" ng-click="setActiveJob(job)" ng-show="activejob.id!=job.id" value="more" />
 						</div>
-						<div class="full-job-description" ng-show="jobid==job.id">
+						<div class="full-job-description" ng-show="activejob.id==job.id">
 							<div ng-bind-html="job.description"></div>
 							<div class="button-footer"><input type="button" class="chevron" ng-click="navigateTo(job.url)" value="apply" /></div>
 							<div class="complement-divider"></div>
@@ -66,19 +69,22 @@
 					description: null,
 				},
 			];
-			$scope.jobid = null;
+			$scope.activejob = null;
 
-
-			$scope.getDescription = function(job) {
-				if (!job.description) {
-					$http.get("/assets/jobs/" + job.id + ".html", {}).
+			$scope.setActiveJob = function(job) {
+				if ($scope.activejob == job) {
+					$scope.activejob = null;
+					return;
+				}
+				$scope.activejob = job;
+				if (!$scope.activejob.description) {
+					$http.get("/assets/jobs/" + $scope.activejob.id + ".html", {}).
 					success(function(data) {
-						job.description = $sce.trustAsHtml(data);
+						$scope.activejob.description = $sce.trustAsHtml(data);
 					}).error(function(data) {
 						console.log("error getting job description");
 					});
 				}
-				$scope.jobid = job.id;
 			}
 
 			$scope.navigateTo = function(url) {
