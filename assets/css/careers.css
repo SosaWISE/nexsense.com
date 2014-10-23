@@ -14,7 +14,7 @@ div.purple {
 
 div.careers-hero {
 	padding: 20px 20px 30px 20px;
-	height: 330px;
+	height: 380px;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	background-image: url(../images/careers.jpg);
@@ -23,7 +23,7 @@ div.careers-hero {
 	background-size: cover;
 }
 div.justified-title {
-	margin-left: 500px;
+	margin-left: 450px;
 }
 
 h1.invert {
