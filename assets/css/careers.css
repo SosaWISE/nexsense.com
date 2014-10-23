@@ -109,3 +109,63 @@ div.flex-row > div:last-child {
 p {
 	margin-top: 30px;
 }
+
+@media (max-width: 990px) {
+	div.careers-hero {
+		padding: 10px;
+		height: 570px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		background-image: url(../images/careers-mobile.jpg);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	div.justified-title {
+		margin: 0 15px 0 15px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 768px) {
+	div.careers-hero {
+		padding: 10px;
+		height: 480px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		background-image: url(../images/careers-mobile.jpg);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	div.justified-title {
+		margin: 0 15px 0 15px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 568px) {
+	div.careers-hero {
+		padding: 10px;
+		height: 550px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		background-image: url(../images/careers-mobile.jpg);
+		background-position: -20px bottom;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	div.justified-title {
+		margin: 0 15px 0 15px;
+	}
+	h1 {
+		font-size: 22px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+}
