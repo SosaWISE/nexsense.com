@@ -8,7 +8,7 @@
 			<div class="careers-hero">
 				<div class="justified-title">
 					<h1 class="invert">Now hiring awesomeness.</h1>
-					Protecting our culture at Nexsense is of utmost importance. Candidates are weighted 60% on culture fit and 40% on hard skills. When candidates apply, they are asked to answer culture questions. Candidates who do not respond to these questions are not considered for employment. During the interview process candidates are encouraged to show their personality and demonstrate enthusiasm for our core values.
+					In other words, people who are laid-back, self-starting, and gung-ho about changing the way people think about home automation and security.
 				</div>
 			</div>
 		</div>
