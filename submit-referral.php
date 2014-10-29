@@ -10,7 +10,7 @@ try {
 	$headers .= "From: no-reply@nexsense.com" . "\r\n";
 	$headers .= "Reply-To: no-reply@nexsense.com" . "\r\n";
 
-	$emailto = 'jjenne@nexsense.com';
+	$emailto = 'jjenne@nexsense.com; asosa@nexsense.com';
 	$subject = "New referral from nexsense.com";
 
 
