@@ -12,8 +12,10 @@
 							<li><a href="contact">Customer Service &amp; Tech Support</a></li>
 							<li><a href="careers">Careers</a></li>
 							<li>
-								<a href="https://www.facebook.com/nexsense"><span class="icomoon icomoon-facebook"></span></a>
-								<a href="https://twitter.com/nexsense"><span class="icomoon icomoon-twitter"></span></a>
+								<a href="http://www.facebook.com/nexsense"><span class="icomoon icomoon-facebook"></span></a>
+								<a href="http://twitter.com/nexsense"><span class="icomoon icomoon-twitter"></span></a>
+								<a href="http://www.linkedin.com/company/nexsense-llc"><span class="icomoon icomoon-linkedin"></span></a>
+								<a href="http://blog.nexsense.com"><span class="icomoon icomoon-wordpress"></span></a>
 								<!--<a href="https://www.youtube.com/nexsense"><span class="icomoon icomoon-youtube"></span></a>-->
 							</li>
 						</ul>
@@ -128,6 +130,8 @@
 					<li class="social-links">
 						<a href="https://www.facebook.com/nexsense"><span class="icomoon icomoon-facebook"></span></a>
 						<a href="https://twitter.com/nexsense"><span class="icomoon icomoon-twitter"></span></a>
+						<a href="http://www.linkedin.com/company/nexsense-llc"><span class="icomoon icomoon-linkedin"></span></a>
+						<a href="http://blog.nexsense.com"><span class="icomoon icomoon-wordpress"></span></a>
 						<!--<a href="https://www.youtube.com/nexsense"><span class="icomoon icomoon-youtube"></span></a>-->
 					</li>
 				</ul>
