@@ -7,7 +7,7 @@
 		<div class="purple">
 			<div class="careers-hero">
 				<div class="justified-title">
-					<h1 class="invert">Now hiring awesomeness.</h1>
+					<h1 class="complement">Now hiring awesomeness.</h1>
 					In other words, people who are laid-back, self-starting, and gung-ho about changing the way people think about home automation and security.
 				</div>
 			</div>

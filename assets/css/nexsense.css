@@ -162,3 +162,67 @@ input[type=button].chevron-reverse, input[type=submit].chevron-reverse {
 input[type=button].chevron:hover, input[type=submit].chevron:hover {
 	background-image: url(/assets/images/button-chevron-hover.png);
 }
+
+/*** warning class for invalid inputs ***/
+input[type=text].warning, input[type=email].warning, input[type=phone].warning, input[type=number].warning, textarea.warning {
+	border: 2px solid #FFC52F;
+	background-image: url(/assets/images/invalid-input.png);
+	background-position: 98% center;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+div.flex-row {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+}
+div.flex-column {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: stretch;
+    -moz-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+}
+div.flex-full {
+    flex: 1 1 100%;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    -moz-flex: 1 1 100%;
+}
+div.flex-half {
+    flex: 1 1 50%;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    -moz-flex: 1 1 50%;
+}
+div.flex-quarter {
+    flex: 1 1 25%;
+    -webkit-flex: 1 1 25%;
+    -ms-flex: 1 1 25%;
+    -moz-flex: 1 1 25%;
+}

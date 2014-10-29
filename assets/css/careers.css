@@ -24,10 +24,14 @@ div.careers-hero {
 }
 div.justified-title {
 	margin-left: 450px;
+	margin-top: 100px;
 }
 
 h1.invert {
 	color: #fff;
+}
+h1.complement {
+	color: #FFC52F;
 }
 
 h2 {
