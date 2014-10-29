@@ -142,17 +142,17 @@
 					data: postData
 				}).
 				success(function(data, status, headers, config) {
-					console.log("success");
-					console.log(data);
+					//console.log("success");
+					//console.log(data);
 					displayMessage("Your referral was successfully sent to Nexsense.  Thanks for sharing!");
-					//$scope.isSubmitting = false;
+					$scope.isSubmitting = false;
 					$scope.resetvars();
 					$scope.referralForm.$setPristine();
 				}).error(function(data, status, headers, config) {
-					console.log("ERROR");
-					console.log(data);
+					//console.log("ERROR");
+					//console.log(data);
 					displayMessage("There was a problem submitting your referral.  Please ensure all fields are complete.", true);
-					//$scope.isSubmitting = false;
+					$scope.isSubmitting = false;
 				});
 			}
 
