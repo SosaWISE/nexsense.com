@@ -1,16 +1,6 @@
 div.content {
 	margin-bottom: 60px;
 }
-div.purple {
-	background-image: url("../images/purple-stripe-bg.png");
-	padding: 0;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	margin: 0 0 20px 0;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-}
 
 div.careers-hero {
 	padding: 20px 20px 30px 20px;

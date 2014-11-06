@@ -83,4 +83,33 @@ nexsense.factory("States", function() {
 	}
 });
 
+nexsense.controller("FooterController", ['$scope', '$http', function($scope, $http) {
+	$scope.email = '';
 
+	$scope.thanksbannerX = -100;
+
+	$scope.signUpForNewsletter = function() {
+		footeranimator = setInterval(animateFrame, 30);
+		$http.post('newsletter-signup.php',
+			{
+				email: $scope.email,
+			}
+		).success(function(data) {
+			console.log(data);
+		}).error(function(data) {
+			displayMessage("There was an error trying to sign you up for the newsletter.  Try again.");
+		});
+	}
+
+	var footeranimator = null;
+	function animateFrame() {
+		$scope.$apply(function() {
+			$scope.thanksbannerX += 2;
+			if ($scope.thanksbannerX >= 0) {
+				$scope.thanksbannerX = 0;
+				clearInterval(footeranimator);
+			}
+		});
+	}
+
+}]);

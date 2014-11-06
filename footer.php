@@ -1,4 +1,19 @@
+		<div id="newsletter" class="purple relative" ng-controller="FooterController">
+			<div class="flex-row">
+				<div>
+					<h4>Nexsense Newsletter</h4>
+					Sign up to learn about new products and promotions.
+				</div>
+				<div>
+					<input type="email" placeholder="your@email.com" ng-model="email" />
+					<input id="newsletter-signup" type="button" class="secondary chevron" value="Sign up" ng-click="signUpForNewsletter()" />
+				</div>
+			</div>
+			<div id="signup-thanks" ng-style="{'right':thanksbannerX + '%'}">Thanks for signing up</div>
+		</div>
+
 		<footer class="global-footer">
+
 			<div class="container-fluid">
 				<div class="row-fluid">
 					<div class="copyright col-xs-12 col-lg-4">
