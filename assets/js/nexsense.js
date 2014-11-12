@@ -90,7 +90,7 @@ nexsense.controller("FooterController", ['$scope', '$http', function($scope, $ht
 
 	$scope.signUpForNewsletter = function() {
 		footeranimator = setInterval(animateFrame, 30);
-		$http.post('newsletter-signup.php',
+		$http.post('/model/newsletter-signup.php',
 			{
 				email: $scope.email,
 			}

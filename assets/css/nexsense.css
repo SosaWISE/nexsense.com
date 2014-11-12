@@ -292,7 +292,9 @@ div.flex-quarter {
 }
 
 
-
+div#newsletter {
+	padding: 0 20px;
+}
 div#newsletter h4 {
 	font-size: 24px;
 	color: #FFC52F;

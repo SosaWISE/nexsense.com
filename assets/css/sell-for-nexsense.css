@@ -1,9 +1,5 @@
-div.purple {
-	background-image: url("../images/purple-stripe-bg.png");
+div#purpleform {
 	padding: 20px;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
 	max-width: 750px;
 	margin: 0 auto 0 auto;
 }
@@ -22,7 +18,7 @@ div.margin:first-child {
 div.margin:last-child {
 	margin-right: 0;
 }
-input[type=text], input[type=email], input[type=phone], input[type=number], textarea {
+input[type=text].stretch, input[type=email].stretch, input[type=phone].stretch, input[type=number].stretch, textarea.stretch {
 	width: 100%;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;

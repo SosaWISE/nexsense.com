@@ -1,6 +1,19 @@
-<?php $title="nexsense | ready for next"; ?>
-<?php include('header.php');?>
-		<?php include('hero-slider.php');?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<?php include('templates/head.php');?>
+
+	<meta name="description" content="Nexsense offers safety solutions that match your home and your lifestyle." />
+	<meta name="keywords" content="Nexsense, home security, alarm system, home automation, home management, home control" />
+	<title>Nexsense | Ready for Next</title>
+
+</head>
+<body ng-app="Nexsense">
+	<div class="main">
+		<?php include('templates/header.php');?>
+
+
+		<?php include('templates/hero-slider.php');?>
 		<div class="primary-section clearfix">
 			<div class="container-fluid">
 				<div class="row-fluid">
@@ -67,4 +80,7 @@
 				$('[rel="home"]').addClass('current');
 			});
 		</script>
-<?php include('footer.php');?>
+		<?php include('templates/footer.php');?>
+	</div>
+</body>
+</html>

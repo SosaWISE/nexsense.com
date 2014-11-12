@@ -43,11 +43,11 @@ div.justified-title {
 	font-family: 'Open Sans', sans-serif;
 }
 
-input[type=text], input[type=email], input[type=phone] {
+input[type=text].stretch, input[type=email].stretch, input[type=phone].stretch {
 	width: 100%;
 	padding-left: 5px;
 }
-select {
+select.stretch {
 	width: 100%;
 }
 
