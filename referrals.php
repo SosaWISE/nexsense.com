@@ -3,7 +3,7 @@
 <head>
 	<?php include('templates/head.php');?>
 
-	<meta name="description" content="Nexsense offers safety solutions that match your home and your lifestyle." />
+	<meta name="description" content="Nexsense loves referrals.  Refer a friend to us and you could earn $100." />
 	<meta name="keywords" content="Nexsense, tell a friend, referrals, home security, alarm system, home automation, home management, home control" />
 	<title>Refer your friends | Nexsense</title>
 

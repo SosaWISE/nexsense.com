@@ -3,8 +3,8 @@
 <head>
 	<?php include('templates/head.php');?>
 
-	<meta name="description" content="Nexsense offers safety solutions that match your home and your lifestyle." />
-	<meta name="keywords" content="Nexsense, home security, alarm system, home automation, home management, home control" />
+	<meta name="description" content="Wireless infrared camera technology lets you check on your home when you can't be there. Call for your free wireless infrared camera quote." />
+	<meta name="keywords" content="Nexsense, home security, alarm system, home automation, home management, home control, smart home" />
 	<title>Cutting Edge Security | Nexsense</title>
 
 </head>

@@ -3,7 +3,7 @@
 <head>
 	<?php include('templates/head.php');?>
 
-	<meta name="description" content="Nexsense offers safety solutions that match your home and your lifestyle." />
+	<meta name="description" content="Nexsense offers careers to experienced salesmen who want the stability of working where they live year-round." />
 	<meta name="keywords" content="Nexsense, careers, jobs, sales, work, home security, alarm system, home automation, home management, home control" />
 	<title>Sales careers | Nexsense</title>
 

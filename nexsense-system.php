@@ -3,8 +3,8 @@
 <head>
 	<?php include('templates/head.php');?>
 
-	<meta name="description" content="Nexsense offers safety solutions that match your home and your lifestyle." />
-	<meta name="keywords" content="Nexsense, home security, alarm system, home automation, home management, home control" />
+	<meta name="description" content="Intelligent home protection is the basis for any good personal protection plan. Installing a Nexsense system makes your home an intelligent home." />
+	<meta name="keywords" content="Nexsense, home security, alarm system, home automation, home management, home control, smart home, intelligent home" />
 	<title>More than an alarm | Nexsense</title>
 
 </head>
