@@ -13,7 +13,7 @@ try {
 	$headers .= "From: no-reply@nexsense.com" . "\r\n";
 	$headers .= "Reply-To: no-reply@nexsense.com" . "\r\n";
 
-	$emailto = 'directsales@nexsense.com';
+	$emailto = 'directsales@nexsense.com, bneiser@nexsense.com, jjenne@nexsense.com';
 	$subject = "Sales Rep Application from Nexsense.com";
 
 
