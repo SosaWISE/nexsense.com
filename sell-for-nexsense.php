@@ -102,7 +102,7 @@
 							<div ng-show="step==2">
 								<div class="application-question">
 									Sell yourself in 140 characters or less.
-									<div><textarea class="stretch" ng-model="sellYourself" ng-keyup="updateCharsRemaining()" ng-class="{warning:(appForm.firstName.$invalid && (appForm.firstName.$dirty || submitAttempted))}" required></textarea></div>
+									<div><textarea class="stretch" ng-model="sellYourself" name="sellYourself" ng-keyup="updateCharsRemaining()" ng-class="{warning:(appForm.sellYourself.$invalid && (appForm.sellYourself.$dirty || submitAttempted))}" required></textarea></div>
 									<div id="chars-remaining">140 characters remaining</div>
 								</div>
 

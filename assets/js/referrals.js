@@ -69,7 +69,7 @@
 				// send the application
 				$http({
 					method: 'POST',
-					url: '/submit-referral.php',
+					url: '/model/submit-referral.php',
 					headers: {'Content-Type': 'application/x-www-form-urlencoded'},
 					data: postData
 				}).

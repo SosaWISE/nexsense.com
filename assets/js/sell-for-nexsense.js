@@ -100,7 +100,7 @@
 				// send the application
 				$http({
 					method: 'POST',
-					url: '/upload-resume.php',
+					url: '/model/upload-resume.php',
 					headers: {'Content-Type': 'application/x-www-form-urlencoded'},
 					data: postData
 				}).
