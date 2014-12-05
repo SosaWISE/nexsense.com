@@ -24,7 +24,7 @@ try {
 	$body .= "Content-Type: text/plain; charset=\"iso-8859-1\"\r\n";
 	$body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
 
-	$body .= "Hey Doug,\r\n\r\n";
+	$body .= "Hey Ben,\r\n\r\n";
 	$body .= "You've received another application from a sales rep candidate on Nexsense.com.\r\n\r\n";
 	$body .= "Name: " . $request->firstName . " " . $request->lastName . "\r\n";
 	$body .= "Email: " . $request->email . "\r\n";
