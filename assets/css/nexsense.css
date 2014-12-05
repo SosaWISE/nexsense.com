@@ -164,10 +164,17 @@ input[type=button].chevron:hover, input[type=submit].chevron:hover {
 }
 
 /*** warning class for invalid inputs ***/
-input[type=text].warning, input[type=email].warning, input[type=phone].warning, input[type=number].warning, textarea.warning {
+input[type=text].warning, input[type=email].warning, input[type=phone].warning, input[type=number].warning {
 	border: 2px solid #FFC52F;
 	background-image: url(/assets/images/invalid-input.png);
 	background-position: 98% center;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+textarea.warning {
+	border: 2px solid #FFC52F;
+	background-image: url(/assets/images/invalid-input.png);
+	background-position: 99% 2px;
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 }
