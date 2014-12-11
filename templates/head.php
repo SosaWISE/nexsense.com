@@ -19,3 +19,22 @@
   		ga('create', 'UA-53740805-1', 'auto');
   		ga('send', 'pageview');
 	</script>
+	<script>
+		(function() {
+			var _fbq = window._fbq || (window._fbq = []);
+			if (!_fbq.loaded) {
+				var fbds = document.createElement('script');
+				fbds.async = true;
+				fbds.src = '//connect.facebook.net/en_US/fbds.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(fbds, s);
+				_fbq.loaded = true;
+			}
+		})();
+		function trackFBfunnel() {
+			console.log('track FB funnel');
+			window._fbq = window._fbq || [];
+			window._fbq.push(['track', '6023232171160', {'value':'0.00','currency':'USD'}]);
+		}
+	</script>
+

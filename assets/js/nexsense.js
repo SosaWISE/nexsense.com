@@ -113,3 +113,4 @@ nexsense.controller("FooterController", ['$scope', '$http', function($scope, $ht
 	}
 
 }]);
+

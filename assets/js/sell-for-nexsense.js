@@ -97,6 +97,9 @@
 				// replace the submit button with a wait icon
 				$scope.isSubmitting = true;
 
+				// submit this conversion to facebook
+				trackFBfunnel();
+
 				// send the application
 				$http({
 					method: 'POST',
