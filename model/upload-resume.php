@@ -40,7 +40,7 @@ try {
 	if (!empty($request->workHistory)) {
 		$body .= "Previous home security experience:\r\n";
 		for ($i=0; $i<count($request->workHistory); $i++) {
-			$body .= " - Worked for " . $request->workHistory[$i]->company . " for " . $request->workHistory[$i]->yearsWorked . " years and sold " . $request->workHistory[$i]->annualSales . " accounts each year\r\n";
+			$body .= " - Worked for " . $request->workHistory[$i]->companyName . " for " . $request->workHistory[$i]->yearsWorked . " years and sold " . $request->workHistory[$i]->annualSales . " accounts each year\r\n";
 		}
 		$body .= "\r\n";
 	}
