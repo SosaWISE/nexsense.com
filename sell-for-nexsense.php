@@ -107,6 +107,7 @@
 								</div>
 
 								<div class="application-question">
+									Attach a resume if you like (optional).
 									<div class="file">
 										<input id="resumeFile" type="file" onchange="angular.element(this).scope().useResume(this)" />
 									</div>

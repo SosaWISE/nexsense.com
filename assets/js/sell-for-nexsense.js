@@ -2,7 +2,7 @@
 			$scope.validation = validation;
 
 			$scope.resetvars = function() {
-				$scope.hasExperience = 'no';
+				$scope.hasExperience = 'yes';
 				$scope.firstName = '';
 				$scope.lastName = '';
 				$scope.phone = '';
@@ -15,7 +15,7 @@
 				$scope.resumeData = '';
 				$scope.resumeFilename = '';
 
-				$scope.step = 1;
+				$scope.step = 2;
 				$scope.isSubmitting = false;
 
 				$scope.submitAttempted = false;
