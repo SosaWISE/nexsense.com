@@ -118,7 +118,7 @@
 								<div class="faq-question">
 									<h4>Can I move my system equipment myself?</h4>
 									<div class="faq-answer">
-										<p>Only if you want to move a sensor within your home. Just give us a call at 385.375.8100 and we’ll walk you through the simple process.  </p>
+										<p>If you want to move a sensor within your home just give us a call at 385.375.8100 and we’ll walk you through the simple process.  </p>
 										<p>If you’re moving to a new address, leave your system. It’s tied to your current address and could cause some serious issues if moved. Check out our moving warrant, or contact us at 385.375.8150 or <a href="mailto:support@nexsense.com">support@nexsense.com</a> so we can talk about your options.</p>
 									</div>
 								</div>
