@@ -35,7 +35,10 @@
 					<div id="all-jobs">
 
 						<div class="job" ng-repeat="job in jobs">
-							<h2 class="toggle" ng-click="setActiveJob(job)">{{job.title}}</h2>
+							<div>
+								<h2 class="toggle job-title" ng-click="setActiveJob(job)">{{job.title}}</h2>
+								<span class="job-location">{{job.location}}</span>
+							</div>
 							<div class="job-description">
 								{{job.blurb}}
 								<input type="button" class="small tertiary" ng-click="setActiveJob(job)" ng-show="activejob.id!=job.id" value="more" />

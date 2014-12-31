@@ -40,6 +40,19 @@ h3 {
 }
 
 
+div.job {
+	margin: 20px 0 40px 0;
+}
+h2.job-title {
+	display: inline;
+}
+span.job-location {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFC52F;
+	padding-left: 5px;
+}
 div.job-description {
 }
 div.full-job-description {
