@@ -46,7 +46,7 @@
 					id: 'inside-sales-rep',
 					title: 'Inside Sales Rep',
 					blurb: "If you can close a deal and have a fun personality that matches with our family culture, we’d like to learn more about you.",
-					url: 'https://nexsense.applicantpro.com/jobs/149893-37068.html',
+					url: 'https://nexsense.applicantpro.com/jobs/172876-37067.html',
 					location: 'Orem, UT',
 					description: null,
 				},
