@@ -73,8 +73,8 @@
 							</div>
 							<div class="flex-row">
 								<div class="flex-quarter margin"><input type="phone" class="stretch" name="phone" ng-model="phone" ng-pattern="validation.phone" ng-class="{warning:(appForm.phone.$invalid && (appForm.phone.$dirty || submitAttempted))}" placeholder="Phone" max-length="15" required/></div>
-								<div class="flex-half margin"><input type="email" class="stretch" name="email" ng-model="email" ng-class="{warning:(appForm.email.$invalid && (appForm.email.$dirty || submitAttempted))}" placeholder="Email" max-length="40" required/></div>
-								<div class="flex-quarter margin"><input type="text" class="stretch" name="zip" ng-model="zip" ng-pattern="validation.zip" ng-class="{warning:(appForm.zip.$invalid && (appForm.zip.$dirty || submitAttempted))}" placeholder="Zip code" max-length="5" required/></div>
+								<div class="flex-half margin"><input type="email" class="stretch" name="email" ng-model="email" ng-class="{warning:(appForm.email.$invalid && (appForm.email.$dirty || submitAttempted))}" placeholder="Email" max-length="40"/></div>
+								<div class="flex-quarter margin"><input type="text" class="stretch" name="zip" ng-model="zip" ng-pattern="validation.zip" ng-class="{warning:(appForm.zip.$invalid && (appForm.zip.$dirty || submitAttempted))}" placeholder="Zip code" max-length="5"/></div>
 							</div>
 
 							<div class="application-question">
@@ -132,7 +132,7 @@
 							<div ng-show="step==2">
 								<div class="application-question">
 									Sell yourself in 140 characters or less.
-									<div><textarea class="stretch" ng-model="sellYourself" name="sellYourself" ng-keyup="updateCharsRemaining()" ng-class="{warning:(appForm.sellYourself.$invalid && (appForm.sellYourself.$dirty || submitAttempted))}" required></textarea></div>
+									<div><textarea class="stretch" ng-model="sellYourself" name="sellYourself" ng-keyup="updateCharsRemaining()" ng-class="{warning:(appForm.sellYourself.$invalid && (appForm.sellYourself.$dirty || submitAttempted))}"></textarea></div>
 									<div id="chars-remaining">140 characters remaining</div>
 								</div>
 
