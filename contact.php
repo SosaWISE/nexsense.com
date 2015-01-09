@@ -28,7 +28,7 @@
 							<h2>Address</h2>
 							<h4>Nexsense</h4>
 							<p>722 East Technology Ave<br>Building E, ste. 1100<br>Orem, UT 84097</p>
-							<p>844.466.3973</p>
+							<p>866.205.5200</p>
 						</div>
 						<div>
 							<h2>Billing</h2>
@@ -40,7 +40,7 @@
 						</div>
 						<div>
 							<h2>Customer Service<br>&amp; Technical Support</h2>
-							<p><a href="mailto:support@nexsense.com">support@nexsense.com</a><br>385.375.8140</p>
+							<p><a href="mailto:support@nexsense.com">support@nexsense.com</a><br>866.205.5200</p>
 						</div>
 					</div>
 					<div class="get-in-touch col-xs-12 col-md-6">
