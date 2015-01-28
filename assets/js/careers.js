@@ -18,7 +18,7 @@
 					location: 'Phoenix, AZ',
 					description: null,
 				},
-				{
+				/*{
 					id: 'lead-technician',
 					title: 'Lead Technician',
 					blurb: "We're looking for a Lead Technician for our Phoenix, Arizona office who can manage and direct the Installation and Service Technicians in that area.",
@@ -49,7 +49,7 @@
 					url: 'https://nexsense.applicantpro.com/jobs/172876-37067.html',
 					location: 'Orem, UT',
 					description: null,
-				},
+				},*/
 			];
 			$scope.activejob = null;
 

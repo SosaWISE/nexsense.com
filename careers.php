@@ -51,6 +51,13 @@
 						</div>
 					</div>
 
+
+					<p>
+						We always want to stay connected with talented people.  If you'd like a career that makes a difference and you're excited to work hard and play hard, send us your resume so we can get connected.  We'd love to expand our network as much as you.
+						<div class="button-footer"><input type="button" class="chevron" ng-click="navigateTo('https://nexsense.applicantpro.com/jobs/185043-37067.html')" value="apply" /></div>
+						<div class="complement-divider"></div>
+					</p>
+
 				</div>
 			</div>
 		</div>
