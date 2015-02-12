@@ -1,11 +1,12 @@
 		nexsense.controller("SellForNexsensePage", ['$scope', '$http', '$location', 'FormValidation', function($scope, $http, $location, validation) {
 			$scope.validation = validation;
-			$scope.salesArea = '84097';
 
 			var qs = $location.path();
 			var city = qs.substring(qs.lastIndexOf('/')+1);
 			qs = qs.substring(0, qs.lastIndexOf('/'));
 			var state = qs.substring(qs.lastIndexOf('/')+1);
+
+			$scope.salesArea = "Door-to-door sales reps in the " + city.substring(0, 1).toUpperCase() + city.substring(1).toLowerCase() + " metro area";
 
 			$scope.resetvars = function() {
 				$scope.hasExperience = 'yes';
