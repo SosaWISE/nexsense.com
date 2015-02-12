@@ -136,17 +136,6 @@
 									<div id="chars-remaining">140 characters remaining</div>
 								</div>
 
-								<div class="application-question">
-									Attach a resume if you like (optional).
-									<div class="file">
-										<input id="resumeFile" type="file" onchange="angular.element(this).scope().useResume(this)" />
-									</div>
-									<div>
-										<input type="button" class="secondary" value="Browse..." ng-click="chooseResume('resumeFile')" />
-										<span>{{resumeFilename}}</span>
-									</div>
-								</div>
-
 								<div class="application-button">
 									<button class="btn btn-secondary" ng-click="submitApplication()" onclick="return false;" ng-show="!isSubmitting">Submit <i></i></button>
 									<div id="application-wait" ng-show="isSubmitting"></div>
