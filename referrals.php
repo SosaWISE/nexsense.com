@@ -7,8 +7,8 @@
 	<meta name="keywords" content="Nexsense, tell a friend, referrals, home security, alarm system, home automation, home management, home control" />
 	<title>Refer your friends | Nexsense</title>
 
-	<script type="text/javascript" language="javascript" src="assets/js/referrals.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/referrals.css" />
+	<script type="text/javascript" language="javascript" src="/assets/js/referrals.js"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/css/referrals.css" />
 
 </head>
 <body ng-app="Nexsense">

@@ -7,8 +7,8 @@
 	<meta name="keywords" content="Nexsense, careers, jobs, home security, alarm system, home automation, home management, home control, smart home" />
 	<title>Careers | Nexsense</title>
 
-	<script type="text/javascript" language="javascript" src="assets/js/careers.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/careers.css" />
+	<script type="text/javascript" language="javascript" src="/assets/js/careers.js"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/css/careers.css" />
 
 </head>
 <body ng-app="Nexsense">
