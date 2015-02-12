@@ -71,7 +71,7 @@
 							</ul>
 
 							<h3>Work Environment</h3>
-							Our Outside Sales Reps work outdoors going door to door in order to help promote peace of mind and happiness by creating a safer and simpler world.
+							Our Outside Sales Managers work with their outdoor sales team going door to door in order to help promote peace of mind and happiness by creating a safer and simpler world.
 
 							<p>If you think you've got what it takes, apply today.</p>
 						</div>

@@ -14,8 +14,7 @@ try {
 	$headers .= "From: no-reply@nexsense.com" . "\r\n";
 	$headers .= "Reply-To: no-reply@nexsense.com" . "\r\n";
 
-	//$emailto = 'directsales@nexsense.com, bneiser@nexsense.com, jjenne@nexsense.com';
-	$emailto = 'jjenne@nexsense.com';
+	$emailto = 'directsales@nexsense.com, bneiser@nexsense.com, jjenne@nexsense.com';
 	$subject = "Sales Rep Application from Nexsense.com";
 
 
@@ -28,7 +27,7 @@ try {
 
 	if (strtoupper($request->office) == 'FL-TAMPA') {
 		$body .= "Hey Andres,\r\n\r\n";
-		//$emailto .= ", avazquez@nexsense.com";
+		$emailto .= ", avazquez@nexsense.com";
 	}
 	else
 		$body .= "Hey Ben,\r\n\r\n";
@@ -41,6 +40,7 @@ try {
 	$body .= "Email: " . $request->email . "\r\n";
 	$body .= "Phone: " . $request->phone . "\r\n";
 	$body .= "Zip Code: " . $request->zip . "\r\n";
+	$body .= "Area: " . $request->office . "\r\n";
 	$body .= "\r\n";
 
 	if (!empty($request->salesExperience)) {
