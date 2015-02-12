@@ -5,7 +5,7 @@
 
 	<meta name="description" content="Nexsense offers careers to experienced salesmen who want the stability of working where they live year-round." />
 	<meta name="keywords" content="Nexsense, careers, jobs, sales, work, home security, alarm system, home automation, home management, home control" />
-	<title>Sales careers | Nexsense</title>
+	<title>Sales Manager | Nexsense</title>
 
 	<script type="text/javascript" language="javascript" src="/assets/js/sales-manager.js"></script>
 	<link rel="stylesheet" type="text/css" href="/assets/css/sales-manager.css" />

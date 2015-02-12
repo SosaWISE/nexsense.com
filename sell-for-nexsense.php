@@ -29,7 +29,7 @@
 					<div class="row">
 						<div class="choose-your-system-intro col-xs-12">
 							<h1>Now hiring lean, mean selling machines.</h1>
-							<h4>{{salesArea}}</h4>
+							<h4 ng-show="salesArea!=''">{{salesArea}}</h4>
 							<p>Candidates must also be laid-back, self-starting, and gung-ho about changing the way people think about home automation and security.</p>
 
 							<h3>Essential Duties and Responsibilities</h3>

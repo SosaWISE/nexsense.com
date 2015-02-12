@@ -6,7 +6,10 @@
 			qs = qs.substring(0, qs.lastIndexOf('/'));
 			var state = qs.substring(qs.lastIndexOf('/')+1);
 
-			$scope.salesArea = "Door-to-door sales reps in the " + city.substring(0, 1).toUpperCase() + city.substring(1).toLowerCase() + " metro area";
+			if (city == '')
+				$scope.salesArea = '';
+			else
+				$scope.salesArea = "Door-to-door sales reps in the " + city.substring(0, 1).toUpperCase() + city.substring(1).toLowerCase() + " metro area";
 
 			$scope.resetvars = function() {
 				$scope.hasExperience = 'yes';
