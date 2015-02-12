@@ -11,6 +11,9 @@
 			else
 				$scope.salesArea = "Door-to-door sales reps in the " + city.substring(0, 1).toUpperCase() + city.substring(1).toLowerCase() + " metro area";
 
+			// submit this conversion to facebook
+			trackFBfunnel('6022829503819');
+
 			$scope.resetvars = function() {
 				$scope.hasExperience = 'yes';
 				$scope.firstName = '';
@@ -110,7 +113,7 @@
 				$scope.isSubmitting = true;
 
 				// submit this conversion to facebook
-				trackFBfunnel();
+				trackFBfunnel('6022829915219');
 
 				// send the application
 				$http({

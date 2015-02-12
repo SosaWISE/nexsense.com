@@ -31,10 +31,10 @@
 				_fbq.loaded = true;
 			}
 		})();
-		function trackFBfunnel() {
+		function trackFBfunnel(trackingCode) {
 			//console.log('track FB funnel');
 			window._fbq = window._fbq || [];
-			window._fbq.push(['track', '6023232171160', {'value':'0.00','currency':'USD'}]);
+			window._fbq.push(['track', trackingCode, {'value':'0.00','currency':'USD'}]);
 		}
 	</script>
 

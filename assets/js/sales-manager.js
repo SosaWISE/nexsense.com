@@ -18,6 +18,9 @@
 			};
 			$scope.areas = states[state];
 
+			// submit this conversion to facebook
+			trackFBfunnel('6022829503819');
+			
 			$scope.resetvars = function() {
 				$scope.hasExperience = 'yes';
 				$scope.firstName = '';
@@ -117,7 +120,7 @@
 				$scope.isSubmitting = true;
 
 				// submit this conversion to facebook
-				trackFBfunnel();
+				trackFBfunnel('6022829915219');
 
 				// send the application
 				$http({
