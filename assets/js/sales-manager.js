@@ -2,10 +2,21 @@
 			$scope.validation = validation;
 			$scope.salesArea = '84097';
 
-			var qs = $location.path();
-			var city = qs.substring(qs.lastIndexOf('/')+1);
-			qs = qs.substring(0, qs.lastIndexOf('/'));
-			var state = qs.substring(qs.lastIndexOf('/')+1);
+			console.log($location.path());
+
+			var state = $location.path().substring($location.path().lastIndexOf('/')+1);
+			$scope.areas = "";
+			var states = {
+				'CO':'Denver',
+				'IN':'Indianapolis and Fort Wayne or Gary',
+				'FL':'Miami, Orlando and Jacksonville',
+				'TX':'Dallas/Ft Worth and Houston or San Antonio',
+				'AZ':'Phoenix, Mesa or Gilbert',
+				'PA':'Pittsburgh and Philadelphia',
+				'MO':'St Louis, Kansas City and Columbia or Springfield',
+				'VA':'Richmond and Virginia Beach or Norfolk',
+			};
+			$scope.areas = states[state];
 
 			$scope.resetvars = function() {
 				$scope.hasExperience = 'yes';
@@ -92,8 +103,8 @@
 					resume: $scope.resumeData,
 					zip: $scope.zip,
 					sellYourself: $scope.sellYourself,
-					position: 'sales-rep',
-					office: state+'-'+city,
+					position: 'sales-mgr',
+					office: state+'-',
 				}
 				if ($scope.hasExperience == 'yes') {
 					postData.workHistory = $scope.workHistory;

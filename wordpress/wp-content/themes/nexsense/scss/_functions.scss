@@ -1,7 +1,0 @@
-//
-// Functions
-// --------------------------------------------------
-
-@function pxem ($target: $font-size-base-num, $context: $font-size-base-num) {
-    @return #{$target / $context}em;
-}

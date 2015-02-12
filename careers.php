@@ -41,9 +41,9 @@
 							</div>
 							<div class="job-description">
 								{{job.blurb}}
-								<input type="button" class="small tertiary" ng-click="setActiveJob(job)" ng-show="activejob.id!=job.id" value="more" />
+								<input type="button" class="small tertiary" ng-click="setActiveJob(job)" ng-show="activejob!=job" value="more" />
 							</div>
-							<div class="full-job-description" ng-show="activejob.id==job.id">
+							<div class="full-job-description" ng-show="activejob==job">
 								<div ng-bind-html="job.description"></div>
 								<div class="button-footer"><input type="button" class="chevron" ng-click="navigateTo(job.url)" value="apply" /></div>
 								<div class="complement-divider"></div>

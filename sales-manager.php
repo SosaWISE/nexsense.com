@@ -7,8 +7,8 @@
 	<meta name="keywords" content="Nexsense, careers, jobs, sales, work, home security, alarm system, home automation, home management, home control" />
 	<title>Sales careers | Nexsense</title>
 
-	<script type="text/javascript" language="javascript" src="/assets/js/sell-for-nexsense.js"></script>
-	<link rel="stylesheet" type="text/css" href="/assets/css/sell-for-nexsense.css" />
+	<script type="text/javascript" language="javascript" src="/assets/js/sales-manager.js"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/css/sales-manager.css" />
 
 </head>
 <body ng-app="Nexsense">
@@ -28,9 +28,21 @@
 				<div class="container">
 					<div class="row">
 						<div class="choose-your-system-intro col-xs-12">
-							<h1>Now hiring lean, mean selling machines.</h1>
-							<p>Candidates must also be laid-back, self-starting, and gung-ho about changing the way people think about home automation and security.</p>
+							<h1>Now hiring motivating sales managers.</h1>
+							<p>We're looking for a few good sales managers to help open regional offices in <span class="highlight">{{areas}}</span>.</p>
 
+							<p>Candidates must also be self-starting and gung-ho about changing the way people think about home automation and security.</p>
+
+							<h3>Compensation</h3>
+							<ul>
+								<li>$50k base salary plus commissions</li>
+								<li>Awesome swag</li>
+								<li>Flex Hours and work/life balance</li>
+								<li>Rich Health plan with a variety of options including both traditional PPO's and HSA plans</li>
+								<li>Innovative and casual environment</li>
+								<li>Fun atmosphere</li>
+
+							</ul>
 							<h3>Essential Duties and Responsibilities</h3>
 							<ul>
 								<li>Must love people and feel comfortable interacting with them on a personable level.</li>

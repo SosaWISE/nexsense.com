@@ -1,5 +1,6 @@
 <?php
 try {
+	date_default_timezone_set('America/Denver');
 	$postdata = file_get_contents("php://input");
 	$request = json_decode($postdata);
 
@@ -13,7 +14,8 @@ try {
 	$headers .= "From: no-reply@nexsense.com" . "\r\n";
 	$headers .= "Reply-To: no-reply@nexsense.com" . "\r\n";
 
-	$emailto = 'directsales@nexsense.com, bneiser@nexsense.com, jjenne@nexsense.com';
+	//$emailto = 'directsales@nexsense.com, bneiser@nexsense.com, jjenne@nexsense.com';
+	$emailto = 'jjenne@nexsense.com';
 	$subject = "Sales Rep Application from Nexsense.com";
 
 
@@ -24,8 +26,17 @@ try {
 	$body .= "Content-Type: text/plain; charset=\"iso-8859-1\"\r\n";
 	$body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
 
-	$body .= "Hey Ben,\r\n\r\n";
-	$body .= "You've received another application from a sales rep candidate on Nexsense.com.\r\n\r\n";
+	if (strtoupper($request->office) == 'FL-TAMPA') {
+		$body .= "Hey Andres,\r\n\r\n";
+		//$emailto .= ", avazquez@nexsense.com";
+	}
+	else
+		$body .= "Hey Ben,\r\n\r\n";
+
+	if ($request->position == 'sales-mgr')
+		$body .= "You've received another application for a sales manager position from Nexsense.com.\r\n\r\n";
+	else
+		$body .= "You've received another application from a sales rep candidate on Nexsense.com.\r\n\r\n";
 	$body .= "Name: " . $request->firstName . " " . $request->lastName . "\r\n";
 	$body .= "Email: " . $request->email . "\r\n";
 	$body .= "Phone: " . $request->phone . "\r\n";

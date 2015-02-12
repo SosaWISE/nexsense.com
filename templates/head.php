@@ -4,13 +4,13 @@
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600|Montserrat:400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
-	<link href="assets/css/style.css" rel="stylesheet"/>
-	<link href="assets/css/nexsense.css" rel="stylesheet"/>
+	<link href="/assets/css/style.css" rel="stylesheet"/>
+	<link href="/assets/css/nexsense.css" rel="stylesheet"/>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="assets/js/third_party/angular.min.js"></script>
-	<script src="assets/js/common-1.3.1.js"></script>
-	<script src="assets/js/nexsense.js"></script>
-	<script src="assets/js/nexsense.min.js"></script>
+	<script src="/assets/js/third_party/angular.min.js"></script>
+	<script src="/assets/js/common-1.3.1.js"></script>
+	<script src="/assets/js/nexsense.js"></script>
+	<script src="/assets/js/nexsense.min.js"></script>
 	<script>
 	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,7 +32,7 @@
 			}
 		})();
 		function trackFBfunnel() {
-			console.log('track FB funnel');
+			//console.log('track FB funnel');
 			window._fbq = window._fbq || [];
 			window._fbq.push(['track', '6023232171160', {'value':'0.00','currency':'USD'}]);
 		}
