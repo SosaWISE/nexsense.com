@@ -26,8 +26,8 @@ try {
 	$body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
 
 	if (strtoupper($request->office) == 'FL-TAMPA') {
-		$body .= "Hey Andres,\r\n\r\n";
-		$emailto .= ", avazquez@nexsense.com";
+		$body .= "H,\r\n\r\n";
+		$emailto .= ", htravlee@nexsense.com";
 	}
 	else
 		$body .= "Hey Ben,\r\n\r\n";
