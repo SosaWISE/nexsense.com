@@ -5,3 +5,4 @@
 <li rel="about-us"><a href="/about">About Us</a></li>
 <li rel="contact-us"><a href="/contact">Contact Us</a></li>
 <li rel="careers"><a href="/careers">Careers</a></li>
+<li rel="referrals"><a href="/referrals">Refer a friend</a></li>
